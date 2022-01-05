@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//IBM//DTD DITA IBM Reference//EN" "ibm-reference.dtd">
+<reference id="cfg_calc_licensing" xml:lang="en-us">
+<title>How licensing values are calculated</title>
+<shortdesc>Learn about how the capacity to be licensed and the number of enclosure licenses that are
+needed for your storage systems are calculated.</shortdesc>
+<prolog>
+<metadata>
+<keywords>
+<indexterm>license<indexterm>model<indexterm>enclosure</indexterm><indexterm>capacity</indexterm></indexterm></indexterm>
+<indexterm>enclosure license model</indexterm>
+<indexterm>capacity license model<indexterm>category of drives</indexterm><indexterm>uncategorized
+drives</indexterm></indexterm>
+</keywords>
+</metadata>
+</prolog>
+<refbody>
+<section id="calc_licenses_enclosures">
+<title>Calculating the number of enclosure licenses for your storage systems</title>
+<p>For each enclosure, the number of licenses that are needed is calculated by using the following
+rules. Calculations are rounded up to the nearest whole number.<ol>
+<li>The number of slots in the enclosure divided by 25. </li>
+<li>The sum of the physical capacity of the disks in the enclosure divided by 500 TiB.</li>
+<li>The higher number from rule 1 and rule 2 is the number of licenses that are needed for the
+enclosure. </li>
+</ol></p>
+<p>Examples of the enclosure licensing calculations. </p>
+<p>Rule 1 - Number of slots in the storage enclosures (or modules or expansions) that are managed:<ul>
+<li>Enclosure with 12 slots requires 1 license.</li>
+<li>Enclosure with 92 slots requires 4 licenses.</li>
+</ul></p>
+<p>Rule 2 - Sum of the physical capacity of the disks in the enclosure:<ul>
+<li>Enclosure with 200 TiB requires 1 license.</li>
+<li>Enclosure with 1,250 TiB requires 3 licenses.</li>
+</ul></p>
+<p>Example of a storage system with 4 enclosures:<simpletable frame="all" relcolwidth="1* 1* 1* 1* 1* 1*">
+<sthead>
+<stentry>Enclosure</stentry>
+<stentry>Slots</stentry>
+<stentry>Rule 1 - Licenses required</stentry>
+<stentry>Capacity (TiB)</stentry>
+<stentry>Rule 2 - Licenses required</stentry>
+<stentry>Licenses required</stentry>
+</sthead>
+<strow>
+<stentry>Enclosure 1</stentry>
+<stentry>28</stentry>
+<stentry>2</stentry>
+<stentry><tm trademark="400" tmtype="reg">400</tm></stentry>
+<stentry>1</stentry>
+<stentry>2</stentry>
+</strow>
+<strow>
+<stentry>Enclosure 2</stentry>
+<stentry>92</stentry>
+<stentry>4</stentry>
+<stentry>3,700</stentry>
+<stentry>8</stentry>
+<stentry>8</stentry>
+</strow>
+<strow>
+<stentry>Enclosure 3</stentry>
+<stentry>60</stentry>
+<stentry>3</stentry>
+<stentry>1,750</stentry>
+<stentry>4</stentry>
+<stentry>4</stentry>
+</strow>
+<strow>
+<stentry>Enclosure 4</stentry>
+<stentry>16</stentry>
+<stentry>1</stentry>
+<stentry>225</stentry>
+<stentry>1</stentry>
+<stentry>1</stentry>
+</strow>
+<strow>
+<stentry />
+<stentry />
+<stentry />
+<stentry />
+<stentry>Total enclosure licenses required</stentry>
+<stentry>15</stentry>
+</strow>
+</simpletable></p>
+</section>
+<section>
+<title>Calculating the capacity to be licensed for your storage systems</title>
+<p>Capacity to be licensed is the usable capacity of the storage systems that are being monitored
+and that is made available for storage consumption. Apart from <keyword conref="fqz0_entities.dita#fqz0_entities/kelastic_st_short" /> and <keyword conref="fqz0_entities.dita#fqz0_entities/kcloudobject" />, the capacity to be licensed is based on
+the usable capacity of the RAID arrays on the storage system. <note type="other" othertype="Information about the calculation of capacity to be licensed">
+<ul>
+<li>Capacity that is reserved for overheads, such as RAID management is not included. </li>
+<li>Data reductions savings at the storage system level, such as compression and deduplication, are
+not included. For storage systems that use data reduction technologies, the capacity to be licensed
+is the usable capacity, not the effective capacity. </li>
+<li>Capacity to be licensed is the total capacity of the storage system after RAID is applied and
+spare disks and capacity are deducted. So, capacity to be licensed is the capacity that can be
+provisioned to servers, when no over-provisioning is used. Any form of cache, for example, DRAM,
+SSD, or flash storage is not included, and the capacity to be licensed is less than the raw capacity
+of the storage system.</li>
+</ul>
+</note></p>
+<p>Refer to the following information for details about how capacity to be licensed is calculated
+for different storage systems:<dl>
+<dlentry>
+<dt>Storage virtualization systems</dt>
+<dd>Capacity to be licensed is calculated for the following storage virtualizers:<ul>
+<li>Storage systems that run <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize" />, such as <keyword conref="fqz0_entities.dita#fqz0_entities/ksvc_full" /> and <keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_9100" />.</li>
+<li>Non-<tm trademark="IBM" tmtype="reg">IBM</tm> storage systems such as <keyword conref="fqz0_entities.dita#fqz0_entities/hitachi_vsp_short" />.</li>
+</ul><p>A storage virtualizer includes capacity from other storage systems. Capacity from back-end
+storage systems that are not monitored by <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" audience="onpremonly" /><keyword conref="fqz0_entities.dita#fqz0_entities/tpc_saas_short" audience="offpremonly" /> is counted in the capacity to be licensed of the virtualizer. Capacity from
+back-end storage systems that are monitored by <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" audience="onpremonly" /><keyword conref="fqz0_entities.dita#fqz0_entities/tpc_saas_short" audience="offpremonly" /> is not counted.
+The license for the monitored back-end storage is recorded separately and has its own record on the
+<wintitle>Licensing</wintitle> page.</p><p>For storage virtualizers that have internal capacity,
+such as <keyword conref="fqz0_entities.dita#fqz0_entities/kez_storage_full" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_7200_short" />, and <keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_9100" />, the capacity to be licensed is
+calculated as:
+<codeblock>sum of the physical capacity of the internal RAID arrays + 
+sum of the capacity of the external MDisks from unmonitored back-end systems</codeblock></p><p>For
+storage virtualizers that do not have internal capacity, such as some models of <keyword conref="fqz0_entities.dita#fqz0_entities/ksvc_full" />, the capacity to be licensed is calculated
+as:<codeblock>sum of the capacity of the external MDisks from unmonitored back-end systems
+</codeblock></p></dd>
+</dlentry>
+<dlentry>
+<dt>Block and file storage systems</dt>
+<dd>The capacity to be licensed is the sum of the physical capacity of the RAID arrays on the
+storage system. <note type="other" othertype="Exception">For <keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_a9000_short" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_a9000r_short" />, and <keyword conref="fqz0_entities.dita#fqz0_entities/kixss" />, the capacity to be licensed is the overall
+physical capacity of the storage system.</note></dd>
+<dd id="smis_devices">For the following storage systems, the capacity and enclosure license
+information is not calculated because <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" audience="onpremonly" /><keyword conref="fqz0_entities.dita#fqz0_entities/tpc_saas_short" audience="offpremonly" /> does not collect the RAID array information from the device. <ph otherprops="offpremonly">The value <codeph>Unavailable</codeph> is shown in the Capacity to be
+Licensed column on the <wintitle>Managed Capacity</wintitle> page.</ph><ph otherprops="onpremonly">The value <codeph>Unavailable</codeph> is shown in the SCU and Capacity to be Licensed columns on
+the <wintitle>Licensing</wintitle> page.</ph>
+<ul>
+<!--<li><keyword conref="fqz0_entities.dita#fqz0_entities/k3parss"/></li>HPE 3PAR was dropped at the end of 5.4.0 cycle-->
+<li>Block and file storage systems that are managed by SMI-S providers. For example:<ul>
+<li>NetApp Data ONTAP 8.1</li>
+<li><keyword conref="fqz0_entities.dita#fqz0_entities/kemc"> </keyword><keyword conref="fqz0_entities.dita#fqz0_entities/kvmax" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kvnx" />, and <keyword conref="fqz0_entities.dita#fqz0_entities/kvnxe" /></li>
+<li><keyword conref="fqz0_entities.dita#fqz0_entities/hitachi_vsp_short" /> F series</li>
+</ul></li>
+</ul><p audience="onpremonly">To get a complete picture of your licensing requirements, complete the
+following tasks for these storage systems: <ul>
+<li>If the storage system is licensed by enclosure, you must manually enter the number of enclosure
+licenses. The value is then automatically included in the Total Enclosure Licenses value in the
+summary area at the top of the page.</li>
+<li>If the storage system is licensed by capacity, you must manually calculate the SCUs that you
+need for the storage system. Then, add that value to the Total SCU value in the summary area.</li>
+</ul></p></dd>
+</dlentry>
+<dlentry>
+<dt><keyword conref="fqz0_entities.dita#fqz0_entities/kelastic_st" /> storage systems </dt>
+<dd>The capacity to be licensed is the sum of the capacity of the Network Shared Disks (NSDs) that
+are assigned to the file system pools. <p>NSD capacity from back-end storage systems that are not
+monitored by <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" audience="onpremonly" /><keyword conref="fqz0_entities.dita#fqz0_entities/tpc_saas_short" audience="offpremonly" /> is
+included.</p><p>The following capacity is not included in the capacity to be licensed:<ul>
+<li>NSDs that are not assigned to a pool.</li>
+<li>NSD capacity from back-end storage systems that are monitored by <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" audience="onpremonly" /><keyword conref="fqz0_entities.dita#fqz0_entities/tpc_saas_short" audience="offpremonly" />. The license for
+the monitored back-end storage is recorded separately and has its own record on the
+<wintitle>Licensing</wintitle> page.</li>
+<li>NSD capacity on external pools.</li>
+</ul>For <keyword conref="fqz0_entities.dita#fqz0_entities/kelastic_st" /> storage systems that are
+configured for file and object storage, the capacity to be licensed for the object storage is
+included in the file system pool capacity and is not counted separately. <note type="other" othertype="Don't forget to assign the storage category for your file system pools" audience="onpremonly">The storage category is based on the technology type of the drives in the
+pool, for example, Storage Class Memory and Flash, and is used in the calculation of SCU usage. To
+ensure that the correct storage category is used, assign the storage category on the
+<wintitle>Licensing</wintitle> page. <p>If the storage category is not set, <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" /> assumes, for the calculations of SCU usage, that
+Category 1 drives are used.</p></note><note type="other" othertype="Calculating enclosure licenses for IBM Spectrum Scale" audience="onpremonly">For <keyword conref="fqz0_entities.dita#fqz0_entities/kelastic_st" /> storage systems that are licensed by
+enclosure, you need one enclosure license for each NSD server node that is connected to
+NSDs.</note></p></dd>
+</dlentry>
+<dlentry>
+<dt><keyword conref="fqz0_entities.dita#fqz0_entities/kcloudobject" /> systems</dt>
+<dd>The capacity to be licensed is the sum of the capacity of the COS <tm trademark="Slicestor" tmtype="reg">Slicestor</tm> nodes in <keyword conref="fqz0_entities.dita#fqz0_entities/kcloudobject" />.<note type="other" othertype="Don't forget to assign the storage category for your virtual COS Slicestor nodes" audience="onpremonly">The storage category is based on the technology type of the drives in the
+node, for example, Storage Class Memory and Flash, and is used in the calculation of SCU usage. A
+COS <tm trademark="Slicestor" tmtype="reg">Slicestor</tm> node can be a server or a virtual
+appliance. For the server nodes, <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" />
+automatically assigns the Near-Line drive category. For virtual appliances, <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" /> cannot determine the storage category of the drives
+in the node. <p>For the calculation of SCU usage for the node, <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" /> assumes that Category 1 drives are used in the
+virtual appliance. To ensure that the correct storage category is used in the calculations, assign
+the storage category on the <wintitle>Licensing</wintitle> page for each virtual node.</p></note><dl audience="onpremonly">
+<dlentry>
+<dt>Calculating enclosure licenses for <keyword conref="fqz0_entities.dita#fqz0_entities/kcloudobject" /></dt>
+<dd>To calculate the number of enclosure licenses, the same rules that are specified in <xref href="#cfg_calc_licensing/calc_licenses_enclosures" format="dita" /> are used.<p>For
+the calculation:<ul>
+<li>Each COS <tm trademark="Slicestor" tmtype="reg">Slicestor</tm> node is treated as an enclosure. </li>
+<li>Instead of enclosure slots, the calculation uses the number of drives in the node. </li>
+<li>The capacity is based on the total capacity of the drives in the node.</li>
+</ul></p><p>Example of <keyword conref="fqz0_entities.dita#fqz0_entities/kcloudobject" /> with 3 COS
+<tm trademark="Slicestor" tmtype="reg">Slicestor</tm> nodes:<simpletable frame="all" relcolwidth="1* 1* 1* 1* 1* 1*">
+<sthead>
+<stentry>Nodes</stentry>
+<stentry>Drives</stentry>
+<stentry>Rule 1 - Licenses required</stentry>
+<stentry>Capacity (TiB)</stentry>
+<stentry>Rule 2 - Licenses required</stentry>
+<stentry>Licenses required</stentry>
+</sthead>
+<strow>
+<stentry>Node 1</stentry>
+<stentry>16</stentry>
+<stentry>1</stentry>
+<stentry><tm trademark="400" tmtype="reg">400</tm>
+</stentry>
+<stentry>1</stentry>
+<stentry>1</stentry>
+</strow>
+<strow>
+<stentry>Node 2</stentry>
+<stentry>64</stentry>
+<stentry>3</stentry>
+<stentry>2,<tm trademark="400" tmtype="reg">400</tm></stentry>
+<stentry>5</stentry>
+<stentry>5</stentry>
+</strow>
+<strow>
+<stentry>Node 3</stentry>
+<stentry>32</stentry>
+<stentry>2</stentry>
+<stentry>350</stentry>
+<stentry>1</stentry>
+<stentry>2</stentry>
+</strow>
+<strow>
+<stentry />
+<stentry />
+<stentry />
+<stentry />
+<stentry>Total enclosure licenses required </stentry>
+<stentry>8</stentry>
+</strow>
+</simpletable></p></dd>
+</dlentry>
+</dl></dd>
+</dlentry>
+</dl></p>
+</section>
+</refbody>
+</reference><?tm 1617468675109 8 Slicestor||IBM||400 ?>

@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//IBM//DTD DITA IBM Reference//EN" "ibm-reference.dtd">
+<!--NOTE about <ph> and <keyword>: Use <keyword> for product names and common storage and product terms. Use <ph> for longer text, such as shared field descriptions.--><!--5.2.3 CHANGE HISTORY
+7 Oct 2020 PL Added entity for Spectrum Virtualizers
+15 May 2014 added entities for Storwize V5000
+20 May 2014 jw added entities for IBM Elastic Storage and IBM Elastic Storage Server
+06 June 2014 tm added entities for Storage Analytics aaS
+11 July 2014 106244  jw added entities for GPFS and GSS. Redefined Elastic Storage keywords to point to GPFS/GPS
+24 July 2014  nb  added FlashSystem V840
+12 March 2015 ds added entities for CEP server
+07 Apr 2015 JW 121831 added entity for FlashSystem V9000 and FlashSystem family
+14 Apr 2015 JW 118196 updated entities for IBM Spectrum Scale
+29 May 2015 JW 125040 add entity for IBM Spectrum Accelerate
+02/06/2015 JW 125031 correct trademarks applied for IBM Spectrum Storage family
+8 Sept 2015  nb  added FlashSystem 840 and 900
+15 Sept 2015 eoc Added IBM Spectrum Virtualize
+30 Mar 2016 eoc Added DS3500, DS3700, DS5020.
+18 May 2016 ck Added Cleversafe / Cloud Object Storage System
+1 June 2016 ck Added entries for Spectrum Archive and Spectrum Protect
+21 July 2916 jw Added Cleversafe entries for Accesser, Slicestor, Vault
+2 Sept 2016 eoc added FlashSystem A9000 and A9000R
+23 November 2016 sd added EMV, VMAX, VNX and VNXe.
+29 June 2017 sd added NetApp
+15 FEB 2018 PL Offerings name changes. IBM Spectrum Control Storage Insights and IBM Spectrum Control Storage Insights changed to IBM Storage Insights and IBM Storage Insights Pro. No short version of the new names. 
+20 Feb 2018 jw Added entity for FAB3 
+5 Dec 2019 eoc Added FlashSystem 7200 and 9200
+12 Dec 2019 eoc Added FlashSystem 5000
+12 Oct 2020 eoc Removed "Enterprise Performance Solution" from kflashsystem_v840 per email with Chris 17 Jul 2020
+--><reference id="fqz0_entities" xml:lang="en-us">
+<title>Entities</title>
+<shortdesc>This file contains entities that must be used in the DITA
+source files.</shortdesc>
+<refbody>
+<section>
+<title>Product-name entities</title>
+<!--
+IBM Spectrum Virtualizers
+-->
+<p id="ibm_spectrum_virtualizers">The name <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize" /> is used to refer to the following
+types of storage systems:<ul>
+<li><keyword conref="fqz0_entities.dita#fqz0_entities/ksvc_full" /></li>
+<li><keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize_cloud" /></li>
+<li><keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize_software_only" /></li>
+<li><keyword conref="fqz0_entities.dita#fqz0_entities/kstorwize" /> block storage systems</li>
+<li><keyword conref="fqz0_entities.dita#fqz0_entities/kflash_family" /> devices that run <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize" /></li>
+</ul></p>
+<ul>
+<!--IBM SPECTRUM CONTROL
+-->
+<li><ph id="tpc"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm></ph></li>
+<li><keyword id="ktpc"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm></keyword></li>
+<li><ph id="tpc_short"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm></ph></li>
+<li><keyword id="ktpc_short"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm></keyword></li>
+<!--
+IBM Spectrum Control LICENSING-->
+<li><keyword id="kscsele"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Select Edition</keyword></li>
+<li><keyword id="kscsel"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Standard Edition</keyword></li>
+<li><keyword id="kscssel"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Standard Select Edition</keyword></li>
+<li><keyword id="kscael"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Advanced Edition</keyword></li>
+<li><keyword id="kscasel"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Advanced Select Edition</keyword></li>
+<li><keyword id="kvscl"><tm tmtype="reg" trademark="IBM">IBM</tm> Virtual Storage
+Center</keyword></li>
+<li><keyword id="kvsclee"><tm tmtype="reg" trademark="IBM">IBM</tm> Virtual Storage Center
+Entry</keyword>
+</li>
+<li><keyword id="kvscl_storwize"><tm tmtype="reg" trademark="IBM">IBM</tm> Virtual Storage Center
+for <tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm></keyword>
+</li>
+<li><keyword id="keasytier"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm trademark="Easy Tier" tmtype="reg">Easy Tier</tm><tm tmtype="reg" trademark="IBM"
+>IBM</tm></keyword></li>
+<!--STORAGE INSIGHTS-->
+<li><keyword id="tpc_saas">
+<tm tmtype="reg" trademark="IBM">IBM</tm> Storage Insights Pro</keyword></li>
+<li><keyword id="tpc_saas_short"><tm tmtype="reg" trademark="IBM">IBM</tm> Storage Insights
+Pro</keyword></li>
+<li><keyword id="ksif">
+<tm tmtype="reg" trademark="IBM">IBM</tm> Storage Insights</keyword></li>
+<li><keyword id="ksif_short"><tm tmtype="reg" trademark="IBM" tmclass="IGNORE">IBM</tm> Storage
+Insights</keyword></li>
+<!--STORAGE INSIGHTS FOR SPECTRUM CONTROL-->
+<li><keyword id="ksi_sc">
+<tm tmtype="reg" trademark="IBM">IBM</tm> Storage Insights for <tm trademark="IBM Spectrum Control"
+tmtype="tm" tmclass="IGNORE">IBM Spectrum Control</tm></keyword></li>
+<!--COGNOS ANALYTICS 11  (5.2.16 and later)-->
+<li><ph id="cogbizii_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Cognos">Cognos</tm> Analytics</ph></li>
+<li><keyword id="kcogbizii_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Cognos">Cognos</tm> Analytics</keyword></li>
+<li><ph id="cogbizii_short"><tm tmtype="reg" trademark="Cognos">Cognos</tm> Analytics</ph></li>
+<li><keyword id="kcogbizii_short"><tm tmtype="reg" trademark="Cognos">Cognos</tm>
+Analytics</keyword></li>
+<li><ph id="cogbi"><tm tmtype="reg" trademark="Cognos">Cognos</tm> Analytics</ph></li>
+<li><keyword id="kcogbi"><tm tmtype="reg" trademark="Cognos">Cognos</tm> Analytics</keyword></li>
+<!--WEBSPHERE APPLICATION SERVER-->
+<li><keyword id="was_oem"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="WebSphere">WebSphere</tm> Application Server OEM Edition for <tm
+tmtype="reg" trademark="z/OS">z/OS</tm></keyword></li>
+<li><keyword id="was_oem_short"><tm tmtype="reg" trademark="WebSphere">WebSphere</tm> Application
+Server OEM Edition for <tm tmtype="reg" trademark="z/OS">z/OS</tm></keyword></li>
+<li><keyword id="was_standard"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="WebSphere">WebSphere</tm> Application Server for <tm tmtype="reg"
+trademark="z/OS">z/OS</tm></keyword></li>
+<li><keyword id="was_standard_short"><tm tmtype="reg" trademark="WebSphere">WebSphere</tm>
+Application Server for <tm tmtype="reg" trademark="z/OS">z/OS</tm></keyword></li>
+<li><keyword id="was"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="WebSphere">WebSphere</tm> Application Server</keyword></li>
+<li><keyword id="was_short"><tm tmtype="reg" trademark="WebSphere">WebSphere</tm> Application
+Server</keyword></li>
+<!--IBM SPECTRUM COPY DATA MANAGEMENT (CDM)-->
+<li><keyword id="cdm"><tm trademark="IBM Spectrum" tmtype="reg">IBM Spectrum</tm> Copy Data
+Management</keyword></li>
+<!--IBM COPY SERVICES MANAGER-->
+<li><keyword id="csm"><tm trademark="IBM" tmtype="reg">IBM</tm> Copy Services Manager</keyword></li>
+<li><keyword id="csm_short">Copy Services Manager</keyword></li>
+<!--LIBERY PROFILE LINKS-->
+<li><keyword id="liberty_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm trademark="WebSphere" tmtype="reg">WebSphere</tm> Application Server Liberty</keyword></li>
+<li><keyword id="liberty"><tm trademark="WebSphere" tmtype="reg">WebSphere</tm> Application Server
+Liberty</keyword></li>
+<li><keyword id="liberty_short"><tm tmtype="reg" trademark="WebSphere">WebSphere</tm> Application
+Server Liberty</keyword></li>
+<!--DEVICE RELATED KEYWORDS-->
+<li><ph id="ixss"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="XIV">XIV</tm> Storage System</ph></li>
+<li><keyword id="kixss"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="XIV">XIV</tm> Storage System</keyword></li>
+<li><ph id="xss"><tm tmtype="reg" trademark="XIV">XIV</tm> system</ph></li>
+<li><keyword id="kxss"><tm tmtype="reg" trademark="XIV">XIV</tm></keyword></li>
+<li><keyword id="kxss_pl"><tm tmtype="reg" trademark="XIV">XIV</tm> systems</keyword></li>
+<li><ph id="tivec"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli Enterprise Console">Tivoli Enterprise Console</tm></ph></li>
+<li><keyword id="ktivec"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli Enterprise Console">Tivoli Enterprise Console</tm></keyword></li>
+<li><ph id="tivec_short"><tm tmtype="reg" trademark="Tivoli Enterprise Console">Tivoli Enterprise
+Console</tm></ph></li>
+<li><keyword id="ktivec_short"><tm tmtype="reg" trademark="Tivoli Enterprise Console">Tivoli
+Enterprise Console</tm></keyword></li>
+<li><ph id="ds3000">DS3000</ph></li>
+<li><keyword id="kds3000">DS3000</keyword></li>
+<li><ph id="ds3000_server_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+DS3000</ph></li>
+<li><keyword id="kds3000_server_short"><tm tmtype="reg" trademark="System Storage">System
+Storage</tm> DS3000</keyword></li>
+<li><ph id="ds3000_server_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS3000</ph></li>
+<li><keyword id="kds3000_server_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS3000</keyword></li>
+<li><keyword id="kds3500_server_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS3500</keyword></li>
+<li><keyword id="kds3700_server_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS3700</keyword></li>
+<li><ph id="ds3000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS3000 Storage Manager</ph></li>
+<li><keyword id="kds3000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS3000 Storage
+Manager</keyword></li>
+<li><ph id="ds4000"><tm tmtype="reg" trademark="DS4000">DS4000</tm></ph></li>
+<li><keyword id="kds4000"><tm tmtype="reg" trademark="DS4000">DS4000</tm></keyword></li>
+<li><ph id="ds4000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS4000">DS4000</tm></ph></li>
+<li><keyword id="kds4000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS4000">DS4000</tm></keyword></li>
+<li><ph id="ds4000_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS4000">DS4000</tm></ph></li>
+<li><keyword id="kds4000_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS4000">DS4000</tm></keyword></li>
+<li><ph id="ds4800">DS4800</ph></li>
+<li><keyword id="kds4800">DS4800</keyword></li>
+<li><ph id="ds5000"><tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm></ph></li>
+<li><keyword id="kds5000"><tm tmtype="tm" trademark="DS5000" tmclass="IGNORE"
+>DS5000</tm></keyword></li>
+<li><ph id="ds5000_server_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm></ph></li>
+<li><keyword id="kds5000_server_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm></keyword></li>
+<li><keyword id="kds5020_server_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS5020</keyword></li>
+<li><ph id="ds5000_server_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm></ph></li>
+<li><keyword id="kds5000_server_short"><tm tmtype="reg" trademark="System Storage">System
+Storage</tm>
+<tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm></keyword></li>
+<li><ph id="ds5000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm> Storage Manager</ph></li>
+<li><keyword id="kds5000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm> Storage Manager</keyword></li>
+<li><ph id="ds6000"><tm tmtype="tm" trademark="DS6000">DS6000</tm></ph></li>
+<li><keyword id="kds6000"><tm tmtype="tm" trademark="DS6000">DS6000</tm></keyword></li>
+<li><keyword id="kds6000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="tm" trademark="DS6000">DS6000</tm></keyword></li>
+<li><keyword id="kds6000_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="tm" trademark="DS6000">DS6000</tm></keyword></li>
+<li><ph id="ds8000"><tm tmtype="reg" trademark="DS8000">DS8000</tm></ph></li>
+<li><keyword id="kds8000"><tm tmtype="reg" trademark="DS8000">DS8000</tm></keyword></li>
+<li><ph id="ds_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS8000">DS8000</tm></ph></li>
+<li><keyword id="kds_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS8000">DS8000</tm></keyword></li>
+<li><keyword id="kds8700_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS8700</keyword></li>
+<li><ph id="ds_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS8000">DS8000</tm></ph></li>
+<li><keyword id="kds_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS8000">DS8000</tm></keyword></li>
+<li><keyword id="kds8700_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+DS8700</keyword></li>
+<li><ph id="ds8000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS8000">DS8000</tm> Storage Manager</ph></li>
+<li><keyword id="kds8000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm>
+<tm tmtype="reg" trademark="DS8000">DS8000</tm> Storage Manager</keyword></li>
+<li><ph id="ess_short">ESS</ph></li>
+<li><keyword id="kess_short">ESS</keyword></li>
+<li><keyword id="kentss"><tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage
+Server</tm></keyword></li>
+<li><ph id="ess_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm trademark="TotalStorage" tmtype="tm">TotalStorage</tm>
+<tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage Server</tm></ph></li>
+<li><keyword id="kess_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm trademark="TotalStorage" tmtype="tm">TotalStorage</tm>
+<tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage Server</tm></keyword></li>
+<li><keyword id="kitsess"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm trademark="TotalStorage" tmtype="tm">TotalStorage</tm>
+<tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage Server</tm></keyword></li>
+<li><ph id="ess"><tm trademark="TotalStorage" tmtype="tm">TotalStorage</tm>
+<tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage Server</tm></ph></li>
+<li><keyword id="kess"><tm trademark="TotalStorage" tmtype="tm">TotalStorage</tm>
+<tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage Server</tm></keyword></li>
+<li/>
+<li><keyword id="kess_800_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm trademark="TotalStorage" tmtype="tm">TotalStorage</tm>
+<tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage Server</tm> Model
+800</keyword></li>
+<li><keyword id="kess_800"><tm trademark="TotalStorage" tmtype="tm">TotalStorage</tm>
+<tm tmtype="reg" trademark="Enterprise Storage Server">Enterprise Storage Server</tm> Model
+800</keyword></li>
+<li><ph id="fastt">FAStT or <tm tmtype="reg" trademark="DS4000">DS4000</tm></ph></li>
+<li><keyword id="kfastt">FAStT or <tm tmtype="reg" trademark="DS4000">DS4000</tm></keyword></li>
+<li><ph id="fastt_long"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> FAStT/<tm trademark="DS4000"
+tmtype="reg">DS4000</tm></ph></li>
+<li><keyword id="kfastt_long"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> FAStT/<tm trademark="DS4000"
+tmtype="reg">DS4000</tm></keyword></li>
+<li><ph id="fastt_short">FAStT/<tm trademark="DS4000" tmtype="reg">DS4000</tm></ph></li>
+<li><keyword id="kfastt_short">FAStT/<tm trademark="DS4000" tmtype="reg">DS4000</tm></keyword></li>
+<li><ph id="itv"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm></ph></li>
+<li><keyword id="kitv"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm></keyword></li>
+<li><ph id="disk_long"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk</ph></li>
+<li><keyword id="kdisk_long"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk</keyword></li>
+<li><ph id="itsmgr"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Manager</ph></li>
+<li><keyword id="kitsmgr"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Manager</keyword></li>
+<li><ph id="tsmgr"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Manager</ph></li>
+<li><keyword id="ktsmgr"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage
+Manager</keyword></li>
+<li><ph id="disk_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+for Disk</ph></li>
+<li><keyword id="kdisk_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Disk</keyword></li>
+<li><ph id="other">other storage subsystems</ph></li>
+<li><keyword id="kother">other storage subsystems</keyword></li>
+<li><ph id="svc">SAN Volume Controller</ph></li>
+<li><keyword id="ksvc">SAN Volume Controller</keyword></li>
+<li><ph id="svc_no_ibm">SAN Volume Controller</ph></li>
+<li><ph id="svc_full"><tm tmtype="reg" trademark="IBM">IBM</tm> SAN Volume Controller</ph></li>
+<li><keyword id="ksvc_full"><tm tmtype="reg" trademark="IBM">IBM</tm> SAN Volume
+Controller</keyword></li>
+<li><ph id="ds_series"><tm tmtype="reg" trademark="System Storage">System Storage</tm> DS
+series</ph></li>
+<li><keyword id="kds_series"><tm tmtype="reg" trademark="System Storage">System Storage</tm> DS
+series</keyword></li>
+<li><ph id="ds_series_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS series</ph></li>
+<li><keyword id="kds_series_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> DS series</keyword></li>
+<li><keyword id="kstorwize"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm></keyword></li>
+<li><keyword id="kstorwize_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm></keyword></li>
+<li><ph id="stor_3500_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm> V3500</ph></li>
+<li><ph id="stor_3500_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V3500</ph></li>
+<li><keyword id="kstor_3500_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V3500</keyword></li>
+<li><keyword id="kstor_3500_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V3500</keyword></li>
+<li><ph id="stor_3700_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm> V3700</ph></li>
+<li><ph id="stor_3700_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V3700</ph></li>
+<li><keyword id="kstor_3700_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V3700</keyword></li>
+<li><keyword id="kstor_3700_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V3700</keyword></li>
+<li><ph id="stor_5000_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm> V5000</ph></li>
+<li><ph id="stor_5000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V5000</ph></li>
+<li><keyword id="kstor_5000e_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V5000E</keyword></li>
+<li><keyword id="kstor_5000e_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V5000E</keyword></li>
+<li><keyword id="kstor_5000_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V5000</keyword></li>
+<li><keyword id="kstor_5000_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V5000</keyword></li>
+<li><keyword id="kstor_5010_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V5010</keyword></li>
+<li><keyword id="kstor_5010_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V5010</keyword></li>
+<li><keyword id="kstor_5020_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V5020</keyword></li>
+<li><keyword id="kstor_5020_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V5020</keyword></li>
+<li><keyword id="kstor_5030_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V5030</keyword></li>
+<li><keyword id="kstor_5030_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V5030</keyword></li>
+<li><keyword id="kstor_5100_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V5100</keyword></li>
+<li><keyword id="kstor_5100_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V5100</keyword></li>
+<li><ph id="ez_storage"><tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000</ph></li>
+<li><ph id="ez_storage_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000</ph></li>
+<li><keyword id="kez_storage"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V7000</keyword></li>
+<li><keyword id="kez_storage_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000</keyword></li>
+<li><keyword id="kstor_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm>
+V7000</keyword></li>
+<li><keyword id="kstor"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000</keyword></li>
+<!--Adding V7000 Gen3 for story 181869-->
+<li><keyword id="kstor_v7000_gen3_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000
+Gen3</keyword></li>
+<li><keyword id="kstor_v7000_gen3_full"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000 Gen3</keyword></li>
+<li><keyword id="kstor_unified_short"><tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000
+Unified</keyword></li>
+<li><keyword id="kstor_unified"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000 Unified</keyword></li>
+<li><keyword id="kstor_file_module"><tm tmtype="reg" trademark="Storwize">Storwize</tm> V7000 File
+Module</keyword></li>
+<li><keyword id="kstor_family"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Storwize">Storwize</tm> family</keyword></li>
+<li><keyword id="ksonas"><tm tmtype="reg" trademark="IBM">IBM</tm> Scale Out Network Attached
+Storage</keyword></li>
+<li><keyword id="ksonas_short"><tm tmtype="reg" trademark="IBM">IBM</tm> SONAS</keyword></li>
+<li><keyword id="kspectrum_family"><tm tmtype="tm" trademark="IBM Spectrum Storage">IBM Spectrum
+Storage</tm> family</keyword></li>
+<li><keyword id="kelastic_st"><tm tmtype="tm" trademark="IBM Spectrum Scale" tmclass="IGNORE">IBM
+Spectrum Scale</tm></keyword></li>
+<!--15 Apr 2015 For IBM Spectrum Scale, use entity 'kelastic_st'. The entity, 'kelastic_st_short' will be removed after 5.2.6 release.-->
+<li><keyword id="kelastic_st_short"><tm tmtype="tm" trademark="IBM Spectrum Scale" tmclass="IGNORE"
+>IBM Spectrum Scale</tm></keyword></li>
+<!--There is no short product name for Spectrum Accelerate. Always use the full product name.-->
+<li><keyword id="kspectrum_accelerate"><tm tmtype="tm" trademark="IBM Spectrum Accelerate"
+tmclass="IGNORE">IBM Spectrum Accelerate</tm></keyword></li>
+<!--08 Apr 2015 GPFS/GSS renamed to IBM Spectrum Scale. All references to software, product, storage system should use Spectrum Scale entities.
+Only use kgpfs and kgpfs_short entites when referring to GPFS items such as the cluster, the file system, or the node. -->
+<li><keyword id="kgpfs"><tm tmtype="reg" trademark="IBM">IBM</tm> General Parallel File
+System</keyword></li>
+<li><keyword id="kgpfs_short">General Parallel File System</keyword></li>
+<li><keyword id="kgss"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmclass="IGNORE" tmtype="reg" trademark="System x">System x</tm>
+<tm tmtype="tm" trademark="GPFS" tmclass="IGNORE">GPFS</tm> Storage Server</keyword></li>
+<li><keyword id="kgss_short"><tm tmtype="tm" trademark="GPFS" tmclass="IGNORE">GPFS</tm> Storage
+Server</keyword></li>
+<li><keyword id="kspectrum_virtualize"><tm tmtype="tm" trademark="IBM Spectrum Virtualize"
+tmclass="IGNORE">IBM Spectrum Virtualize</tm></keyword></li>
+<li><keyword id="kspectrum_virtualize_cloud"><tm tmtype="tm" trademark="IBM Spectrum Virtualize"
+tmclass="IGNORE">IBM Spectrum Virtualize</tm> for Public Cloud</keyword></li>
+<li><keyword id="kspectrum_virtualize_software_only"><tm tmtype="tm"
+trademark="IBM Spectrum Virtualize" tmclass="IGNORE">IBM Spectrum Virtualize</tm> as Software
+Only</keyword></li>
+<li><keyword id="kflashsystem_V9000"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> V9000</keyword></li>
+<li><keyword id="kflashsystem_V9000_short">FlashSystem V9000</keyword></li>
+<li><keyword id="kflashsystem_900"><tm trademark="IBM FlashSystem" tmtype="reg">IBM FlashSystem</tm>
+900</keyword></li>
+<li><keyword id="kflashsystem_900_short">FlashSystem 900</keyword></li>
+<li><keyword id="kflashsystem_a9000"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> A9000</keyword></li>
+<li><keyword id="kflashsystem_a9000_short">FlashSystem A9000</keyword></li>
+<li><keyword id="kflashsystem_a9000r"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> A9000R</keyword></li>
+<li><keyword id="kflashsystem_a9000r_short">FlashSystem A9000R</keyword></li>
+<li><keyword id="kflash_family"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm></keyword></li>
+<!--FAB3 family - IBM FlashSystem 9100.
+FAB3L (AF7) -> IBM FlashSystem 9110.
+FAB3H (AF8)-> IBM FlashSystem 9150-->
+<li><keyword id="kflashsystem_9100"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 9100</keyword></li>
+<li><keyword id="kflashsystem_9100_short">FlashSystem 9100</keyword></li>
+<li><keyword id="kflashsystem_9110"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 9110</keyword></li>
+<li><keyword id="kflashsystem_9110_short">FlashSystem 9110</keyword></li>
+<li><keyword id="kflashsystem_9150"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 9150</keyword></li>
+<li><keyword id="kflashsystem_9150_short">FlashSystem 9150</keyword></li>
+<li><keyword id="kflashsystem_5000"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 5000</keyword></li>
+<li><keyword id="kflashsystem_5000_short">FlashSystem 5000</keyword></li>
+<li><keyword id="kflashsystem_5100"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 5100</keyword></li>
+<li><keyword id="kflashsystem_5100_short">FlashSystem 5100</keyword></li>
+<li><keyword id="kflashsystem_5200"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 5200</keyword></li>
+<li><keyword id="kflashsystem_5200_short">FlashSystem 5200</keyword></li>
+<li><keyword id="kflashsystem_7100"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 7100</keyword></li>
+<li><keyword id="kflashsystem_7100_short">FlashSystem 7100</keyword></li>
+<li><keyword id="kflashsystem_7200"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 7200</keyword></li>
+<li><keyword id="kflashsystem_7200_short">FlashSystem 7200</keyword></li>
+<li><keyword id="kflashsystem_9200"><tm trademark="IBM FlashSystem" tmtype="reg">IBM
+FlashSystem</tm> 9200</keyword></li>
+<li><keyword id="kflashsystem_9200_short">FlashSystem 9200</keyword></li>
+<li><ph id="hitachi">Hitachi</ph></li>
+<li><keyword id="khitachi">Hitachi</keyword></li>
+<li><keyword id="hitachi_vsp_full">Hitachi Virtual Storage Platform</keyword></li>
+<li><keyword id="hitachi_vsp_short">Hitachi VSP</keyword></li>
+<li><keyword id="kvspsys">VSP system</keyword></li>
+<li><keyword id="kvspsys_pl">VSP systems</keyword></li>
+<li><keyword id="kvsp">VSP</keyword></li>
+<li><keyword id="hitachi_usp_v_full">Hitachi Universal Storage Platform V</keyword></li>
+<!--PRODUCT FORMERLY KNOWN AS "Cleversafe"
+From Ben on 30 June 2016: All GUI and ID references to "Cleversafe" should be changed to "IBM Cloud Object Storage".
+JW The approved short name is COS. Post 5.2.11, look at the impact of changing this.-->
+<li><keyword id="kcloudobject"><tm tmtype="reg" trademark="IBM">IBM</tm> Cloud Object
+Storage</keyword></li>
+<?Pub Caret 13?>
+<li><keyword id="kcloudobject_short"><tm tmtype="reg" trademark="IBM">IBM</tm> Cloud Object
+Storage</keyword></li>
+<li><keyword id="kaccesser"><tm trademark="IBM" tmtype="reg">IBM</tm> Cloud Object Storage <tm
+trademark="Accesser" tmtype="reg">Accesser</tm></keyword></li>
+<li><keyword id="kaccesser_short">COS <tm trademark="Accesser" tmtype="reg"
+>Accesser</tm></keyword></li>
+<li><keyword id="kslicestor"><tm trademark="IBM" tmtype="reg">IBM</tm> Cloud Object Storage <tm
+trademark="Slicestor" tmtype="reg">Slicestor</tm></keyword></li>
+<li><keyword id="kslicestor_short">COS <tm trademark="Slicestor" tmtype="reg"
+>Slicestor</tm></keyword></li>
+<li><keyword id="kvault"><tm trademark="IBM" tmtype="reg">IBM</tm> Cloud Object Storage
+Vault</keyword></li>
+<li><keyword id="kvault_short">COS Vault</keyword></li>
+<li><keyword id="kvault_short_pl">COS Vaults</keyword></li>
+<li><keyword id="kspectrum_archive"><tm tmtype="tm" trademark="IBM Spectrum Archive"
+tmclass="IGNORE">IBM Spectrum Archive</tm></keyword></li>
+<li><keyword id="kspectrum_protect"><tm tmtype="tm" trademark="IBM Spectrum Protect"
+tmclass="IGNORE">IBM Spectrum Protect</tm></keyword></li>
+<li><keyword id="kspectrum_protect_snapshot"><tm tmtype="tm" trademark="IBM Spectrum Protect"
+tmclass="IGNORE">IBM Spectrum Protect</tm> Snapshot</keyword></li>
+<li><keyword id="ktcr_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Common
+Reporting</keyword></li>
+<li><keyword id="ktcr_long"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Common Reporting</keyword></li>
+<li><keyword id="kcog_short"><tm tmtype="reg" trademark="Cognos">Cognos</tm></keyword></li>
+<li><keyword id="kcog_long"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Cognos">Cognos</tm></keyword></li>
+<li><keyword id="kcogconn_long"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Cognos">Cognos</tm> Connection</keyword></li>
+<li><ph id="dssm_full"><tm tmtype="reg" trademark="IBM">IBM</tm> DS Storage Manager</ph></li>
+<li><keyword id="kdssm_full"><tm tmtype="reg" trademark="IBM">IBM</tm> DS Storage
+Manager</keyword></li>
+<li><ph id="dssm_short">DS Storage Manager</ph></li>
+<li><keyword id="kdssm_short">DS Storage Manager</keyword></li>
+<li><ph id="omni"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm>
+<tm trademark="Netcool" tmtype="reg">Netcool</tm>/OMNIbus</ph></li>
+<li><keyword id="komni"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm>
+<tm trademark="Netcool" tmtype="reg">Netcool</tm>/OMNIbus</keyword></li>
+<li><ph id="omni_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm>
+<tm trademark="Netcool" tmtype="reg">Netcool</tm>/OMNIbus</ph></li>
+<li><keyword id="komni_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm>
+<tm trademark="Netcool" tmtype="reg">Netcool</tm>/OMNIbus</keyword></li>
+<!--SPECTRUM CONTROL SPECIFIC KEYWORDS-->
+<li><ph id="sra">Storage Resource agent</ph></li>
+<li><keyword id="ksra">Storage Resource agent</keyword></li>
+<li><keyword id="ksra_pl">Storage Resource agents</keyword></li>
+<li><keyword id="kopenswap">Open <tm tmtype="reg" trademark="HyperSwap"
+>HyperSwap</tm></keyword></li>
+<li><keyword id="khyperswap"><tm tmtype="reg" trademark="HyperSwap">HyperSwap</tm></keyword></li>
+<li><keyword id="kbasichyperswap">Basic <tm tmtype="reg" trademark="HyperSwap"
+>HyperSwap</tm></keyword></li>
+<li><ph id="tprovm"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Provisioning Manager</ph></li>
+<li><keyword id="ktprovm"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Provisioning
+Manager</keyword></li>
+<li><ph id="dm">Disk Manager</ph></li>
+<li><keyword id="kdm">Disk Manager</keyword></li>
+<li><ph id="tpm">Tape Manager</ph></li>
+<li><keyword id="ktpm">Tape Manager</keyword></li>
+<li><ph id="dtm">Data Manager</ph></li>
+<li><keyword id="kdtm">Data Manager</keyword></li>
+<li><ph id="dtmfd">Data Manager for Databases</ph></li>
+<li><keyword id="kdtmfd">Data Manager for Databases</keyword></li>
+<li><ph id="tpc_short_name_only">Storage Productivity Center</ph></li>
+<li><keyword id="kshort_name_only">Storage Productivity Center</keyword></li>
+<li><keyword id="kshort_name_ibm_select"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Select
+Edition</keyword></li>
+<li><ph id="agtmgr">Agent Manager</ph></li>
+<li><keyword id="kagtmgr">Agent Manager</keyword></li>
+<li><ph id="winauto"><tm tmtype="tm" trademark="Windows">Windows</tm> Autorun</ph></li>
+<li><keyword id="kwinauto"><tm tmtype="tm" trademark="Windows">Windows</tm> Autorun</keyword></li>
+<li><ph id="winex"><tm tmtype="tm" trademark="Windows">Windows</tm> Explorer</ph></li>
+<li><keyword id="kwinex"><tm tmtype="tm" trademark="Windows">Windows</tm> Explorer</keyword></li>
+<li><ph id="tip"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Integrated Portal</ph></li>
+<li><keyword id="ktip"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Integrated Portal</keyword></li>
+<li><keyword id="ktip_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Integrated
+Portal</keyword></li>
+<li><ph id="diskall"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk and
+Replication</ph></li>
+<li><keyword id="kdiskall"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk and
+Replication</keyword></li>
+<li><ph id="diskall_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Disk and Replication</ph></li>
+<li><keyword id="kdiskall_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage
+Productivity Center for Disk and Replication</keyword></li>
+<li><ph id="tpcr"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for
+Replication</ph></li>
+<li><keyword id="ktpcr"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for
+Replication</keyword></li>
+<li><ph id="tpcr_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+for Replication</ph></li>
+<li><keyword id="ktpcr_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Replication</keyword></li>
+<li><ph id="tpcrz"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm></ph></li>
+<li><keyword id="ktpcrz"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm></keyword></li>
+<li><ph id="tpcrz_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+for Replication for <tm tmtype="reg" trademark="System z">System z</tm></ph></li>
+<li><keyword id="ktpcrz_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Replication for <tm tmtype="reg" trademark="System z">System z</tm></keyword></li>
+<li><keyword id="tpcr_basicz"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication Basic
+Edition for System z</keyword></li>
+<li><keyword id="tpcr_basicz_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage
+Productivity Center for Replication Basic Edition for System z</keyword></li>
+<li><ph id="full_sysz"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System z">System z</tm></ph></li>
+<li><ph id="short_sysz"><tm tmtype="reg" trademark="System z">System z</tm></ph></li>
+<li><keyword id="k_full_sysz"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System z">System z</tm></keyword></li>
+<li><keyword id="k_short_sysz"><tm tmtype="reg" trademark="System z">System z</tm></keyword></li>
+<li><ph id="repmgr">Replication Manager</ph></li>
+<li><keyword id="krepmgr">Replication Manager</keyword></li>
+<li><ph id="itsrm"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Data</ph></li>
+<li><keyword id="kitsrm"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Data</keyword></li>
+<li><ph id="itsrm_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+for Data</ph></li>
+<li><keyword id="kitsrm_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Data</keyword></li>
+<li><ph id="isanm"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Fabric</ph></li>
+<li><keyword id="kisanm"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for
+Fabric</keyword></li>
+<li><ph id="isanm_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+for Fabric</ph></li>
+<li><keyword id="kisanm_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Fabric</keyword></li>
+<li><ph id="pmdm">Performance Manager</ph></li>
+<li><keyword id="kpmdm">Performance Manager</keyword></li>
+<li><ph id="fm">Fabric Manager</ph></li>
+<li><keyword id="kfm">Fabric Manager</keyword></li>
+<li><ph id="tcas"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Common Agent Services</ph></li>
+<li><keyword id="ktcas"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Common Agent
+Services</keyword></li>
+<li><ph id="comagent">Common agent</ph></li>
+<li><keyword id="kcomagent">Common agent</keyword></li>
+<li><ph id="mdmlong">Multiple Device Manager</ph></li>
+<li><keyword id="kmdmlong">Multiple Device Manager</keyword></li>
+<li><ph id="mdmshort">MDM</ph></li>
+<li><keyword id="kmdmshort">MDM</keyword></li>
+<li><ph id="tsanm"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Area Network Manager</ph></li>
+<li><keyword id="ktsanm"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Area Network Manager</keyword></li>
+<li><ph id="tpcsfs"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage SAN File Systems</ph></li>
+<li><keyword id="ktpcsfs"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage SAN File Systems</keyword></li>
+<li><ph id="sfs">SAN File System</ph></li>
+<li><keyword id="ksfs">SAN File System</keyword></li>
+<li><ph id="sanp">SAN Planner</ph></li>
+<li><keyword id="ksanp">SAN Planner</keyword></li>
+<li><ph id="dtmfcb">Data Manager for Chargeback</ph></li>
+<li><keyword id="kdtmfcb">Data Manager for Chargeback</keyword></li>
+<li><ph id="tentp"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Enterprise Portal</ph></li>
+<li><keyword id="ktentp"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Enterprise
+Portal</keyword></li>
+<li><keyword id="vmware">VMware</keyword></li>
+<li><keyword id="vsphere">vSphere</keyword></li>
+<li><keyword id="vmware_vs"><tm trademark="VMware vSphere" tmtype="tm">VMware
+vSphere</tm></keyword></li>
+<li><keyword id="vsphere_wc">vSphere Web Client</keyword></li>
+<li><keyword id="vsphere_c">vSphere Client</keyword></li>
+<li><keyword id="vcserver"><tm trademark="VMware vCenter Server" tmtype="tm">VMware vCenter
+Server</tm></keyword></li>
+<li><keyword id="vcserver_short">vCenter Server</keyword></li>
+<li><keyword id="vcservers_short">vCenter Servers</keyword></li>
+<li><keyword id="kvcserver_app">vCenter Server Appliance</keyword></li>
+<li><keyword id="kwebc_extension">vSphere Web Client extension</keyword></li>
+<li><keyword id="vasa">VASA</keyword></li>
+<li><keyword id="vasa_prov">VASA provider</keyword></li>
+<li><ph id="emc">Dell EMC</ph></li>
+<li><keyword id="kemc">Dell EMC</keyword></li>
+<li><ph id="isilon">Isilon</ph></li>
+<li><keyword id="kisilon">Isilon</keyword></li>
+<li><ph id="unity">Unity</ph></li>
+<li><keyword id="kunity">Unity</keyword></li>
+<li><ph id="vmax">VMAX</ph></li>
+<li><keyword id="kvmax">VMAX</keyword></li>
+<li><ph id="vnx">VNX</ph></li>
+<li><keyword id="kvnx">VNX</keyword></li>
+<li><ph id="vnxe">VNXe</ph></li>
+<li><keyword id="kvnxe">VNXe</keyword></li>
+<li><ph id="netapp">NetApp</ph></li>
+<li><keyword id="knetapp">NetApp</keyword></li>
+<li><ph id="ontap">ONTAP</ph></li>
+<li><keyword id="kontap">ONTAP</keyword></li>
+<li><ph id="netapp_ontap9">ONTAP 9</ph></li>
+<li><keyword id="knetapp_ontap9">ONTAP 9</keyword></li>
+<li><ph id="netapp_7mode">ONTAP 8 (7- mode)</ph></li>
+<li><keyword id="knetapp_7mode">ONTAP 8 (7- mode)</keyword></li>
+<li><ph id="pure">Pure</ph></li>
+<li><keyword id="kpure">Pure</keyword></li>
+<li><ph id="fa-m">FlashArray//M</ph></li>
+<li><keyword id="kfa-m">FlashArray//M</keyword></li>
+<li><ph id="fa-x">FlashArray//X</ph></li>
+<li><keyword id="kfa-x">FlashArray//X</keyword></li>
+<li><ph id="hpe">HPE </ph></li>
+<li><keyword id="khpe">HPE</keyword></li>
+<li><ph id="3parss">HPE 3PAR StoreServ Storage</ph></li>
+<li><keyword id="k3parss">HPE 3PAR StoreServ Storage</keyword></li>
+<!--021809 cdk per Paula, "IBM" should not appear in front of any TEP reference-->
+<li><keyword id="ktentp_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Enterprise
+Portal</keyword></li>
+<li><ph id="istded"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Standard
+Edition</ph></li>
+<li><keyword id="kistded"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Standard
+Edition</keyword></li>
+<li><ph id="tstded"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+Standard Edition</ph></li>
+<li><keyword id="ktstded"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center Standard Edition</keyword></li>
+<li><ph id="tpcbe"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Basic Edition</ph></li>
+<li><keyword id="ktpcbe"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Basic
+Edition</keyword></li>
+<li><ph id="ttpcbe"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+Basic Edition</ph></li>
+<li><keyword id="kttpcbe"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center Basic Edition</keyword></li>
+<li><keyword id="vsc_saeng_lic"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE"
+>IBM Spectrum Control</tm> Advanced Edition</keyword></li>
+<li><ph id="tpcbe_short">Basic Edition</ph></li>
+<li><keyword id="ktpcbe_short">Basic Edition</keyword></li>
+<!--updated from Midrange Edition to Select so we don't have to change these existing conrefs-->
+<li><ph id="tpcdmre"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk
+Select</ph></li>
+<li><keyword id="ktpcdmre"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk
+Select</keyword></li>
+<li><ph id="ttpcdmre"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+for Disk Select</ph></li>
+<li><keyword id="kttpcdmre"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Disk Select</keyword></li>
+<li><ph id="tpcdmre_short">Disk Select</ph></li>
+<li><keyword id="ktpcdmre_short">Disk Select</keyword></li>
+<!--added TPC Select and TPC Disk Select-->
+<li><ph id="tpcdselect"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk
+Select</ph></li>
+<li><keyword id="ktpcdselect"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Disk
+Select</keyword></li>
+<li><ph id="ttpcdselect"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+for Disk Select</ph></li>
+<li><keyword id="kttpcdselect"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center for Disk Select</keyword></li>
+<li><ph id="tpcdselect_short">Disk Select</ph></li>
+<li><keyword id="ktpcdselect_short">Disk Select</keyword></li>
+<li><ph id="tpc_select"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Select</ph></li>
+<li><keyword id="ktpc_select"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Select</keyword></li>
+<li><ph id="ttpc_select"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+Select</ph></li>
+<li><keyword id="kttpc_select"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity
+Center Select</keyword></li>
+<li><ph id="tpc_select_short">Select</ph></li>
+<li><keyword id="ktpc_select_short">Select</keyword></li>
+<!--10/18/2011 miki added entiies for "stand-alone GUI" and "web-based GUI" -->
+<li><keyword id="ksagui">stand-alone GUI</keyword></li>
+<li><keyword id="kwebgui">web-based GUI</keyword></li>
+<!--04/24/2013 ds added TSAAM entities-->
+<li><keyword id="ktsaam"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> System Automation Application Manager</keyword></li>
+<li><keyword id="ktsaam_short"><tm tmtype="reg" trademark="Tivoli">Tivoli</tm> System Automation
+Application Manager</keyword></li>
+<!--04/24/2013 ds added MM Heartbeat-->
+<li><keyword id="heartbeat">Metro Mirror heartbeat</keyword></li>
+<li><keyword id="heartbeat_plural">Metro Mirror heartbeats</keyword></li>
+<!--5/21/13 - rk added "Jazz for Service Management"-->
+<li><keyword id="kjazzsm"><tm tmtype="reg" trademark="Jazz">Jazz</tm> for Service
+Management</keyword></li>
+<!--*****************************************************************-->
+<!--****************** ENTITIES FOR TPC PDF GUIDES ******************-->
+<!--*****************************************************************-->
+<!--Use the "keyword" entities for guide references in topics rather than the "ph" entries whenever possible-->
+<li><ph id="tspug"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> User's Guide</ph></li>
+<li><keyword id="ktspug"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> User's Guide</keyword></li>
+<li><ph id="tpcig"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> Installation Guide</ph></li>
+<li><keyword id="ktpcig"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Installation Guide</keyword></li>
+<li><ph id="tpcqig"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> Quick Installation Guide</ph></li>
+<li><keyword id="ktpcqig"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Quick Installation Guide</keyword></li>
+<li><ph id="tpcag"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> Administrator's Guide</ph></li>
+<li><keyword id="ktpcag"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Administrator's Guide</keyword></li>
+<li><keyword id="ktpcpdg"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Problem Determination Guide</keyword></li>
+<li><ph id="tpcpdg"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> Problem Determination Guide</ph></li>
+<li><keyword id="ktpcic"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Knowledge documentation</keyword></li>
+<li><ph id="tpcic"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> Knowledge Center</ph></li>
+<li><keyword id="ktpcmes"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Messages</keyword></li>
+<li><ph id="tpcmes"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> Messages</ph></li>
+<li><keyword id="ktpccli"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Command-line Interface Reference</keyword></li>
+<li><ph id="tpccli"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM Spectrum
+Control</tm> Command-line Interface Reference</ph></li>
+<li><keyword id="kcep_full">Alert server</keyword></li>
+<li><keyword id="kcep_short">Alert server</keyword></li>
+<!--13 March 2015 PL Removed dulicate entity. Generating warnings in SaaS Help Plugin:
+<keyword id="ktpcpdg"><tm tmtype="reg" trademark="IBM">IBM</tm> <tm
+tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center
+Problem Determination Guide</keyword>-->
+<!--****************** ENTITIES FOR TPC-R PDF GUIDES ******************-->
+<li><ph id="tpcini"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center and <tm tmtype="reg"
+trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication
+Installation and Configuration Guide</ph></li>
+<li><keyword id="ktpcini"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center and <tm tmtype="reg"
+trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication
+Installation and Configuration Guide</keyword></li>
+<li/>
+<li><ph id="tpcrzug"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> User's Guide</ph></li>
+<li><keyword id="ktpcrzug"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> User's Guide</keyword></li>
+<li/>
+<li><ph id="tpcrzicg"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Installation and Configuration Guide</ph></li>
+<li><keyword id="ktpcrzicg"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Installation and Configuration Guide</keyword></li>
+<li/>
+<li><ph id="tpcrzcli"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Command-line Interface User's Guide</ph></li>
+<li><keyword id="ktpcrzcli"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Command-line Interface User's Guide</keyword></li>
+<li/>
+<li><ph id="tpcrzpdg"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Problem Determination Guide</ph></li>
+<li><keyword id="ktpcrzpdg"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Problem Determination Guide</keyword></li>
+<li/>
+<li><ph id="tpcrz_program_directory"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Program Directory</ph></li>
+<li><keyword id="ktpcrz_program_directory"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication for <tm
+tmtype="reg" trademark="System z">System z</tm> Program Directory</keyword></li>
+<li/>
+<li><ph id="tpcrz_be_program_directory"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication Basic
+Edition for <tm tmtype="reg" trademark="System z">System z</tm> Program Directory</ph></li>
+<li><keyword id="ktpcrz_be_program_directory"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center for Replication Basic
+Edition for <tm tmtype="reg" trademark="System z">System z</tm> Program Directory</keyword></li>
+<li><keyword id="scvsc"><tm tmtype="tm" trademark="IBM Spectrum Control" tmclass="IGNORE">IBM
+Spectrum Control</tm> Advanced Edition</keyword></li>
+<li><keyword id="scvscshort">VSC</keyword></li>
+<li/>
+<li/>
+<li><ph id="ug">User's Guide</ph></li>
+<li><keyword id="kug">User's Guide</keyword></li>
+<li><!--<ph id="device_server">the Device server</ph>--></li>
+<li><!--<keyword id="kdevice_server">the Device server</keyword>--></li>
+<li><!--<ph id="devserv">Device server</ph>--></li>
+<li><!--<keyword id="kdevserv">Device server</keyword>--></li>
+<li><ph id="data_server">the Data server</ph></li>
+<li><keyword id="kdata_server">the Data server</keyword></li>
+<li><ph id="dataserv">Data server</ph></li>
+<li><keyword id="kdataserv">Data server</keyword></li>
+<li><ph id="cisco">Cisco MDS 9000 Caching Services Module</ph></li>
+<li><keyword id="kcisco">Cisco MDS 9000 Caching Services Module</keyword></li>
+<li><ph id="tpcins">Installation and Configuration Guide</ph></li>
+<li><keyword id="ktpcins">Installation and Configuration Guide</keyword></li>
+<li><ph id="fabric_disk_op">You must have Fabric operator or Disk operator authority to use this
+command.</ph></li>
+<li><keyword id="kfabric_disk_op">You must have Fabric operator or Disk operator authority to use
+this command.</keyword></li>
+<li><keyword id="kdisk_admin">You must have Disk administrator authority to use this
+command.</keyword></li>
+<li><ph id="disk_admin">You must have Disk administrator authority to use this command.</ph></li>
+<li><keyword id="kits"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage</keyword></li>
+<li><keyword id="ktpcinip">SC27-2337-00</keyword></li>
+<li><keyword id="ktspugp">SC27-2338-00</keyword></li>
+<li><keyword id="ktpcmesp">SC27-2340-00</keyword></li>
+<li><keyword id="ktpcclip">SC27-2339-00</keyword></li>
+<li><keyword id="ktpcpdgp">GC27-2342-00</keyword></li>
+<li><keyword id="ktpcinip2">SK4T-0419</keyword></li>
+<li><keyword id="ktpcworkp">SC27-2341-00</keyword></li>
+</ul>
+</section>
+<section>
+<title>TPC URLs</title>
+<ul>
+<!--TPC landing page in KC (This xref is being phased out. Instead, use th xrefs that are defined in tpc_reuse_url.dita.)-->
+<li><xref format="html" href="http://www.ibm.com/support/knowledgecenter/SS5R93/" id="x51_url" scope="external"><keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" />
+documentation</xref></li>
+<!--TPC 5.2.1 Welcome page in KC (This xref is being phased out. Instead, use th xrefs that are defined in tpc_reuse_url.dita.)-->
+<li><xref format="html" href="http://www.ibm.com/support/knowledgecenter/SSNE44_5.2.1/" id="x521_welcome" scope="external"><keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" />
+documentation</xref></li>
+<!--TPC Product Suite site (This xref is being phased out. Instead, use th xrefs that are defined in tpc_reuse_url.dita.)-->
+<li><xref format="html" href="http://www.ibm.com/systems/storage/software/center/" id="tpc_product_suite" scope="external" /></li>
+<!--Support Portal (This xref is being phased out. Instead, use th xrefs that are defined in tpc_reuse_url.dita.)-->
+<li><xref format="html" href="http://www.ibm.com/support/entry/portal/Overview/Software/Tivoli/Tivoli_Storage_Productivity_Center" id="tpc_support_portal" scope="external" /></li>
+<!--Support Matrix Text for Web Browsers (This xref is being phased out. Instead, use th xrefs that are defined in tpc_reuse_url.dita.)-->
+<!--<li><ph id="tpc_support_matrix_web_browsers_text">For a list of web browsers that you can use with <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short"/>, see <xref keyref="tpc_support_matrix_text"/>. In the <uicontrol>Agents, Servers and Browser</uicontrol> column, click the version of <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short"/> that is installed on your system. On the next page, click <uicontrol>Web Browsers</uicontrol> to find the web browsers that you can use.</ph></li>-->
+<li><keyword id="k51_url">http://publib.boulder.ibm.com/infocenter/tivihelp/v59r1/index.jsp</keyword></li>
+<li><keyword id="kpuburl">http://www.ibm.com/shop/publications/order</keyword></li>
+<li><keyword id="ktpcsptu">http://www.ibm.com/servers/storage/support/software/tpc/</keyword></li>
+<li><keyword id="khandurl">http://techsupport.services.ibm.com/guides/handbook.html</keyword></li>
+<li><keyword id="kidevices"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="Tivoli">Tivoli</tm> Storage Productivity Center Limited
+Edition</keyword></li>
+<li><keyword id="ktpchomeu">http://www.ibm.com/servers/storage/software/center/index.html</keyword></li>
+<li><keyword id="kredbooks">http://www.redbooks.ibm.com/redbooks</keyword></li>
+<!--<li><xref href="http://www.redbooks.ibm.com/redbooks" id="xredbooks" scope="external"/></li>-->
+</ul>
+</section>
+<section>
+<title>SSPC entities</title>
+<ul>
+<li><ph id="sspc"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> Productivity Center</ph></li>
+<li><keyword id="ksspc"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="System Storage">System Storage</tm> Productivity Center</keyword></li>
+<li><ph id="sspconly"><tm tmtype="reg" trademark="System Storage">System Storage</tm> Productivity
+Center</ph></li>
+<li><keyword id="ksspconly"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+Productivity Center</keyword></li>
+<li><ph id="2805mc2">2805-MC2</ph></li>
+<li><keyword id="k2805mc2">2805-MC2</keyword></li>
+<li><ph id="2805mc3">2805-MC3</ph></li>
+<li><keyword id="k2805mc3">2805-MC3</keyword></li>
+<li><ph id="2805mc4">2805-MC4</ph></li>
+<li><keyword id="k2805mc4">2805-MC4</keyword></li>
+<li><ph id="2805mcx">2805-MC5</ph></li>
+<li><keyword id="k2805mcx">2805-MC5</keyword></li>
+<li><ph id="2805mc6">2805-MC6</ph></li>
+<li><keyword id="k2805mc6">2805-MC6</keyword></li>
+<li><ph id="mtm">Machine Type 2805 Model MC5</ph></li>
+<li><keyword id="kmtm">Machine Type 2805 Model MC5</keyword></li>
+<li><ph id="sspc_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm> Productivity
+Center</ph></li>
+<li><keyword id="ksspc_short"><tm tmtype="reg" trademark="System Storage">System Storage</tm>
+Productivity Center</keyword></li>
+</ul>
+<ul>
+<li><ph id="db2version"><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmtype="reg" trademark="DB2">DB2</tm> Enterprise Server Edition 8.2</ph></li>
+<li><ph id="db2ese"><tm tmtype="reg" trademark="DB2">DB2</tm> Enterprise Server Edition
+8.2</ph></li>
+<li><ph id="db2short"><tm tmtype="reg" trademark="DB2">DB2</tm> 8.2</ph></li>
+<li><keyword id="kdb2"><tm tmtype="reg" trademark="DB2">DB2</tm></keyword></li>
+</ul>
+<ul>
+<li><ph id="linuxver"><tm trademark="Red Hat" tmtype="reg">Red Hat</tm> Enterprise <tm tmtype="reg" trademark="Linux">Linux</tm> Advanced
+Server 2.1, Kernel 2.4</ph></li>
+<li><keyword id="linuxrh"><tm trademark="Red Hat" tmtype="reg">Red Hat</tm> Enterprise <tm tmtype="reg" trademark="Linux">Linux</tm></keyword></li>
+</ul>
+</section>
+<section>
+<title>Report entities</title>
+</section>
+<section>
+<!--<p id="predefined_report" otherprops="helpsonly">Click <uicontrol>Selection</uicontrol> to perform the following actions:<ul><li>Change the performance metrics that are included in the report</li><li>Select the maximum number of rows that are returned</li></ul>To view a list of all performance metrics, see <xref href="../../../../disk/fqz0_r_reporting_total_metrics.dita">Performance metrics</xref>.</p>-->
+<ul>
+<li><ph id="be_r_data_rate">Backend Read Data Rate</ph></li>
+<li><ph id="be_r_data_rate_desc">Average number of megabytes (2^20 bytes) that were transferred for
+read operations.</ph></li>
+<li><ph id="be_w_data_rate">Backend Write Data Rate</ph></li>
+<li><ph id="be_w_data_rate_desc">Average number of megabytes (2^20 bytes) that were transferred for
+write operations.</ph></li>
+<li><ph id="be_t_data_rate">Total Backend Data Rate</ph></li>
+<li><ph id="be_t_data_rate_desc">Average number of megabytes (2^20 bytes) that were transferred for
+read and write operations.</ph></li>
+<li><ph id="be_r_io_rate">Backend Read I/O Rate</ph></li>
+<li><ph id="be_r_io_rate_desc">Average number of I/O operations per second for read
+operations.</ph></li>
+<li><ph id="be_t_io_rate">Total Backend I/O Rate</ph></li>
+<li><ph id="be_t_io_rate_desc">Average number of I/O operations per second for read and write
+operations.</ph></li>
+<li><ph id="be_w_io_rate">Backend Write I/O Rate</ph></li>
+<li><ph id="be_w_io_rate_desc">Average number of I/O operations per second for write
+operations.</ph></li>
+<li><ph id="be_r_resp_time">Backend Read Response Time</ph></li>
+<li><ph id="be_r_resp_time_desc">Average number of milliseconds that it took to respond to each read
+operation. For <ph conref="fqz0_entities.dita#fqz0_entities/svc" /> models, this time is the external
+response time of the managed disks (MDisks).</ph></li>
+<li><ph id="be_w_resp_time">Backend Write Response Time</ph></li>
+<li><ph id="be_w_resp_time_desc">Average number of milliseconds that it took to respond to each
+write operation. For <ph conref="fqz0_entities.dita#fqz0_entities/svc" /> models, this time is the
+external response time of the managed disks (MDisks).</ph></li>
+<li><ph id="ov_be_resp_time">Overall Backend Response Time</ph></li>
+<li><ph id="ov_be_resp_time_desc">Average number of milliseconds that it took to respond to each I/O
+operation (read and write). For <ph conref="fqz0_entities.dita#fqz0_entities/svc" /> models, this
+time is the external response time of the managed disks (MDisks).</ph></li>
+<li><ph id="nvs_full">Write-cache Delay Percentage</ph></li>
+<li><ph id="nvs_full_desc">Percentage of I/O operations that were delayed because of write-cache
+space constraints or other conditions. Write-cache Delay Percentage is the ratio of delayed I/O
+operations to total I/O operations.</ph></li>
+<li><ph id="nvs_delayed">NVS Delayed I/O Rate</ph></li>
+<li><ph id="nvs_delayed_desc">Average number of I/O operations per second that were delayed because
+of nonvolatile storage (NVS) space constraints.</ph></li>
+<li><ph id="interval">Interval</ph></li>
+<li><ph id="interval_desc">Size of the sample interval (in seconds). For <ph conref="fqz0_entities.dita#fqz0_entities/ess" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kds4000" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kds5000" />, <ph conref="fqz0_entities.dita#fqz0_entities/ds6000" />, and <ph conref="fqz0_entities.dita#fqz0_entities/ds8000" /> models, you can specify a minimum interval length
+of five minutes and a maximum interval length of one hour. For <ph conref="fqz0_entities.dita#fqz0_entities/svc" /> models, you can specify a minimum interval length of
+15 minutes and a maximum interval length of one hour.</ph></li>
+<li><ph id="ov_r_cache">Overall Read Cache %</ph></li>
+<li><ph id="ov_r_cache_desc">Overall read cache percentage for both sequential and nonsequential
+read operations.</ph></li>
+<li><ph id="ov_r_io_rate">Read I/O Rate (overall)</ph></li>
+<li><ph id="ov_r_io_rate_desc">Average number of I/O operations per second for both sequential and
+non-sequential read operations for a component over a specified time interval.</ph></li>
+<li><ph id="ov_resp_time">Overall Response Time</ph></li>
+<li><ph id="ov_resp_time_desc">Average number of milliseconds that it took to service each I/O
+operation (read and write) for a component over a specified time interval.</ph></li>
+<li><ph id="ret_codes">Return Codes</ph></li>
+<li><ph id="ov_w_cache">Overall Write Cache %</ph></li>
+<li><ph id="ov_w_cache_desc">Percentage of cache hits for both sequential and nonsequential write
+operations.</ph></li>
+<li><ph id="ov_w_io_rate">Write I/O Rate (overall)</ph></li>
+<li><ph id="ov_w_io_rate_desc">Average number of I/O operations per second for both sequential and
+non-sequential write operations for a component over a specified time interval.</ph></li>
+<li><ph id="other_subsystems">other storage systems</ph></li>
+<li><ph id="r_data_rate">Read Data Rate</ph></li>
+<li><ph id="r_data_rate_desc">Average number of megabytes (2^20 bytes) per second that were
+transferred for read operations for a component over a specified time interval.</ph></li>
+<li><ph id="r_resp_time">Read Response Time</ph></li>
+<li><ph id="r_resp_time_desc">Average number of milliseconds that it took to service each read
+operation for a component over a specified time interval.</ph></li>
+<li><ph id="seq_rw_io_rate">Sequential I/O Percentage</ph></li>
+<li><ph id="seq_rw_io_rate_desc">Percentage of all I/O operations that are performed for an array
+over a specified time interval that were sequential operations.</ph></li>
+<li><ph id="subsysid">Subsystem</ph></li>
+<li><ph id="subsysid_desc">ID of the storage system</ph></li>
+<li><ph id="time">Time</ph></li>
+<li><ph id="time_desc">Date and time that the data was collected.</ph></li>
+<li><ph id="t_data_rate">Total Data Rate</ph></li>
+<li><ph id="t_data_rate_desc">Average number of megabytes (2^20 bytes) per second that were
+transferred for read and write operations for a component over a specified time interval.</ph></li>
+<li><ph id="t_ov_cache">Total Overall Cache %</ph></li>
+<li><ph id="t_ov_cache_desc">Percentage of cache hits for both sequential and nonsequential read and
+write operations.</ph></li>
+<li><ph id="t_ov_io_rate">Total I/O Rate (overall)</ph></li>
+<li><ph id="t_ov_io_rate_desc">Average number of I/O operations per second for both sequential and
+nonsequential read and write operations.</ph></li>
+<li><ph id="t_resp_time">Total Response Time</ph></li>
+<li><ph id="w_data_rate">Write Data Rate</ph></li>
+<li><ph id="w_data_rate_desc">Average number of megabytes (2^20 bytes) per second that were
+transferred for write operations for a component over a specified time interval.</ph></li>
+<li><ph id="w_resp_time">Write Response Time</ph></li>
+<li><ph id="w_resp_time_desc">Average number of milliseconds that it took to service each write
+operation for a component over a specified time interval.</ph></li>
+<li><ph id="peak_r_resp_time">Peak Read Response Time</ph></li>
+<li><ph id="peak_r_resp_time_desc">The peak (worst) response time for disk reads for a component
+over a time interval.</ph></li>
+<li><ph id="peak_w_resp_time">Peak Write Response Time</ph></li>
+<li><ph id="peak_w_resp_time_desc">The peak (worst) response time for disk writes for a component
+over a time interval.</ph></li>
+</ul>
+</section>
+<section>
+<title>K's working entities</title>
+<!--10/1/10 change from Kevin Webster Miki-->
+<p><ph id="zone_action_shortdesc">This page is displayed only if <ph conref="fqz0_entities.dita#fqz0_entities/fm" /> is installed. You can create a new zone for the ports
+or add them to an existing zone. Use a Zone Action if you want to apply updates to the active zone
+set. This action applies changes to the inactive zone set that has the same name as the active zone
+set and then the zone set is activated. Before you use this option, ensure that the zones and zone
+members in the active zone set matches the zones and zone members in the inactive zone that is set
+with the same name.</ph></p>
+<!--Used in the helps for various Subsystem Storage windows-->
+<p id="subsystem_type">Type of subsystem:<ul>
+<li><tm tmtype="tm" trademark="DS6000">DS6000</tm></li>
+<li><tm tmtype="reg" trademark="DS8000">DS8000</tm></li>
+<li>ESS</li>
+<li>FAStT</li>
+<li>SVC</li>
+</ul></p>
+<p id="subsystem_status">Status of the subsystem: <ul>
+<li>Normal</li>
+<li>Warning</li>
+<li>Unreachable</li>
+</ul></p>
+</section>
+<section>
+<!--Top portion of Alert pages-->
+<dl id="schedule_information">
+<dlentry>
+<dt>Creator</dt>
+<dd>The ID who created the schedule or alert.</dd>
+</dlentry>
+<dlentry>
+<dt>Name</dt>
+<dd>The name of the schedule or alert. The ID of the user is automatically attached to the name as a
+prefix. For example, if you name a schedule "dailyprobe", <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> saves the name as "TPCUser.dailyprobe".</dd>
+</dlentry>
+<dlentry>
+<dt>Description</dt>
+<dd>The description of the schedule or alert.</dd>
+</dlentry>
+<dlentry>
+<dt>Enabled</dt>
+<dd>Select this option to activate the schedule or alert. If this option is not selected, the
+schedule or alert does not run.</dd>
+</dlentry>
+<dlentry>
+<dt>Share with external applications</dt>
+<dd>Export this alert to an external application that can use the data. To be exported, an alert
+must relate to a volume mapped to the external application. By default, this option is not
+selected.</dd>
+</dlentry>
+</dl>
+<!--Triggered Actions section of Alert pages-->
+<dl id="triggered_actions">
+<dlentry>
+<dt>SNMP Trap</dt>
+<dd>Select this option to generate an SNMP trap message to any NMS, console, or terminal to indicate
+the occurrence of an alert.</dd>
+</dlentry>
+<dlentry>
+<dt>TEC Event / OMNIbus Event</dt>
+<dd>Select this option to send the alert to the <tm tmtype="reg" trademark="Tivoli">Tivoli</tm>
+Event Console (TEC) or OMNIbus EIF probe server. The TEC administrator can write correlation and
+automation rules to analyze <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> events
+and perform responses such as send further notification, create or update trouble tickets, and run
+programs.</dd>
+</dlentry>
+<dlentry>
+<dt>Login Notification</dt>
+<dd>Select this option to indicate alerts must display to the specified <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> user upon logging in to user interface.</dd>
+</dlentry>
+<dlentry>
+<dt>Login ID</dt>
+<dd>Indicate the ID of the user to receive alert notifications upon logging in to the system.</dd>
+</dlentry>
+<dlentry>
+<dt><tm tmtype="tm" trademark="Windows">Windows</tm> Event Log, Unix Syslog (<tm tmtype="reg" trademark="UNIX">UNIX</tm>)</dt>
+<dd>Select this option to record alerts in the OS Event Log.</dd>
+</dlentry>
+<dlentry>
+<dt>Event Type (<tm tmtype="tm" trademark="Windows">Windows</tm> Event Log only)</dt>
+<dd>Indicate the type of event to record in the <tm tmtype="tm" trademark="Windows">Windows</tm>
+Event Log.</dd>
+</dlentry>
+<dlentry>
+<dt>Facility (<tm tmtype="reg" trademark="UNIX">UNIX</tm> Syslog only)</dt>
+<dd>Indicate where the <tm tmtype="reg" trademark="UNIX">UNIX</tm> Syslog is sent. You can select
+User or Local.</dd>
+</dlentry>
+<dlentry>
+<dt>Level (<tm tmtype="reg" trademark="UNIX">UNIX</tm> Syslog only)</dt>
+<dd>Select the level of <tm tmtype="reg" trademark="UNIX">UNIX</tm> Syslog event. You can select
+Informational, Notice, Warning, Error, Critical, or Alert.</dd>
+</dlentry>
+<dlentry>
+<dt>Run Script</dt>
+<dd>Select this option to run a script in response to this alert. Click
+<uicontrol>Define</uicontrol> to specify a script to run and the computer on which it must run.</dd>
+</dlentry>
+<dlentry>
+<dt>Email</dt>
+<dd>Select this option to send alert notifications to the specified email addresses. The following
+fields become active when you select this option:<dl>
+<dlentry>
+<dt>Email Recipients</dt>
+<dd>You can view, add, and delete email addresses for the alert notification. Use the first box in
+the section to enter the email addresses you want to include for the alert notification. The box
+that follows displays the email addresses already associated with the alert notification.</dd>
+</dlentry>
+<dlentry>
+<dt>Add</dt>
+<dd>Click this button to add an email address you entered in the <uicontrol>Email
+Recipients</uicontrol> field.</dd>
+</dlentry>
+<dlentry>
+<dt>Del</dt>
+<dd>Click this button to delete the email address you highlighted in the <uicontrol>Email
+Recipients</uicontrol> list box.</dd>
+</dlentry>
+<dlentry>
+<dt>Edit email</dt>
+<dd>Click this button to edit the text of the email alert notification on the Edit Text of the email
+Message panel.</dd>
+</dlentry>
+</dl></dd>
+</dlentry>
+</dl>
+</section>
+<section id="zone_action_section">
+<note type="tip">You must have Fabric administrator authority to perform fabric-control
+tasks.</note>
+<dl>
+<dlentry>
+<dt>Create new zone</dt>
+<dd>Click to create a new zone. In the <uicontrol>Zone name</uicontrol> field, type the name of the
+new zone. The ports that are listed in the field that follows are added to the new zone.</dd>
+</dlentry>
+<dlentry>
+<dt>Update existing zone</dt>
+<dd>Click to update an existing zone; then, select a zone. The ports that are listed in the field
+that follows are added to the selected zone.</dd>
+</dlentry>
+<dlentry>
+<dt>Do neither</dt>
+<dd>Click to avoid performing any fabric-control tasks. The ports that are listed in the field that
+follows are not able to communicate with the subsystem on this fabric.</dd>
+</dlentry>
+</dl>
+</section>
+<section>
+<title>Storage Subsystem field definition entities</title>
+</section>
+<section>
+<ul>
+<li><ph id="agent_name">Agent Name</ph></li>
+<li><ph id="sefc_volume_capacity">For space-efficient volumes, this value is the amount of storage
+space that is requested for these volumes, not the actual allocated amount. This value can result in
+discrepancies in the overall storage space reported for a storage system that uses space-efficient
+volumes. This situation also applies to other space calculations, such as the calculations for the
+storage system's Consumable (Available) Volume Space and <tm tmtype="reg" trademark="FlashCopy">FlashCopy</tm> Target Volume Space.</ph></li>
+<li><ph id="agent_name_desc">Name of the agent on the host system that has HBA with the same Port
+WWN installed. This field is blank if there is not an agent that is installed on a host system that
+has HBA with the same Port WWN installed.</ph></li>
+<li><ph id="agent_net_addr">Agent Network Address</ph></li>
+<li><ph id="agent_net_addr_desc">The fully qualified network name of the agent.</ph></li>
+<li><ph id="agent_os_t">Agent OS Type</ph></li>
+<li><ph id="agent_os_t_desc">Operating system of the computer on which the agent is
+deployed.</ph></li>
+<li><ph id="disk_cap">Disk Capacity</ph></li>
+<li><ph id="disk_cap_desc">OS disk capacity of the volume.</ph></li>
+<li><ph id="disk_path">Disk Path</ph></li>
+<li><ph id="disk_path_desc">Name of the disk as assigned by the operating system.</ph></li>
+<li><ph id="hba_p_wwn">HBA Port WWN</ph></li>
+<li><ph id="hba_p_wwn_desc">worldwide name of the HBA port to which the volume is
+assigned.</ph></li>
+<li><ph id="lun_format">Volume Format</ph></li>
+<li><ph id="lun_format_desc">Indicates the format of the storage volume. The valid values are:
+Unknown, Fixed Block, Block 512, Block 520 Protected, Block 520 Unprotected, 3380, 3390, 3390
+Extended, Count Key Data. The mainframe volumes are identified as 3380, 3390, 3390 Extended, or
+Count Key Data.</ph></li>
+<li><ph id="lun_wwn">Volume WWN</ph></li>
+<li><ph id="lun_wwn_desc">WWN (worldwide name) is an identifier that uniquely identifies a volume,
+as assigned by the storage system.</ph></li>
+<li><ph id="phys_alloc">Physical Allocation</ph></li>
+<li><ph id="phys_alloc_desc">Total amount of disk space that is consumed (overhead + capacity). This
+amount includes the capacity that is obtained by VDisk copies.</ph></li>
+<li><ph id="probe_last_run">Probe Last Run</ph></li>
+<li><ph id="probe_last_run_desc">Date and time when the storage subsystem was last probed.</ph></li>
+<li><ph id="serial_num">Serial Number</ph></li>
+<li><ph id="serial_num_desc">Serial number of a disk.</ph></li>
+<li><ph id="simis_alias">SMIS Host Alias</ph></li>
+<li><ph id="simis_alias_desc">Alias name of the host (computer name) to which the volume is
+assigned. This name might be different from the name of the agent because users can customize the
+host name.</ph></li>
+<li><ph id="strg_sub_type">Storage Subsystem Type</ph></li>
+<li><ph id="strg_sub_type_desc">Type of storage subsystem, such as the <tm tmtype="reg" trademark="IBM">IBM</tm> SAN Volume Controller.</ph></li>
+<li><ph id="unaloc_lun_sp">Unallocated Volume Space</ph></li>
+<li><ph id="unaloc_lun_sp_desc">Volume capacity that is assigned to each computer minus the space
+that is allocated to a logical volume.</ph></li>
+<li><ph id="wwn_match">WWN Match</ph></li>
+<li><ph id="wwn_match_desc">Indicates <systemoutput>Yes</systemoutput> if an agent is installed on
+the host system and was able to match the HBA Port WWN that was returned by a storage subsystem
+probe job. This column displays a value for: <tm tmtype="tm" trademark="Windows">Windows</tm>,
+Solaris, and HP-UX systems if the HBA API client is installed on the host agent.</ph></li>
+<li><ph id="free_sp">Free Space</ph></li>
+<li><ph id="free_sp_desc">Amount of storage space that is available.</ph></li>
+<li><ph id="lun_capac">Volume Capacity</ph></li>
+<li><ph id="lun_capac_desc">Storage capacity that is on a volume.</ph></li>
+<li><ph id="lun_name_da">Volume Name (disk array)</ph></li>
+<li><ph id="lun_name_da_desc">Name that is assigned to a volume by a storage subsystem. For <ph conref="fqz0_entities.dita#fqz0_entities/fastt" />, or <tm tmtype="tm" trademark="DS5000" tmclass="IGNORE">DS5000</tm>, it is the user-created name.</ph></li>
+<li><ph id="lun_name">Volume Name</ph></li>
+<li><ph id="lun_name_desc">Name that is assigned to a volume.</ph></li>
+<li><ph id="capacity">Capacity</ph></li>
+<li><ph id="capacity_desc">Total usable storage capacity of a volume.</ph></li>
+</ul>
+</section>
+<!--<section id="avail_incl_col_section"><dl><dlentry><dt><image href="../tpc/images/rightbut.gif" placement="inline"><alt>right arrow button</alt></image></dt><dd>In the <uicontrol>Available Columns</uicontrol> list, select the columns that you want to include in the report, and then click <image href="../tpc/images/rightbut.gif" placement="inline"><alt>right arrow button</alt></image> to add them to the <uicontrol>Included Columns</uicontrol> field.</dd></dlentry><dlentry><dt><image href="../tpc/images/leftbut.gif" placement="inline"><alt>left arrow button</alt></image></dt><dd>In the <uicontrol>Included Columns</uicontrol> list, select the columns that you want to exclude from the report and then click <image href="../tpc/images/leftbut.gif" placement="inline"><alt>left arrow button</alt></image> to remove them from the report.</dd></dlentry></dl></section>-->
+<section id="avail_included_columns_section">
+<dl>
+<dlentry>
+<dt>Available Columns</dt>
+<dd>Lists the information columns that can be included in the report. The available columns are
+based on what you select in the <uicontrol>Relate File Systems/Logical Volumes To</uicontrol> field.
+</dd>
+</dlentry>
+</dl>
+<dl>
+<dlentry>
+<dt>Included Columns</dt>
+<dd>Lists the information columns that are included in the report. </dd>
+</dlentry>
+</dl>
+</section>
+<section id="avail_included_columns_section2">
+<dl>
+<dlentry>
+<dt>Available Columns</dt>
+<dd>Lists the information columns that can be included in the report.</dd>
+</dlentry>
+</dl>
+<dl>
+<dlentry>
+<dt>Included Columns</dt>
+<dd>Lists the information columns that are included in the report. </dd>
+</dlentry>
+</dl>
+</section>
+<section id="gen_report_section">
+<dl>
+<dlentry>
+<dt>Generate Report</dt>
+<dd>Click this button to generate the report.</dd>
+</dlentry>
+</dl>
+</section>
+<!--<section id="up_down_arrows"><dl><dlentry><dt><image href="fqz0_i_moveup.gif" placement="inline"><alt>up arrow button</alt></image></dt><dd>Moves the selected metric up in the <uicontrol>Selected Columns</uicontrol> list.</dd></dlentry><dlentry><dt><image href="fqz0_i_movedown.gif" placement="inline"><alt>down arrow button</alt></image></dt><dd>Moves the selected metric down in the <uicontrol>Selected Columns</uicontrol> list.</dd></dlentry></dl></section>-->
+<section>
+<!--Following entities added 8/17/06 - 8/19/06-->
+<title>New report column entities added by Rick - WI214 - Storage Subsystem Performance by SVC
+Node</title>
+<ul>
+<li><ph id="rep_node">Node</ph></li>
+<li><ph id="rep_node_desc">The ID of the specified node.</ph></li>
+<li><ph id="rep_read_cache_hits">Read Cache Hits Percentage (overall)</ph></li>
+<li><ph id="rep_read_cache_hits_desc">Percentage of cache hits for both sequential and nonsequential
+read operations, for a particular component over an interval.</ph></li>
+<li><ph id="rep_write_cache_hits">Write Cache Hits Percentage (overall)</ph></li>
+<li><ph id="rep_write_cache_hits_desc">Percentage of cache hits for both sequential and
+nonsequential write operations, for a particular component over an interval.</ph></li>
+<li><ph id="rep_tot_cache_hits">Total Cache Hits Percentage (overall)</ph></li>
+<li><ph id="rep_tot_cache_hits_desc">Percentage of cache hits for both sequential and nonsequential
+read and write operations, for a particular component over an interval.</ph></li>
+<li><ph id="rep_read_trans_size">Read Transfer Size</ph></li>
+<li><ph id="rep_read_trans_size_desc">Average number of KB per I/O for read operations, for a
+particular component over an interval.</ph></li>
+<li><ph id="rep_write_trans_size">Write Transfer Size</ph></li>
+<li><ph id="rep_write_trans_size_desc">Average number of KB per I/O for write operations, for a
+particular component over an interval.</ph></li>
+<li><ph id="rep_ov_trans_size">Overall Transfer Size</ph></li>
+<li><ph id="rep_ov_trans_size_desc">Average number of KB per I/O for read and write operations, for
+a particular component over an interval.</ph></li>
+<li><ph id="rep_disk_cache_trans">Disk to Cache Transfer Rate</ph></li>
+<li><ph id="rep_disk_cache_trans_desc">Average number of I/O operations (track transfers) per second
+for disk to cache transfers, for a particular component over an interval.</ph></li>
+<li><ph id="rep_cache_disk_trans">Cache to Disk Transfer Rate</ph></li>
+<li><ph id="rep_cache_disk_trans_desc">Average number of I/O operations (track transfers) per second
+for cache to disk transfers, for a particular component over an interval.</ph></li>
+<li><ph id="rep_w_cache_delay">Write-cache Delay Percentage</ph></li>
+<li><ph id="rep_w_cache_delay_desc">Percentage of I/O operations that were delayed because of
+write-cache space constraints or other conditions, for a particular component over an interval. (The
+ratio of delayed operations to total I/Os.)</ph></li>
+<li><ph id="rep_w_cache_delay_io">Write-cache Delay I/O Rate</ph></li>
+<li><ph id="rep_w_cache_delay_io_desc">Average number of I/O operations per second that were delayed
+because of write-cache space constraints or other conditions, for a particular component over an
+interval.</ph></li>
+<li><ph id="rep_r_q_time">Read Queue Time</ph></li>
+<li><ph id="rep_r_q_time_desc">Average number of milliseconds that each read operation waited on the
+queue before it is issued to the back-end device, for a particular MDisk or MDisk Group over an
+interval.</ph></li>
+<li><ph id="rep_w_q_time">Write Queue Time</ph></li>
+<li><ph id="rep_w_q_time_desc">Average number of milliseconds that each write operation waited on
+the queue before it is issued to the back-end device, for a particular MDisk or MDisk Group over an
+interval.</ph></li>
+<li><ph id="rep_ov_q_time">Overall Queue Time</ph></li>
+<li><ph id="rep_ov_q_time_desc">Average number of milliseconds that each read and write operation
+that is waited  on the queue before it is issued to the back-end device, for a particular MDisk or
+MDisk Group over an interval.</ph></li>
+<li><ph id="rep_be_read_trans_size">Backend Read Transfer Size</ph></li>
+<li><ph id="rep_be_read_trans_size_desc">Average number of KB per I/O for read operations, for a
+particular component over an interval.</ph></li>
+<li><ph id="rep_be_write_trans_size">Backend Write Transfer Size</ph></li>
+<li><ph id="rep_be_write_trans_size_desc">Average number of KB per I/O for write operations, for a
+particular component over an interval.</ph></li>
+<li><ph id="rep_be_ov_trans_size">Overall Backend Transfer Size</ph></li>
+<li><ph id="rep_be_ov_trans_size_desc">Average number of KB per I/O for read and write operations,
+for a particular component over an interval.</ph></li>
+<li><ph id="rep_port_s_io_rate">Port Send I/O Rate</ph></li>
+<li><ph id="rep_port_s_io_rate_desc">Average number of KB per I/O for read and write operations, for
+a particular component over an interval.</ph></li>
+<li><ph id="rep_port_r_io_rate">Port Receive I/O Rate</ph></li>
+<li><ph id="rep_port_r_io_rate_desc">Average number of I/O operations per second for receive
+operations, for a particular port over an interval.</ph></li>
+<li><ph id="rep_total_port_io_rate">Total Port I/O Rate</ph></li>
+<li><ph id="rep_total_port_io_rate_desc">Average number of I/O operations per second for send and
+receive operations, for a particular port over an interval.</ph></li>
+<li><ph id="rep_port_s_data_rate">Port Send Data Rate</ph></li>
+<li><ph id="rep_port_s_data_rate_desc">Average number of megabytes (2^20 bytes) per second that were
+transferred for send (write) operations, for a particular port over an interval.</ph></li>
+<li><ph id="rep_port_r_data_rate">Port Receive Data Rate</ph></li>
+<li><ph id="rep_port_r_data_rate_desc">Average number of megabytes (2^20 bytes) per second that were
+transferred for receive (read) operations, for a particular port over an interval.</ph></li>
+<li><ph id="rep_total_port_data_rate">Total Port Data Rate</ph></li>
+<li><ph id="rep_total_port_data_rate_desc">Average number of megabytes (2^20 bytes) per second that
+were transferred for send and receive operations, for a particular port over an interval.</ph></li>
+<li><ph id="rep_rahead_cache_hits">Readahead Percentage of Cache Hits</ph></li>
+<li><ph id="rep_rahead_cache_hits_desc">Percentage of all read cache hits, which occurred on
+prestaged data.</ph></li>
+<li><ph id="rep_w_cache_ov_per">Write-cache Overflow Percentage</ph></li>
+<li><ph id="rep_w_cache_ov_per_desc">Percentage of write operations that were delayed because of
+lack of write-cache space, for a particular component over an interval.</ph></li>
+<li><ph id="rep_w_cache_ov_io">Write-cache Overflow I/O Rate</ph></li>
+<li><ph id="rep_w_cache_ov_io_desc">Average number of tracks per second that were delayed because of
+lack of write-cache space, for a particular component over an interval.</ph></li>
+<li><ph id="rep_w_cache_flush_per">Write-cache Flush-through Percentage</ph></li>
+<li><ph id="rep_w_cache_flush_per_desc">Percentage of write operations that were processed in
+flush-through write mode, for a particular component over an interval.</ph></li>
+<li><ph id="rep_w_cache_flush_io">Write Cache Flush-through I/O Rate</ph></li>
+<li><ph id="rep_w_cache_flush_io_desc">Average number of tracks per second that were processed in
+flush-through write mode, for a particular component over an interval.</ph></li>
+<li><ph id="rep_w_cache_w_thru_per">Write Cache Write-through Percentage</ph></li>
+<li><ph id="rep_w_cache_w_thru_per_desc">Percentage of write operations that were processed in
+write-through write mode, for a particular component over an interval.</ph></li>
+<li><ph id="rep_w_cache_w_thru_io">Write Cache Write-through I/O Rate</ph></li>
+<li><ph id="rep_w_cache_w_thru_io_desc">Average number of tracks per second that were processed in
+write-through write mode, for a particular component over an interval.</ph></li>
+<li><ph id="rep_dirty_w_cache_hits">Dirty Write Percentage of Cache Hits</ph></li>
+<li><ph id="rep_dirty_w_cache_hits_desc">Percentage of all write cache hits, which occurred on
+already dirty data in the cache.</ph></li>
+<li><ph id="rep_cpu_util_per">CPU Utilization Percentage</ph></li>
+<li><ph id="rep_cpu_util_per_desc">Average utilization percentage of the CPU(s) for a particular
+component over an interval.</ph></li>
+<li><ph id="rep_p_h_send_io">Port to Host Send I/O Rate</ph></li>
+<li><ph id="rep_p_h_send_io_desc">Average number of exchanges (I/Os) per second sent to host
+computers by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_h_receive_io">Port to Host Receive I/O Rate</ph></li>
+<li><ph id="rep_p_h_receive_io_desc">Average number of exchanges (I/Os) per second received from
+host computers by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_h_io">Total Port to Host I/O Rate</ph></li>
+<li><ph id="rep_total_p_h_io_desc">Average number of exchanges (I/Os) per second transmitted between
+host computers and a particular component over an interval.</ph></li>
+<li><ph id="rep_p_d_send_io">Port to Disk Send I/O Rate</ph></li>
+<li><ph id="rep_p_d_send_io_desc">Average number of exchanges (I/Os) per second sent to storage
+subsystems by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_d_receive_io">Port to Disk Receive I/O Rate</ph></li>
+<li><ph id="rep_p_d_receive_io_desc">Average number of exchanges (I/Os) per second received from
+storage subsystems by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_d_io">Total Port to Disk I/O Rate</ph></li>
+<li><ph id="rep_total_p_d_io_desc">Average number of exchanges (I/Os) per second transmitted between
+storage subsystems and a particular component over an interval.</ph></li>
+<li><ph id="rep_p_ln_send_io">Port to Local Node Send I/O Rate</ph></li>
+<li><ph id="rep_p_ln_send_io_desc">Average number of exchanges (I/Os) per second sent to other nodes
+in the local SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_ln_receive_io">Port to Local Node Receive I/O Rate</ph></li>
+<li><ph id="rep_p_ln_receive_io_desc">Average number of exchanges (I/Os) per second received from
+other nodes in the local SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_ln_io">Total Port to Local Node I/O Rate</ph></li>
+<li><ph id="rep_total_p_ln_io_desc">Average number of exchanges (I/Os) per second transmitted
+between other nodes in the local SVC cluster and a particular component over an interval.</ph></li>
+<li><ph id="rep_p_rn_send_io">Port to Remote Node Send I/O Rate</ph></li>
+<li><ph id="rep_p_rn_send_io_desc">Average number of exchanges (I/Os) per second sent to nodes in
+the remote SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_rn_receive_io">Port to Remote Node Receive I/O Rate</ph></li>
+<li><ph id="rep_p_rn_receive_io_desc">Average number of exchanges (I/Os) per second received from
+nodes in the remote SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_rn_io">Total Port to Remote Node I/O Rate</ph></li>
+<li><ph id="rep_total_p_rn_io_desc">Average number of exchanges (I/Os) per second transmitted
+between nodes in the remote SVC cluster and a particular component over an interval.</ph></li>
+<li><ph id="rep_p_h_send_data">Port to Host Send Data Rate</ph></li>
+<li><ph id="rep_p_h_send_data_desc">Average number of megabytes (2^20 bytes) per second sent to host
+computers by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_h_receive_data">Port to Host Receive Data Rate</ph></li>
+<li><ph id="rep_p_h_receive_data_desc">Average number of megabytes (2^20 bytes) per second received
+from host computers by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_h_data">Total Port to Host Data Rate</ph></li>
+<li><ph id="rep_total_p_h_data_desc">Average number of megabytes (2^20 bytes) per second transmitted
+between host computers and a particular component over an interval.</ph></li>
+<li><ph id="rep_p_d_send_data">Port to Disk Send Data Rate</ph></li>
+<li><ph id="rep_p_d_send_data_desc">Average number of megabytes (2^20 bytes) per second sent to
+storage subsystems by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_d_receive_data">Port to Disk Receive Data Rate</ph></li>
+<li><ph id="rep_p_d_receive_data_desc">Average number of megabytes (2^20 bytes) per second received
+from storage subsystems by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_d_data">Total Port to Disk Data Rate</ph></li>
+<li><ph id="rep_total_p_d_data_desc">Average number of megabytes (2^20 bytes) per second transmitted
+between storage subsystems and a particular component over an interval.</ph></li>
+<li><ph id="rep_p_ln_send_data">Port to Local Node Send Data Rate</ph></li>
+<li><ph id="rep_p_ln_send_data_desc">Average number of megabytes (2^20 bytes) per second sent to
+other nodes in the local SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_ln_receive_data">Port to Local Node Receive Data Rate</ph></li>
+<li><ph id="rep_p_ln_receive_data_desc">Average number of megabytes (2^20 bytes) per second received
+from other nodes in the local SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_ln_data">Total Port to Local Node Data Rate</ph></li>
+<li><ph id="rep_total_p_ln_data_desc">Average number of megabytes (2^20 bytes) per second
+transmitted between other nodes in the local SVC cluster and a particular component over an
+interval.</ph></li>
+<li><ph id="rep_p_rn_send_data">Port to Remote Node Send Data Rate</ph></li>
+<li><ph id="rep_p_rn_send_data_desc">Average number of megabytes (2^20 bytes) per second sent to
+nodes in the remote SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_p_rn_receive_data">Port to Remote Node Receive Data Rate</ph></li>
+<li><ph id="rep_p_rn_receive_data_desc">Average number of megabytes (2^20 bytes) per second received
+from nodes in the remote SVC cluster by a particular component over an interval.</ph></li>
+<li><ph id="rep_total_p_rn_data">Total Port to Remote Node Data Rate</ph></li>
+<li><ph id="rep_total_p_rn_data_desc">Average number of megabytes (2^20 bytes) per second
+transmitted between nodes in the remote SVC cluster and a particular component over an
+interval.</ph></li>
+<li><ph id="rep_p_ln_send_resp">Port to Local Node Send Response Time</ph></li>
+<li><ph id="rep_p_ln_send_resp_desc">Average number of milliseconds to service each send operation,
+for a particular component over an interval. For SVC, this time is the external response time of the
+transfers.</ph></li>
+<li><ph id="rep_p_ln_rec_resp">Port to Local Node Receive Response Time</ph></li>
+<li><ph id="rep_p_ln_rec_resp_desc">Average number of milliseconds to service all receive
+operations, for a particular component over an interval. For SVC, this time is the external response
+time of the transfers.</ph></li>
+<li><ph id="rep_ov_p_ln_resp">Overall Port to Local Node Response Time</ph></li>
+<li><ph id="rep_ov_p_ln_resp_desc">Average number of milliseconds to service all send and receive
+operations, for a particular component over an interval. For SVC, this time is the external response
+time of the transfers.</ph></li>
+<li><ph id="rep_p_ln_send_q">Port to Local Node Send Queue Time</ph></li>
+<li><ph id="rep_p_ln_send_q_desc">Average number of milliseconds that each send operation waits on
+the queue before it is issued, for a particular component over an interval.</ph></li>
+<li><ph id="rep_p_ln_rec_q">Port to Local Node Receive Queue Time</ph></li>
+<li><ph id="rep_p_ln_rec_q_desc">Average number of milliseconds that each receive operation waits on
+the queue before it is issued, for a particular component over an interval.</ph></li>
+<li><ph id="rep_ov_p_ln_q">Overall Port to Local Node Queue Time</ph></li>
+<li><ph id="rep_ov_p_ln_q_desc">Average number of milliseconds that each operation waits on the
+queue before it is issued, for a particular component over an interval.</ph></li>
+<li><ph id="rep_p_rn_send_resp">Port to Remote Node Send Response Time</ph></li>
+<li><ph id="rep_p_rn_send_resp_desc">Average number of milliseconds it took to service each send
+operation, for a particular component over an interval. For SVC, this time is the external response
+time of the transfers.</ph></li>
+<li><ph id="rep_p_rn_rec_resp">Port to Remote Node Receive Response Time</ph></li>
+<li><ph id="rep_p_rn_rec_resp_desc">Average number of milliseconds it took to service all receive
+operations, for a particular component over an interval. For SVC, this time is the external response
+time of the transfers.</ph></li>
+<li><ph id="rep_ov_p_rn_resp">Overall Port to Remote Node Response Time</ph></li>
+<li><ph id="rep_ov_p_rn_resp_desc">Average number of milliseconds it took to service all send and
+receive operations, for a particular component over an interval. For SVC, this time is the external
+response time of the transfers.</ph></li>
+<li><ph id="rep_p_rn_send_q">Port to Remote Node Send Queue Time</ph></li>
+<li><ph id="rep_p_rn_send_q_desc">Average number of milliseconds that each send operation waits on
+the queue before it is issued, for a particular component over an interval.</ph></li>
+<li><ph id="rep_p_rn_rec_q">Port to Remote Node Receive Queue Time</ph></li>
+<li><ph id="rep_p_rn_rec_q_desc">Average number of milliseconds that each receive operation waits on
+the queue before it is issued, for a particular component over an interval.</ph></li>
+<li><ph id="rep_ov_p_rn_q">Overall Port to Remote Node Queue Time</ph></li>
+<li><ph id="rep_ov_p_rn_q_desc">Average number of milliseconds that each operation waits on the
+queue before it is issued, for a particular component over an interval.</ph></li>
+<li><ph id="rep_gm_w_io">Global Mirror Write I/O Rate</ph></li>
+<li><ph id="rep_gm_w_io_desc">Average number of write operations per second issued to the Global
+Mirror secondary site.</ph></li>
+<li><ph id="rep_gm_ovlap_w_per">Global Mirror Overlapping Write Percentage</ph></li>
+<li><ph id="rep_gm_ovlap_w_per_desc">Average percentage of write operations that are issued to the
+Global Mirror secondary site, which were overlapping writes.</ph></li>
+<li><ph id="rep_gm_ovlap_w_io">Global Mirror Overlapping Write I/O Rate</ph></li>
+<li><ph id="rep_gm_ovlap_w_io_desc">Average number of overlapping write operations per second
+encountered by the Global Mirror primary site.</ph></li>
+<li><ph id="rep_r_cache_size">Read Cache Size</ph></li>
+<li><ph id="rep_r_cache_size_desc">Amount of read cache, in KB, that was in use for a particular
+component, at the start of the particular interval.</ph></li>
+<li><ph id="rep_w_cache_size">Write Cache Size</ph></li>
+<li><ph id="rep_w_cache_size_desc">Amount of write cache, in KB, that was in use for a particular
+component, at the start of the particular interval.</ph></li>
+</ul>
+</section>
+<section id="chng_entity_names">
+<title>Changing entity names</title>
+<p>Some entities do not provide unique, recognizable names when they are discovered or probed. This
+action can result in duplicate entity names in the topology or in report selection lists. To change
+the name of an entity, follow these steps. <ol>
+<li>Right-click the entity in the topology.</li>
+<li>In the menu, select <uicontrol>Launch details panel</uicontrol>.</li>
+<li>In the <uicontrol>Label</uicontrol> field, enter the new name for the entity.</li>
+<li>Click <uicontrol>Save</uicontrol> to save the new name.</li>
+</ol>
+</p>
+</section>
+<section>
+<title>Website references: added by Lloyd 8-24-06</title>
+<dl>
+<dlentry>
+<dt><tm tmtype="tm" trademark="Adobe">Adobe</tm></dt>
+<dd>
+<ul>
+<li><!--Adobe Reader--><!--<ph id="ph_adobe_reader_web_site"> <xref format="html" href="http://www.adobe.com/products/acrobat/readstep.html" otherprops="nohelp">www.adobe.com/products/acrobat/readstep.html</xref></ph>--></li>
+</ul>
+</dd>
+</dlentry>
+<dlentry>
+<dt>Engenio</dt>
+<dd>
+<ul>
+<li>
+<!--DS4000 DS4000 Series documentation referenced in events topic.-->
+<ph id="ph_eugenio_web_site">
+<xref format="html" href="http://www.engenio.com/default.aspx?pageID=362" otherprops="nohelp" scope="external">http://www.engenio.com/default.aspx?pageID=362</xref>
+</ph>
+</li>
+</ul>
+</dd>
+</dlentry>
+<dlentry>
+<dt><tm tmtype="reg" trademark="IBM">IBM</tm></dt>
+<dd>
+<p><tm trademark="Electronic Service Agent" tmtype="tm" tmclass="IGNORE">Electronic Service Agent</tm><ul>
+<li>
+<!--. They have their own website that they maintain. Do not deprecate this Web address. (KLM)-->
+<ph id="ph_esa_web_site">
+<xref format="html" href="http://www.ibm.com/support/electronic" otherprops="nohelp" scope="external">www.ibm.com/support/electronic/</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmclass="IGNORE" tmtype="reg" trademark="BladeCenter">BladeCenter</tm> support information<ul>
+<li><ph id="ibm_bladecenter_support_web_site"><xref format="html" href="http://www.ibm.com/servers/eserver/support/bladecenter/" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/support/bladecenter/</xref></ph></li>
+</ul></p>
+<!--<p><tm tmtype="reg" trademark="IBM">IBM</tm> <tm tmtype="reg" trademark="DB2">DB2</tm> Infocenter<ul><li> <ph id="ph_db2_infocenter"> <xref format="html" href="http://publib.boulder.ibm.com/infocenter/db2help/index.jsp" otherprops="nohelp">publib.boulder.ibm.com/infocenter/db2help/index.jsp</xref></ph> </li></ul></p>-->
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Director Downloads Web Page<ul>
+<li><ph id="dir_dl_web_site"><xref format="html" href="http://www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/dwnl.html" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/dwnl.html</xref></ph></li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Director InfoCenter<ul>
+<li>
+<!--Infocenter:  Most up-to-date information -->
+<ph id="ph_dir_infocenter_web_site">
+<xref format="html" href="http://publib.boulder.ibm.com/infocenter/eserver/v1r2/topic/diricinfo/frg_main.html" otherprops="nohelp" scope="external">publib.boulder.ibm.com/infocenter/eserver/v1r2/topic/diricinfo/frg_main.html</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Director Ready To Buy website<ul>
+<li>
+<ph id="ready_to_buy_web_site">
+<xref format="html" href="HTTP://www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/buy.htm" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/buy.htm</xref>
+</ph>
+<ph id="ready_to_buy_web_site_brk">
+<xref format="html" href="HTTP://www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/buy.htm" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/buy.htm</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Director Support Web Page<ul>
+<li>
+<!-- -DEFAULT FOR ALL VERSIONS, DOWNLOADS & DOCS Marketing, support:  For all downloads, documents (PDF) including Release Notes, techtips, -->
+<ph id="ph_dir_support_web_site">
+<xref format="html" href="http://www.ibm.com/servers/eserver/xseries/systems_management/ibm_director" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/xseries/systems_management/ibm_director/</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Director SDK Forum<ul>
+<li><ph id="dir_sdk_forum"><xref format="html" href="http://www.ibm.com/developerworks/forums/dw_forum.jsp?forum=849&amp;cat=53" otherprops="nohelp" scope="external">www.ibm.com/developerworks/forums/dw_forum.jsp?forum=849&amp;cat=53</xref></ph></li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Director SDK Information Center<ul>
+<li><ph id="dir_sdk_infocenter"><xref format="html" href="http://publib.boulder.ibm.com/infocenter/dirinfo/toolkit/index.jsp" otherprops="nohelp" scope="external">publib.boulder.ibm.com/infocenter/dirinfo/toolkit/index.jsp</xref></ph></li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> FTP site directory that is used by
+<cmdname>GetFRU</cmdname> command<ul>
+<li>
+<ph id="ph_getfru_ftp_site_directory">pc/pccbbs/bp_server</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> FTP site that is used by <cmdname>GetFRU</cmdname> command<ul>
+<li>
+<ph id="ph_getfru_ftp_site">ftp.software.ibm.com</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Planetwide website<ul>
+<li>
+<ph id="ibm_planetwide_web_site"><xref format="html" href="http://www.ibm.com/planetwide/" otherprops="nohelp" scope="external">www.ibm.com/planetwide/</xref></ph>
+</li>
+</ul></p>
+<!--6 Feb 2019 sd Commented out as causing a warning, and not linked to from any files.
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Remote Support Line website<ul><li> <ph id="ibm_remote_support_line_web_site"><xref format="html" href="http://www.ibm.com/services/us/its/pdf/remotesupportxseries.pdf" otherprops="nohelp" scope="external">www.ibm.com/services/us/its/pdf/remotesupportxseries.pdf</xref></ph> </li></ul></p>-->
+<p><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmclass="IGNORE" tmtype="tm" trademark="ServeRAID">ServeRAID</tm> Software Matrix site<ul>
+<li>
+<ph id="ph_serveraid_software_matrix_site">
+<xref format="html" href="http://www-306.ibm.com/pc/support/site.wss/MIGR-495PES.html" otherprops="nohelp" scope="external">www-306.ibm.com/pc/support/site.wss/MIGR-495PES.html</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Servers website<ul>
+<li>
+<ph id="ph_ibm_servers_web_site">
+<xref format="html" href="http://www.ibm.com/servers/" otherprops="nohelp" scope="external">www.ibm.com/servers/</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Support site<ul>
+<li>
+<ph id="ph_ibm_support_web_site">
+<xref format="html" href="http://www.ibm.com/support/us" otherprops="nohelp" scope="external">www.ibm.com/support/us</xref></ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Support Line and Services website<ul>
+<li>
+<ph id="ibm_support_line_web_site"><xref format="html" href="http://www.ibm.com/services/us/index.wss" otherprops="nohelp" scope="external">www.ibm.com/services/us/index.wss</xref></ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Systems forums website<ul>
+<li>
+<ph id="ph_eserver_forums_web_site">
+<xref format="html" href="http://www.ibm.com/developerworks/forums/dw_esforums.jsp" otherprops="nohelp" scope="external">www.ibm.com/developerworks/forums/dw_esforums.jsp</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Systems forums <tm tmclass="IGNORE" tmtype="reg" trademark="xSeries">xSeries</tm>
+<tm tmtype="reg" trademark="IBM">IBM</tm> Director website<ul>
+<li>
+<ph id="ph_eserver_forums_director_web_site">
+<xref format="html" href="http://www.ibm.com/developerworks/forums/dw_forum.jsp?forum=759&amp;cat=53" otherprops="nohelp" scope="external">www.ibm.com/developerworks/forums/dw_forum.jsp?forum=759&amp;cat=53</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Systems forums <tm tmclass="IGNORE" tmtype="reg" trademark="xSeries">xSeries</tm> server website<ul>
+<li>
+<ph id="ph_eserver_forums_xseries_web_site">
+<xref format="html" href="http://www.ibm.com/developerworks/forums/dw_forum.jsp?forum=740&amp;cat=53" otherprops="nohelp" scope="external">www.ibm.com/developerworks/forums/dw_forum.jsp?forum=740&amp;cat=53</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Systems Information Center<ul>
+<li>
+<ph id="ph_eserver_infocenter_web_site">
+<xref format="html" href="http://www.ibm.com/servers/library/infocenter" otherprops="nohelp" scope="external">www.ibm.com/servers/library/infocenter/</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Systems Software (v1r1) Information Center<ul>
+<li>
+<!--: specific topic URL used by IBM Director TBS topics-->
+<ph id="ph_iseries_for_tbs2_ic">
+<xref format="html" href="http://publib.boulder.ibm.com/infocenter/eserver/v1r1/en_US/info/veicinfo/eicarmanualuninstall.htm#eicarmanualuninstall" otherprops="nohelp" scope="external"><tm tmtype="reg" trademark="IBM">IBM</tm> Systems Software
+Information Center</xref>
+</ph>
+</li>
+<li>
+<ph id="ph_iseries_for_tbs2">
+<xref format="html" href="http://publib.boulder.ibm.com/infocenter/eserver/v1r1/en_US/info/veicinfo/eicarmanualuninstall.htm#eicarmanualuninstall" otherprops="nohelp" scope="external">http://publib.boulder.ibm.com/infocenter/eserver/v1r1/en_US/info/veicinfo/eicarmanualuninstall.htm#eicarmanualuninstall</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Systems Management Software<ul>
+<li>
+<ph id="ph_ibm_systems_management_software_web_site">
+<xref format="html" href="http://www.ibm.com/pc/us/eserver/xseries/systems_management/dwn" otherprops="nohelp" scope="external">www.ibm.com/pc/us/eserver/xseries/systems_management/dwn/</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm> Terminology website<ul>
+<li>
+<ph id="ph_ibm_terminology">
+<xref format="html" href="http://www.ibm.com/ibm/terminology/" otherprops="nohelp" scope="external">www.ibm.com/ibm/terminology</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IBM">IBM</tm>
+<tm tmclass="IGNORE" tmtype="tm" trademark="Virtualization Engine">Virtualization Engine</tm>
+support site<ul>
+<li>
+<ph id="ph_VE_dir_support_web_site">
+<xref format="html" href="http://www.ibm.com/servers/eserver/about/virtualization/enterprise/director.html" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/about/virtualization//director.html</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmtype="reg" trademark="IntelliStation">IntelliStation</tm> support information<ul>
+<li><ph id="ibm_intellistation_support_web_site"><xref format="html" href="http://www.ibm.com/servers/intellistation/pro/already.html" otherprops="nohelp" scope="external">www.ibm.com/servers/intellistation/pro/already.html</xref></ph>
+</li>
+</ul></p>
+<p>Intellistation information<ul>
+<li>
+<ph id="ph_ibm_intellistation_web_site">
+<xref format="html" href="http://www.ibm.com/pc/intellistation/" otherprops="nohelp" scope="external">www.ibm.com/pc/intellistation/</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmclass="IGNORE" tmtype="reg" trademark="iSeries">iSeries</tm> InfoCenter (v5r3)<ul>
+<li>
+<ph id="ph_iseries_for_tbs_ic">
+<xref format="html" href="http://publib.boulder.ibm.com/infocenter/iseries/v5r3/topic/rzaha/rzahajce.htm" otherprops="nohelp" scope="external"><tm tmclass="IGNORE" tmtype="reg" trademark="iSeries">iSeries</tm> Information Center</xref>
+</ph>
+</li>
+<li>
+<ph id="ph_iseries_for_tbs">
+<xref format="html" href="http://publib.boulder.ibm.com/infocenter/iseries/v5r3/topic/rzaha/rzahajce.htm" otherprops="nohelp" scope="external">http://publib.boulder.ibm.com/infocenter/iseries/v5r3/topic/rzaha/rzahajce.htm</xref>
+</ph>
+</li>
+<li>
+<!--iSeries (v3r5) InfoCenter: another specific topic URL used by IBM Director TBS topics-->
+<ph id="ph_iseries_for_tbs3_ic">
+<xref format="html" href="http://publib.boulder.ibm.com/infocenter/iseries/v5r3/topic/rzahz/nls.htm" otherprops="nohelp" scope="external"><tm tmclass="IGNORE" tmtype="reg" trademark="iSeries">iSeries</tm> Information Center</xref>
+</ph>
+</li>
+<li>
+<ph id="ph_iseries_for_tbs3">
+<xref format="html" href="http://publib.boulder.ibm.com/infocenter/iseries/v5r3/topic/rzahz/nls.htm" otherprops="nohelp" scope="external">http://publib.boulder.ibm.com/infocenter/iseries/v5r3/topic/rzahz/nls.htm</xref>
+</ph>
+</li>
+</ul></p>
+<p>Remote Deployment Manager<ul>
+<li>
+<ph id="ph_rdm_web_site">
+<xref format="html" href="http://www.ibm.com/servers/eserver/xseries/systems_management/sys_migration/rdm.html" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/xseries/systems_management/sys_migration/rdm.html</xref>
+</ph>
+</li>
+</ul></p>
+<p>RSA II Overview
+<!--19 Feb 2019 sd Commented out as not used, 185095--><!--<ul><li> <ph id="ph_rsa_ii_overview_web_site"> <xref format="html" href="http://www.ibm.com/support/docview.wss?uid=psg1MIGR-50116" otherprops="nohelp" scope="external">www.ibm.com/support/docview.wss?uid=psg1MIGR-50116</xref> </ph> </li></ul>--></p>
+<p>RSA Overview
+<!--19 Feb 2019 sd Commented out as not used, 185095--><!--<ul><li> <ph id="ph_rsa_overview_web_site"> <xref format="html" href="http://www.ibm.com/support/docview.wss?uid=psg1MIGR-4UKSML" otherprops="nohelp" scope="external">www.ibm.com/support/docview.wss?uid=psg1MIGR-4UKSML</xref> </ph> </li></ul>--></p>
+<p>ServerProven<ul>
+<li>
+<ph id="ph_serverproven_web_site">
+<xref format="html" href="http://www.ibm.com/servers/eserver/serverproven/compat/us/" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/serverproven/compat/us/</xref>
+</ph>
+</li>
+</ul></p>
+<p>UpdateXpress<ul>
+<li>
+<ph id="ph_ux_web_site">
+<xref format="html" href="http://www.ibm.com/servers/eserver/xseries/systems_management/sys_migration/xpress.html" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/xseries/systems_management/sys_migration/xpress.html</xref>
+</ph>
+</li>
+</ul></p>
+<!--<p>VMM Site<ul><li> <ph id="ph_vmm_web_site"> <xref format="html" href="http://www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/vmm.html" otherprops="nohelp">www.ibm.com/servers/eserver/xseries/systems_management/xseries_sm/vmm.html</xref></ph> </li></ul></p>-->
+<p><tm tmclass="IGNORE" tmtype="reg" trademark="xSeries">xSeries</tm> information<ul>
+<li>
+<ph id="ph_ibm_xseries_web_site">
+<xref format="html" href="http://www.ibm.com/eserver/xseries/" otherprops="nohelp" scope="external">www.ibm.com/eserver/xseries/</xref>
+</ph>
+</li>
+</ul></p>
+<p><tm tmclass="IGNORE" tmtype="reg" trademark="xSeries">xSeries</tm> support information<ul>
+<li><ph id="ibm_xseries_support_web_site"><xref format="html" href="http://www.ibm.com/servers/eserver/support/xseries/index.html" otherprops="nohelp" scope="external">www.ibm.com/servers/eserver/support/xseries/index.html</xref></ph>
+</li>
+</ul></p>
+</dd>
+</dlentry>
+<dlentry>
+<dt>Database Info</dt>
+<dd>
+<ul>
+<li><!--Microsoft SQL Server--><!--<ph id="ph_sqlserver_docs"> <xref format="html" href="http://www.microsoft.com/sql/support/default.mspx" otherprops="nohelp">www.microsoft.com/sql/support/default.mspx</xref> </ph>--></li>
+<li><!--MSDE 2000--><!--<ph id="ph_msde_docs"> <xref format="html" href="http://www.microsoft.com/sql/msde/support/default.asp" otherprops="nohelp">www.microsoft.com/sql/msde/support/default.asp</xref> </ph>--></li>
+<li><!--Oracle Server--><!--<ph id="ph_oracle_docs"> <xref format="html" href="http://www.oracle.com/technology/documentation/database10g.html" otherprops="nohelp">www.oracle.com/technology/documentation/database10g.html</xref> </ph>--></li>
+<li><!--PostgreSQL--><!--<ph id="ph_postgresql_docs"> <xref format="html" href="http://www.postgresql.org/docs/" otherprops="nohelp">www.postgresql.org/docs/</xref> </ph>--></li>
+<li><!--Apache Derby--><!--<ph id="ph_apache_derby_docs"> <xref format="html" href="http://incubator.apache.org/derby/manuals/index.html" otherprops="nohelp">incubator.apache.org/derby/manuals/index.html</xref></ph>--></li>
+</ul>
+</dd>
+</dlentry>
+<dlentry>
+<dt><tm trademark="Red Hat" tmtype="reg">Red Hat</tm></dt>
+<dd>
+<ul>
+<li><!--Red Hat Updates (used in a TBS topic)--><!--<ph id="ph_red_hat_updates"> <xref format="html" href="https://www.redhat.com/security/updates/notes/" otherprops="nohelp">www.redhat.com/security/updates/notes/</xref> </ph>--></li>
+</ul>
+</dd>
+</dlentry>
+</dl>
+</section>
+<section>
+<title>Data Path Explorer items added by Sue Norris 8/22/07</title>
+</section>
+<!--11/11/07 dp I removed quotation marks that preceded all xrefs (was creating double quotation marks in output)
+16 November 12 ck eReview for 5.1.1, plus was very messy. Needs more work.
+19 Sept 2013 PL Removed link to topic fqz0_t_monitoring_storage-subsystem_performance.dita in step 5. The topic was removed from 5.2.-->
+<section><!--<p id="dpeprereq">To use Data Path Explorer for debugging performance problems, complete the following steps to ensure that information in the view is current.<ol><li>In the Topology Viewer, right-click and select <uicontrol>Global Settings</uicontrol> from the menu. </li><li>Select the <uicontrol>Performance</uicontrol> check box to enable the performance overlay. </li><li>Click <uicontrol>OK</uicontrol>.</li><li>Ensure that I/O is running on the host system.</li><li>Create a threshold alert. For information about threshold alerts, see <xref href="fqz0_t_scenario_create_alert_performance_threshold.dita"/>.</li><li>Create and run performance monitors on the switches and storage subsystems that you want to view. </li><li>Run a discovery for the CIM agents and Storage Resource agents.</li><li>Run a probe to collect data about the storage subsystems, fabrics, and Storage Resource agents.</li><li>Run a performance monitor to collect performance data for the storage subsystems and switches that you want to view. For information about how to create and run performance monitors, see <xref href="fqz0_t_creating_perf_monitors.dita"/>.</li></ol></p>--></section>
+<section>
+<title>Analyze tiering, balancing pools, and transforming volumes wizards</title>
+<p><keyword id="more_info_req_wz_page">More Information Required</keyword></p>
+<p><uicontrol id="mnu_opt_start_opt_wz"><keyword>Analyze Tiering</keyword></uicontrol></p>
+<p><wintitle id="opt_storage_wz_title">Analyze Tiering</wintitle></p>
+<p><uicontrol id="mnu_transform_wz"><keyword>Transform Storage</keyword></uicontrol></p>
+<p><wintitle id="transform_wz_title">Transform Storage</wintitle></p>
+<p><uicontrol id="mnu_balance_pools__wz"><keyword>Balance Pools</keyword></uicontrol></p>
+<p><wintitle id="balance_pools_wz_title">Balance Pools</wintitle></p>
+<p><uicontrol id="migration_option">Migrate Pool</uicontrol></p>
+<p><uicontrol id="easy_tier_option">Easy Tier</uicontrol></p>
+<p><uicontrol id="thin_provisioning_option">Thin Provisioning</uicontrol></p>
+<p><uicontrol id="compression_option">Compression</uicontrol></p>
+<p><uicontrol id="activity_ch_pools">Activity</uicontrol></p>
+<p><uicontrol id="deviation_pc_ch_pools">Activity Deviation (%)</uicontrol></p>
+<p>
+<dl>
+<dlentry id="original_activity">
+<dt>Original Activity</dt>
+<dd>The activity level of the pool. The value for the activity level of the pool is estimated based
+on the performance data that was collected on the previous day or over the period that was specified
+by the user.</dd>
+</dlentry>
+</dl>
+</p>
+<p>
+<dl>
+<dlentry id="projected_activity">
+<dt>Projected Activity</dt>
+<dd>The projected activity level of the pool when the recommendations are implemented.</dd>
+</dlentry>
+</dl>
+</p>
+<p>
+<dl>
+<dlentry id="original_deviation_pc">
+<dt>Original Activity Deviation (%)</dt>
+<dd>The difference in percent between the activity level of the pool and the average activity level
+of all of the pools on the same tier and in the same storage system. A positive deviation value
+indicates that the pool has an above average activity level in relation to other pools on the same
+tier. A negative deviation value indicates that the pool has a below average activity level in
+relation to other pools on the same tier.</dd>
+</dlentry>
+</dl>
+</p>
+<p>
+<dl>
+<dlentry id="projected_deviation_pc">
+<dt>Projected Activity Deviation (%)</dt>
+<dd>The projected activity deviation % of the pool when the recommendations are implemented. </dd>
+</dlentry>
+</dl>
+</p>
+<p>
+<note id="tip_actvity_deviation" type="tip">On the <wintitle>Pools</wintitle> page, the activity
+level of the pool is shown in the <uicontrol>Activity</uicontrol> column. The difference between the
+activity level of the pool and all of the other pools on the same tier and storage system is shown
+in the <uicontrol>Activity Deviation (%)</uicontrol> column.</note>
+</p>
+<p><!--11/Dec/2012 jw added keyword for Analyze Tiering wizard--><keyword id="kstoptwiz">Analyze
+Tiering</keyword></p>
+<p><keyword id="tiering_analysis_pg">Tiering Analysis</keyword></p>
+<p><keyword id="balance_pools_analysis_pg">Balance Pools Analysis</keyword></p>
+<p><keyword id="transform_storage_analysis_pg">Transform Storage Analysis</keyword></p>
+<!--PL Property pages that are displayed when you close the wizards-->
+<p><keyword id="prop_pg_analyze_tiering">Tiering Analysis</keyword></p>
+<p><keyword id="prop_pg_balance_pools">Balance Analysis</keyword></p>
+<p><keyword id="prop_pg_transform_storage">Transform Plan</keyword></p>
+</section>
+<section>
+<title>TPC-R Directories</title>
+<!--090513 ds updated for changes to directory structure in 5.2-->
+<ul>
+<li><!--replicationServer directory - TPC-R Open--><filepath id="replicationServer_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/</filepath></li>
+<li><!--replicationServer directory - TPC-R for System z--><filepath id="replicationServer_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/</filepath></li>
+<li><!--properties directory - TPC-R Open--><filepath id="properties_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/properties/</filepath></li>
+<li><!--properties directory - TPC-R for System z--><filepath id="properties_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/properties/</filepath></li>
+<li><!--database directory - TPC-R Open--><filepath id="db_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/database/</filepath></li>
+<li><!--database directory - TPC-R for System z--><filepath id="db_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/database/</filepath></li>
+<li><!--csmdb directory - TPC-R Open--><filepath id="csmdb_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/database/csmdb/</filepath></li>
+<li><!--csmdb directory - TPC-R for System z--><filepath id="csmdb_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/database/csmdb/</filepath></li>
+<li><!--backup database directory - TPC-R Open--><filepath id="backup_db_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/database/backup/</filepath></li>
+<li><!--backup database directory - TPC-R for System z--><filepath id="backup_db_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/database/backup/</filepath></li>
+<li><!--logs directory - TPC-R Open--><filepath id="logs_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/logs/</filepath></li>
+<li><!--logs directory - TPC-R for System z--><filepath id="logs_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/logs/</filepath></li>
+<li><!--logs ethmt directory - TPC-R Open--><filepath id="ethmt_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/logs/ethmt/log/</filepath></li>
+<li><!--logs ethmt directory - TPC-R for System z--><filepath id="ethmt_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/logs/ethmt/log/</filepath></li>
+<li><!--logs csm directory - TPC-R Open--><filepath id="csm_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/logs/CSM/</filepath></li>
+<li><!--logs csm directory - TPC-R for System z--><filepath id="csm_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/logs/CSM/</filepath></li>
+<li><!--diagnostics directory - TPC-R Open--><filepath id="diagnostics_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/diagnostics/</filepath></li>
+<li><!--diagnostics directory - TPC-R for System z--><filepath id="diagnostics_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/diagnostics/</filepath></li>
+<li><!--etc directory - TPC-R Open--><filepath id="etc_dir"><varname>TPC_install_directory</varname>/wlp/usr/servers/replicationServer/etc/</filepath></li>
+<li><!--etc directory - TPC-R for System z--><filepath id="etc_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/wlp/usr/servers/replicationServer/etc/</filepath></li>
+<li><!--CLI directory - TPC-R Open--><filepath id="cli_dir"><varname>TPC_install_directory</varname>/cli/</filepath></li>
+<li><!--CLI directory - TPC-R for System z--><filepath id="cli_dir_z"><varname>path_prefix</varname>/opt/Tivoli/RM/cli/</filepath></li>
+</ul>
+</section>
+<section>
+<!-- Note to translators:  do not translate the following <title> tag content -->
+<title>Host names and domain names</title>
+<!-- Note to translators:  do not translate the following example.com keyword elements-->
+<!--14 Nov 2013 eoc Changed references to "tpcserver#" to "system#"-->
+<p><keyword id="host_tpcserver1" translate="no">system1</keyword></p>
+<p><keyword id="fqdn_example_com" translate="no">system1.tpc.example.com</keyword></p>
+<p><keyword id="fqdn2_example_com" translate="no">system1.srm.tpc.example.com</keyword></p>
+<p><keyword id="fqdn3_example_com" translate="no">system2.tpc.example.com</keyword></p>
+<p><keyword id="cluster_example_com" translate="no">system1.tpc.example.com:
+kq98n5d.acct</keyword></p>
+</section>
+<section>
+<title>Data collector</title>
+<p>
+<note type="tip" othertype="offpremonly" id="dedicated_user">Why not create a dedicated user account
+to manage the monitoring of your storage systems more efficiently? So, instead of using an existing
+user account, create a new user account to connect to and collect metadata from your storage
+resources.</note>
+</p>
+</section>
+<section>
+<title>What "<tm trademark="IBM Spectrum" tmtype="reg">IBM Spectrum</tm> Virtualized" is used to refer to</title>
+<p><ph id="systems_that_run_spectrum_virtualize">The following storage systems run <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize" /> to virtualize their storage:
+<keyword conref="fqz0_entities.dita#fqz0_entities/ksvc" />, <ph otherprops="535_192409new"><keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize_cloud" />, </ph><keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize_software_only" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kstor_family" />, <ph otherprops="536_195987new"><keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_5000_short" />, </ph><ph otherprops="536_196521new"><keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_5100_short" />, </ph><ph otherprops="536_195987new"><keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_7200_short" />, </ph><keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_9100_short" />, <ph otherprops="536_196522new"><keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_9200_short" />, </ph>and <keyword conref="fqz0_entities.dita#fqz0_entities/kflashsystem_V9000_short" />.</ph></p>
+<p><ph id="spectrum_virtualize_refers_to">In this documentation, <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize" /> is used to refer collectively to
+<keyword conref="fqz0_entities.dita#fqz0_entities/ksvc_full" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize_cloud" />, <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize_software_only" />, and <keyword conref="fqz0_entities.dita#fqz0_entities/kstorwize" /> storage systems, and to <keyword conref="fqz0_entities.dita#fqz0_entities/kflash_family" /> devices that run <keyword conref="fqz0_entities.dita#fqz0_entities/kspectrum_virtualize" />.</ph></p>
+</section>
+</refbody>
+
+</reference><?tm 1617467356504 551 z/OS||xSeries||iSeries||XIV||Windows||WebSphere||Virtualization Engine||VMware vSphere||VMware vCenter Server||UNIX||TotalStorage||Tivoli Enterprise Console||Tivoli||System z||System x||System Storage||Storwize||Slicestor||ServeRAID||Red Hat||Netcool||Linux||Jazz||IntelliStation||IBM Spectrum Virtualize||IBM Spectrum Storage||IBM Spectrum Scale||IBM Spectrum Protect||IBM Spectrum Control||IBM Spectrum Archive||IBM Spectrum Accelerate||IBM Spectrum||IBM FlashSystem||IBM||HyperSwap||GPFS||FlashCopy||Enterprise Storage Server||Electronic Service Agent||Easy Tier||DS8000||DS6000||DS5000||DS4000||DB2||Cognos||BladeCenter||Adobe||Accesser ?>

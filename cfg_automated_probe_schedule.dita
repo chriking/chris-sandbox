@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE reference PUBLIC "-//IBM//DTD DITA IBM Reference//EN"
+ "ibm-reference.dtd">
+<?Pub Sty _display FontColor="red"?>
+<?Pub Inc?>
+<reference id="cfg_automated_probe_schedule" xml:lang="en-us">
+<title>Defining the automated probe schedule</title>
+<shortdesc> Automated probe scheduling simplifies the process of scheduling probes. The start time
+of automated probes is distributed within a time range.</shortdesc>
+<refbody>
+<section>
+<p>To configure the automated probe schedule, click <ph otherprops="offpremonly"><menucascade>
+<uicontrol>Configuration</uicontrol>
+<uicontrol>Automated Probe Schedule</uicontrol>
+</menucascade></ph><ph otherprops="onpremonly"><menucascade>
+<uicontrol>Settings</uicontrol>
+<uicontrol>Automated Probe Schedule</uicontrol>
+</menucascade></ph>. Define the time window for the scheduled automated probes to start. These
+settings have no impact on probes begun in response to an event or on manually scheduled probes. <dl>
+<dlentry>
+<dt>Start Time</dt>
+<dd>Specify the time that you want the run window to begin. The time is formatted in the 24-hour
+system in the time zone of your browser.<?Pub Caret 313?></dd>
+</dlentry>
+<dlentry>
+<dt>End Time</dt>
+<dd>Specify the time that you want the run window to end. The time is formatted in the 24-hour
+system in the time zone of your browser.<?Pub Caret 313?></dd>
+</dlentry>
+</dl></p>
+<p>Click <uicontrol>Save</uicontrol>.</p>
+<p>To change the Start and End times, click <uicontrol>Edit</uicontrol>, specify the new Start and
+End times, and click <uicontrol>Save</uicontrol>. To reset both Start Time and End Time, click
+<uicontrol>Restore Defaults</uicontrol>.</p>
+</section>
+</refbody>
+<?tm 1299670620 2?>
+</reference>
+<?Pub *0000006657?>

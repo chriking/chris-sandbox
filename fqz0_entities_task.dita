@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//IBM//DTD DITA IBM Task//EN" "ibm-task.dtd">
+<?Pub Sty _display FontColor="red"?><?Pub Inc?><task id="fqz0_entities_task" xml:lang="en-us">
+<title>Task entities</title>
+<shortdesc>Entities are provided to be reused in the DITA files for
+the <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc" /> documentation.
+While this file must be translated, it must not be included in the
+information center or the TOC for any deliverable.</shortdesc>
+<taskbody>
+<!--prereq alert_prereqs-->
+<prereq id="alert_prereqs"> <p><!--Added lead-in sentence, per edit prc. mmm 8/11/11-->If
+necessary, complete the following prerequisites before you begin the
+task.</p> <ul id="alert_prereqs_list">
+<!--li script-->
+<li id="script">To run a script after an alert is triggered, create
+the script before the alert. </li>
+<!--li alert_dispositions-->
+<li id="alert_dispositions">If you want to use Simple
+Network Management Protocol (SNMP) traps, <keyword conref="fqz0_entities.dita#fqz0_entities/komni_short" /> events,
+or email as an alert notification, you must first configure these
+settings by using the web-based GUI. In the menu bar of the web-based
+GUI, click <menucascade><uicontrol>Settings</uicontrol><uicontrol>Alert
+Notifications</uicontrol></menucascade>.</li>
+</ul> </prereq>
+<context>If necessary, configure alert notification settings before you begin the task. <!--<ul><li><xref format="dita" href="#fqz0_entities_task/script"/></li><li><xref format="dita" href="#fqz0_entities_task/alert_dispositions"/></li></ul>-->
+</context>
+<steps>
+<!--step description_field-->
+<step id="description_field"><cmd>In the <uicontrol>Description</uicontrol> field,
+type a brief description of the job.</cmd><info /></step>
+<!--step triggering_condition-->
+<step id="triggering_condition"><cmd>In the <uicontrol>Triggering-Condition</uicontrol> area,
+specify the event that triggers the alert:</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Condition</uicontrol> field, select
+the triggering condition.</cmd></substep>
+<substep><cmd>In the <uicontrol>Value</uicontrol> field, type a numeric
+value.</cmd><info>Depending on the triggering condition that you selected,
+this field might be unavailable.</info></substep>
+<substep><cmd>In the <uicontrol>Value Units</uicontrol> field, select
+the unit of measurement.</cmd><info>Depending on the triggering condition
+that you selected, this field might be unavailable.</info></substep>
+</substeps>
+</step>
+<!--step triggering_condition_2-->
+<step id="triggering_condition_2"><cmd>In the <uicontrol>Triggering
+Condition</uicontrol> area, specify the event that triggers the alert.</cmd>
+</step>
+<!--step triggering_condition_3-->
+<step id="triggering_condition_3"><cmd>In the <uicontrol>Triggering
+Condition</uicontrol> pane, specify the event that triggers the alert:</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Condition</uicontrol> field, select
+the triggering condition.</cmd><info> See <xref href="fqz0_r_triggering_conditions.dita" /> for a list of triggering
+conditions that are available for each alert type. </info></substep>
+<substep><cmd>If you selected a performance threshold, specify the
+thresholds:</cmd><info>
+<ol>
+<li>In the <uicontrol>Critical Stress</uicontrol> field, type the upper-threshold boundary. When
+this boundary is exceeded, a critical condition is recognized.</li>
+<li>In the <uicontrol>Warning Stress</uicontrol> field, type the upper-threshold boundary. When this
+boundary is exceeded, a warning condition is recognized.</li>
+<li>In the <uicontrol>Warning Idle</uicontrol> field, type the lower-threshold boundary. When the
+value falls under this boundary, a warning condition is recognized.</li>
+<li>In the <uicontrol>Critical Idle</uicontrol> field, type the lower-threshold boundary. When the
+value falls under this boundary, a critical condition is recognized.</li>
+</ol>
+</info></substep>
+</substeps>
+</step>
+<!--step triggering_condition_4-->
+<step id="triggering_condition_4"><cmd>In the <uicontrol>Triggering
+Condition</uicontrol> area, specify the event that triggers the alert:</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Rdbms Type</uicontrol> field, select
+the type of database application.</cmd><info>You can choose <uicontrol>All
+Rdbms</uicontrol>, <uicontrol>Oracle</uicontrol>, <uicontrol>SQL\Server</uicontrol>, <uicontrol>Sybase</uicontrol>,
+or <uicontrol>UDB</uicontrol>.</info></substep>
+<substep><cmd>In the <uicontrol>Condition</uicontrol> field, select
+the triggering condition.</cmd></substep>
+<substep><cmd>In the <uicontrol>Value</uicontrol> field, type a numeric
+value.</cmd><info>Depending on the triggering condition that you selected,
+this field might be unavailable.</info></substep>
+<substep><cmd>In the <uicontrol>Value Units</uicontrol> field, select
+the unit of measurement.</cmd><info>Depending on the triggering condition
+that you selected, this field might be unavailable.</info></substep>
+</substeps>
+</step>
+<!--step archive_alert-->
+<step id="archive_alert"><cmd>Click the <uicontrol>Alert</uicontrol> tab;
+the <wintitle>Alert</wintitle> page opens. Use the <wintitle>Alert</wintitle> page
+to define the alerting criteria for an archive or backup job.</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Triggering Condition</uicontrol> area,
+the only condition is <uicontrol>File Archive/Backup Failed</uicontrol>.
+This condition indicates that an alert is triggered automatically
+if the archive or backup fails to run.</cmd></substep>
+<substep><cmd>In the <uicontrol>Triggered Actions</uicontrol> area,
+select the actions that occur as a result of the triggering condition
+You can choose from the following actions:</cmd><info><dl><dlentry>
+<dt>SNMP trap</dt>
+<dd>An SNMP trap is sent to any NMS, console, or terminal when the
+condition occurs.</dd>
+</dlentry><dlentry>
+<dt>TEC / OMNIbus Event</dt>
+<dd>A <keyword conref="fqz0_entities.dita#fqz0_entities/ktivec" /> event
+is sent when the condition occurs. The <keyword conref="fqz0_entities.dita#fqz0_entities/ktivec_short" /> administrator
+can write correlation and automation rules to analyze <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> events
+according to the event definitions specified in the <filepath>tivoliSRM.baroc</filepath> file
+(provided with the product). It also performs responses such as sending
+further notification, creating or updating trouble tickets, or running
+programs.</dd>
+</dlentry><dlentry>
+<dt>Login notification</dt>
+<dd>The alert is sent to an <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> user.
+The user receives the alert upon logging in to <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" />. In
+the <uicontrol>Login ID</uicontrol> field, type the user ID.</dd>
+</dlentry><dlentry>
+<dt>Login ID</dt>
+<dd>The ID of the user who receives alert notification upon logging
+on to the system.</dd>
+</dlentry><dlentry>
+<dt><tm trademark="Windows" tmtype="tm">Windows</tm> Event Log, <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog</dt>
+<dd>The ID of the user who receives alert notification upon logging
+on to the system.</dd>
+</dlentry><dlentry>
+<dt>Event Type (<tm trademark="Windows" tmtype="tm">Windows</tm> Event Log only)</dt>
+<dd>The type of event that is recorded to the OS log.</dd>
+</dlentry><dlentry>
+<dt>Facility (<tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog only)</dt>
+<dd>The location where the <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog is sent. You can select User or Local.</dd>
+</dlentry><dlentry>
+<dt>Level (<tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog only)</dt>
+<dd>The level of <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog event. You can select Informational, Notice, Warning, Error, Critical, or Alert.</dd>
+</dlentry><dlentry>
+<dt>Run script</dt>
+<dd>A script is run when the condition occurs. Click <uicontrol>Define</uicontrol> to
+specify the script that is run when the triggering condition occurs.
+The parameters that are listed in the <uicontrol>Specify Script</uicontrol> window
+are passed to the script when the alert is triggered.</dd>
+</dlentry><dlentry>
+<dt>Email</dt>
+<dd>An email is sent. Click <uicontrol>Add</uicontrol> or <uicontrol>Delete</uicontrol> to
+edit the list of email addresses to which an email is sent. Click <uicontrol>Edit
+email</uicontrol> to change the actual email message.</dd>
+</dlentry></dl></info></substep>
+</substeps>
+</step>
+<!--step triggered_actions-->
+<step id="triggered_actions"><cmd>In the <uicontrol>Triggered Actions</uicontrol> area,
+select the actions that occur as a result of the triggering condition
+You can choose from the following actions:</cmd><info><dl><dlentry>
+<dt>SNMP trap</dt>
+<dd>An SNMP trap is sent to any NMS, console, or terminal when the
+condition occurs.</dd>
+</dlentry><dlentry>
+<dt>TEC / OMNIbus Event</dt>
+<dd>A <keyword conref="fqz0_entities.dita#fqz0_entities/ktivec" /> event
+is sent when the condition occurs. The <keyword conref="fqz0_entities.dita#fqz0_entities/ktivec_short" /> administrator
+can write correlation and automation rules to analyze <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> events
+according to the event definitions specified in the <filepath>tivoliSRM.baroc</filepath> file
+(provided with the product). It also performs responses such as sending
+further notification, creating or updating trouble tickets, or running
+programs.</dd>
+</dlentry><dlentry>
+<dt>Login notification</dt>
+<dd>The alert is sent to an <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> user.
+The user receives the alert upon logging in to <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" />. In
+the <uicontrol>Login ID</uicontrol> field, type the user ID.</dd>
+</dlentry><dlentry>
+<dt>Login ID</dt>
+<dd>The ID of the user who receives alert notification upon logging
+in to the system.</dd>
+</dlentry><dlentry>
+<dt><tm trademark="Windows" tmtype="tm">Windows</tm> Event Log, <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog</dt>
+<dd>The ID of the user who receives alert notification upon logging
+in to the system.</dd>
+</dlentry><dlentry>
+<dt>Event Type (<tm trademark="Windows" tmtype="tm">Windows</tm> Event Log only)</dt>
+<dd>The type of event that is recorded to the OS log.</dd>
+</dlentry><dlentry>
+<dt>Facility (<tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog only)</dt>
+<dd>The location where the <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog is sent. You can select User or Local.</dd>
+</dlentry><dlentry>
+<dt>Level (<tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog only)</dt>
+<dd>The level of <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog event. You can select Informational, Notice, Warning, Error, Critical, or Alert.</dd>
+</dlentry><dlentry>
+<dt>Run script</dt>
+<dd>A script is run when the condition occurs. Click <uicontrol>Define</uicontrol> to
+specify the script that is run when the triggering condition occurs.
+The parameters that are listed in the <uicontrol>Specify Script</uicontrol> window
+are passed to the script when the alert is triggered.</dd>
+</dlentry><dlentry>
+<dt>Email</dt>
+<dd>An email is sent. Click <uicontrol>Add</uicontrol> or <uicontrol>Delete</uicontrol> to
+edit the list of email addresses to which an email is sent. Click <uicontrol>Edit
+email</uicontrol> to change the actual email message.</dd>
+</dlentry></dl></info>
+<!--KJE, 7-15-06: Chris King pointed out that this material is incomplete; I need to examine the online help and flesh out this content.-->
+</step>
+<!--KJE, 7-15-06: Is this the format that we want to use for these steps? Or is the one step format that I used in fqz0_t_creating_storage_subsystem_alert.dita better?-->
+<!--step select_entities-->
+<step id="select_entities"><cmd>Select the resources to which you
+want the alert to apply:</cmd><info />
+<substeps>
+<substep><cmd>In the <uicontrol>Available</uicontrol> field, click
+the resources.</cmd></substep>
+<substep><cmd>Click <image href="btmrarrw.jpg" placement="inline"><alt>right arrow button</alt>
+</image>. The resources are moved to the <uicontrol>Current Selections</uicontrol> field.</cmd>
+</substep>
+</substeps>
+</step>
+<step id="select_entities_group"><cmd>Select the storage systems and
+storage system groups to which you want the alert to apply:</cmd><info />
+<substeps>
+<substep><cmd>In the <uicontrol>Available</uicontrol> field, click
+the storage entities.</cmd></substep>
+<substep><cmd>Click <image href="btmrarrw.jpg" placement="inline"><alt>right arrow button</alt>
+</image>. The storage entities are moved to the <uicontrol>Current
+Selections</uicontrol> field.</cmd></substep>
+</substeps>
+</step>
+<!--step save_alert-->
+<step id="save_alert"><cmd>Save the alert:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. </cmd></substep>
+<substep><cmd>In the <wintitle>Save As</wintitle> window, type a name
+for the alert in the <uicontrol>Specify Alert name</uicontrol> field
+and click <uicontrol>OK</uicontrol>.</cmd><stepresult>The alert is
+displayed in the navigation tree.</stepresult></substep>
+</substeps>
+</step>
+<!--step locate_alert-->
+<step id="locate_alert"><cmd>In the navigation tree of the <keyword conref="fqz0_entities.dita#fqz0_entities/ksagui" />, complete
+one of the following actions:</cmd><info><table colsep="0" frame="topbot">
+<tgroup cols="2"><colspec colname="col1" /><colspec colname="col2" />
+<thead>
+<row>
+<entry colname="col1">Alert type</entry>
+<entry colname="col2">Action</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1"><uicontrol>For computer alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kdtm" /> </uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Computer Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For directory alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kdtm" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Directory Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For hypervisor alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kdtm" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Hypervisor Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For instance alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kdtmfd" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Instance Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For database-tablespace alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kdtmfd" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Database-Tablespace Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For table alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kdtmfd" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Table Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For fabric alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kfm" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Fabric Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For endpoint device alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/kfm" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Endpoint Device Alerts</uicontrol>
+</menucascade></entry>
+</row>
+<row>
+<entry colname="col1"><uicontrol>For replication alerts</uicontrol></entry>
+<entry colname="col2">Expand <menucascade><uicontrol><keyword conref="fqz0_entities.dita#fqz0_entities/krepmgr" /></uicontrol>
+<uicontrol>Alerting</uicontrol><uicontrol>Replication Alerts</uicontrol>
+</menucascade></entry>
+</row>
+</tbody>
+</tgroup>
+</table>The list of existing alerts is displayed.</info></step>
+<!--step quota_how_often-->
+<step id="quota_how_often_step"><cmd>In the <uicontrol>How often to
+run</uicontrol> area, schedule how often you want the quota to be
+checked You can choose from the following actions:</cmd><info><dl>
+<dlentry>
+<dt>Run Now</dt>
+<dd>Check the quota immediately.</dd>
+</dlentry><dlentry>
+<dt>Run Once at</dt>
+<dd>Check the quota one time at a specified time and date. You can
+use the drop-down lists to specify the month, day year, and the hour,
+minute, and AM/PM.<!--12/11/07 dp Removed revision bar.--><!--4/25/07, dp Added the following note per CMVC defect 31278--><note>The <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> framework
+that starts the <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> jobs
+finds all jobs in an interval between one minute to the scheduled
+time and the scheduled start time. This action ensures that if many
+jobs are planned to run at a certain time, they will not all start
+after the scheduled start time.</note></dd>
+</dlentry><dlentry>
+<dt>Run Repeatedly</dt>
+<dd>Check the quota repeatedly according to a schedule you specify.
+You can:<ul>
+<li>Use the drop-down lists to specify the month, day year, and the
+hour, minute, and AM/PM when the job is to  begin running. </li>
+<li>Indicate how often the job is to run. You can use the drop-down
+lists to specify the number of minutes, hours, days, weeks, or months.</li>
+<li>Indicate which days on which run the job. A check mark is displayed
+next to the days you select.</li>
+</ul></dd>
+</dlentry></dl></info></step>
+<!--step quota_timezones-->
+<step id="quota_timezones_step"><cmd>In the <uicontrol>How to Handle
+Time Zones</uicontrol> area, indicate the time zone to be used when
+you  schedule and run the policy.</cmd><stepxmp>For example, if you
+selected to run the job at 9:00 AM, you can use the fields to run
+it at these times.</stepxmp>
+<substeps>
+<substep><cmd>9:00 AM of the time zone where the Data server is located</cmd>
+</substep>
+<substep><cmd>9:00 AM of a specific time zone, such as 9:00 AM CST
+or 9:00 GMT.</cmd><stepxmp>For example, if you select 9:00 AM CST,
+the job runs at 7:00 AM on an agent that is  in the PST time zone.</stepxmp>
+</substep>
+</substeps>
+<info><dl><dlentry>
+<dt>Use the timezone that the server runs in</dt>
+<dd>Select this option to use the time zone where the Data server
+is located.</dd>
+</dlentry><dlentry>
+<dt>Use this timezone</dt>
+<dd>Select this option to indicate a specific time zone for when to
+run the job. When you select this option, a drop-down list is activated.
+Select the timezone from this drop-down list.</dd>
+</dlentry></dl></info></step>
+<!--step quota_triggering_condition-->
+<step id="quota_triggering_condition"><cmd>In the <uicontrol>Triggering
+Condition</uicontrol> area, specify the event that triggers the alert:</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Condition</uicontrol> field, the default
+setting is <uicontrol>User Consumes More Than <varname>n</varname></uicontrol>,
+where <varname>n</varname> represents a value that you define in the <uicontrol>Value</uicontrol> field.
+No other conditions are available.</cmd></substep>
+<substep><cmd>In the <uicontrol>Value</uicontrol> field, type a numeric
+value that represents the storage usage limit for the quota. If the
+storage entities selected for the quota (for example, users and user
+groups) exceed this limit, the quota is triggered. </cmd></substep>
+<substep><cmd>In the <uicontrol>Value Units</uicontrol> field, select
+the unit of measurement. kilobytes, megabytes, or gigabytes.</cmd>
+</substep>
+</substeps>
+</step>
+<!--step netapp_quota_triggering_condition-->
+<step id="netapp_quota_triggering_condition"><cmd>In the <uicontrol>Triggering
+Condition</uicontrol> area, specify the event that triggers the alert:</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Condition</uicontrol> field, the default
+setting is <uicontrol>User Consumes More Than <varname>n</varname></uicontrol>,
+where <varname>n</varname> represents a value that you define in the <uicontrol>Value</uicontrol> field.
+No other conditions are available.</cmd></substep>
+<substep><cmd>In the <uicontrol>Value</uicontrol> field, enter the
+value that represents the percentage of a NetApp's hard limit
+at which the alert is triggered. The hard limit represents the most
+amount of space a user or directory (Qtree) can consume on a NAS filer.</cmd>
+<stepxmp>For example, the hard limit that is defined within a NetApp
+Quota for a user group is 150 MB, and you enter <userinput>90</userinput> in
+the <uicontrol>Value</uicontrol> field. The Data Manager quota reports
+a violation when that user group consumes 135 or more megabytes.</stepxmp>
+</substep>
+<substep><cmd>In the <uicontrol>Value Units</uicontrol> field, the
+only value unit available is the % of Hard Limit.</cmd></substep>
+</substeps>
+</step>
+<!--step quota_save-->
+<step id="quota_save"><cmd>Save the quota:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. The <wintitle>Save As</wintitle> window opens.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>Specify Quota name</uicontrol> field,
+type a name for the quota and click <uicontrol>OK</uicontrol>.</cmd>
+<stepresult>The quota is displayed in the navigation tree pane</stepresult>
+</substep>
+</substeps>
+</step>
+<!--step netapp_quota_save-->
+<step id="netapp_quota_save"><cmd>Save the quota:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. The <wintitle>Save As</wintitle> window opens.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>Specify NetApp Quota job name</uicontrol> field,
+type a name for the quota and click <uicontrol>OK</uicontrol>.</cmd>
+<stepresult>The quota is displayed in the Navigation Tree pane</stepresult>
+</substep>
+</substeps>
+</step>
+<!--step imported_netapp_quotas1-->
+<step id="imported_netapp_quotas1"><cmd>In the <wintitle>Users</wintitle> page
+of the Edit <varname>quota_name</varname> window, view the following
+information about imported Network Appliance user quotas.</cmd><info><dl>
+<dlentry>
+<dt>Hard Limit</dt>
+<dd>The hard limit for used space that is defined within the NetApp
+quota.</dd>
+</dlentry><dlentry>
+<dt><tm trademark="Current" tmtype="reg">Current</tm> Selections</dt>
+<dd>The users against which the NetApp quota applies.</dd>
+</dlentry></dl></info></step>
+<!--step imported_netapp_quotas1a-->
+<step id="imported_netapp_quotas1a"><cmd>In the <wintitle>OS Users</wintitle> page
+of the Edit <varname>quota_name</varname> window, view the following
+information about imported Network Appliance OS user quotas.</cmd><info><dl>
+<dlentry>
+<dt>Hard Limit</dt>
+<dd>The hard limit for used space that is defined within the NetApp
+quota.</dd>
+</dlentry><dlentry>
+<dt><tm trademark="Current" tmtype="reg">Current</tm> Selections</dt>
+<dd>The OS users against which the NetApp quota applies.</dd>
+</dlentry></dl></info></step>
+<!--step imported_netapp_quotas2-->
+<step id="imported_netapp_quotas2"><cmd>In the <wintitle>File Systems</wintitle> page
+of the Edit <varname>quota_name</varname> window, view the file systems
+to which the NetApp Quota applies.</cmd><info /></step>
+<!--step constraint_triggering_condition-->
+<step id="constraint_triggering_condition"><cmd>In the <uicontrol>Triggering
+Condition</uicontrol> area, specify the event that triggers the constraint
+alert:</cmd>
+<substeps>
+<substep><cmd>In the <uicontrol>Condition</uicontrol> field, the default
+setting is <uicontrol>User Consumes More Than <varname>n</varname></uicontrol>,
+where <varname>n</varname> represents a value that you define in the <uicontrol>Value</uicontrol> field.
+No other conditions are available.</cmd></substep>
+<substep><cmd>In the <uicontrol>Value</uicontrol> field, type a numeric
+value that represents the amount of space a file must consume to violate
+the constraint.</cmd></substep>
+<substep><cmd>In the <uicontrol>Value Units</uicontrol> field, select
+the unit of measurement. kilobytes, megabytes, or gigabytes.</cmd>
+</substep>
+</substeps>
+<info>Once Data Manager finds enough files that violate the condition
+(that exceed the total size amount you specified), the constraint
+is considered violated and the alert is triggered. When the alert
+is triggered, the actions that you specify in the <uicontrol>Triggered
+Actions</uicontrol> section are taken.</info></step>
+<!--step constraint_triggered_actions-->
+<step id="constraint_triggered_actions"><cmd>In the <uicontrol>Triggered
+Actions</uicontrol> area, select the actions that occur as a result
+of the triggering condition You can choose from the following actions:</cmd>
+<info><dl><dlentry>
+<dt>SNMP trap</dt>
+<dd>An SNMP trap is sent to any NMS, console, or terminal when the
+condition occurs.</dd>
+</dlentry><dlentry>
+<dt>TEC / OMNIbus Event</dt>
+<dd>A<keyword conref="fqz0_entities.dita#fqz0_entities/ktivec" /> event
+is sent when the condition occurs. The <keyword conref="fqz0_entities.dita#fqz0_entities/ktivec_short" /> administrator
+can write correlation and automation rules to analyze <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> events
+according to the event definitions specified in the <filepath>tivoliSRM.baroc</filepath> file
+(provided with the product). It also performs responses such as sending
+further notification, creating or updating trouble tickets, or running
+programs.</dd>
+</dlentry><dlentry>
+<dt>Login notification</dt>
+<dd>The alert is sent to an <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> user.
+The user receives the alert upon logging in to <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" />. In
+the <uicontrol>Login ID</uicontrol> field, type the user ID.</dd>
+</dlentry><dlentry>
+<dt>Login ID</dt>
+<dd>The ID of the user who receives alert notification upon logging
+in to the system.</dd>
+</dlentry><dlentry>
+<dt><tm trademark="Windows" tmtype="tm">Windows</tm> Event Log, <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog</dt>
+<dd>The ID of the user who receives alert notification upon logging
+in to the system.</dd>
+</dlentry><dlentry>
+<dt>Event Type (<tm trademark="Windows" tmtype="tm">Windows</tm> Event Log only)</dt>
+<dd>The type of event that is recorded to the OS log.</dd>
+</dlentry><dlentry>
+<dt>Facility (<tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog only)</dt>
+<dd>The location where the <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog is sent. You can select User or Local.</dd>
+</dlentry><dlentry>
+<dt>Level (<tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog only)</dt>
+<dd>The level of <tm trademark="UNIX" tmtype="reg">UNIX</tm> Syslog event. You can select Informational, Notice, Warning, Error, Critical, or Alert.</dd>
+</dlentry><dlentry>
+<dt>Run script</dt>
+<dd>A script is run when the condition occurs. Click <uicontrol>Define</uicontrol> to
+specify the script that is run when the triggering condition occurs.
+The parameters that are listed in the <uicontrol>Specify Script</uicontrol> window
+are passed to the script when the alert is triggered.</dd>
+</dlentry><dlentry>
+<dt>Archive / Backup</dt>
+<dd>A <tm trademark="Tivoli" tmtype="reg">Tivoli</tm> Storage Manager (TSM) archive/backup job is run in response to this alert. Click <uicontrol>Define</uicontrol> to define the job.
+The Archive/Backup Options dialog box displays. You can define a TSM
+archive/backup job for the alert.</dd>
+</dlentry><dlentry>
+<dt>Email</dt>
+<dd>An email is sent. Click <uicontrol>Add</uicontrol> or <uicontrol>Delete</uicontrol> to
+edit the list of email addresses to which an email is sent. Click <uicontrol>Edit
+email</uicontrol> to change the actual email message.</dd>
+</dlentry></dl></info></step>
+<!--step constraint_save-->
+<step id="constraint_save"><cmd>Save the constraint:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. The <wintitle>Save As</wintitle> window opens.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>Specify Constraint name</uicontrol> field,
+type a name for the constraint and click <uicontrol>OK</uicontrol>.</cmd>
+<stepresult>The constraint is displayed in the navigation tree pane.
+The constraint is automatically checked whenever an appropriate scan
+job is run.</stepresult></substep>
+</substeps>
+</step>
+<!--step constraint_ab_save-->
+<step id="constraint_ab_save"><cmd>Save the constraint:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. The <wintitle>Save As</wintitle> window opens.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>Specify Constraint name</uicontrol> field,
+type a name for the constraint and click <uicontrol>OK</uicontrol>.</cmd>
+<stepresult>The constraint is displayed in the navigation tree pane.
+The constraint is automatically checked whenever an appropriate scan
+job is run.</stepresult></substep>
+</substeps>
+<info>For more information about each of the TSM actions you can select
+when you define triggered actions for a constraint, see the <cite><tm trademark="IBM" tmtype="reg">IBM</tm> <tm trademark="Tivoli" tmtype="reg">Tivoli</tm> Storage Manager Client User's Guide</cite></info></step>
+<!--step extension_how_often-->
+<step id="extension_how_often"><cmd>In the <uicontrol>How often to
+run</uicontrol> area, schedule how often you want to enforce the policy.
+You can choose from the following actions:</cmd><info><dl><dlentry>
+<dt>Enforce policy after every Probe or Scan</dt>
+<dd>Enforce the policy after every probe or scan that is run against
+the selected file systems. If you want to automate file system extension,
+choose to apply the policy after every new probe or scan.</dd>
+</dlentry><dlentry>
+<dt>Run Now</dt>
+<dd>Enforce the policy immediately.</dd>
+</dlentry><dlentry>
+<dt>Run Once at</dt>
+<dd>Check the quota one time at a specified time and date. You can
+use the drop-down lists to specify the month, day year, and the hour,
+minute, and AM/PM.<!--12/11/07 dp Removed revision bar.--><!--4/25/07, dp Added the following note per CMVC defect 31278--><note>The <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> framework
+that starts the <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> jobs
+finds all jobs in an interval between one minute to the scheduled
+time and the scheduled start time. This action ensures that if many
+jobs are planned to run at a certain time, they will not all start
+after the scheduled start time.</note></dd>
+</dlentry></dl><note>If the policy applies to multiple file systems
+and you select <uicontrol>Run Now</uicontrol> or <uicontrol>Run Once
+at</uicontrol>, messages specific to each file system are placed in
+the log file. Messages for multiple file systems can make it difficult
+to troubleshoot errors. To avoid this issue, you can select one policy
+at a time and then select <uicontrol>Run Now</uicontrol>.</note></info>
+</step>
+<!--step extension_triggering_condition-->
+<step id="extension_triggering_condition"><cmd>In the <uicontrol>Triggering
+Condition</uicontrol> area, specify the alerting criteria for the
+file system extension. In the <uicontrol>Condition</uicontrol> field,
+the default setting is <uicontrol>A filesystem extension action started
+automatically</uicontrol>. No other conditions are available.</cmd>
+<info>When a file system is extended by the policy, an alert is triggered.
+When the alert is triggered, the actions you specified in the Triggered
+Actions section are taken.</info></step>
+<!--step extension_save-->
+<step id="extension_save"><cmd>Save the file system extension:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. The <wintitle>Save As</wintitle> window opens.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>Specify Filesystem Extension Rule
+name</uicontrol> field, type a name for the job and click <uicontrol>OK</uicontrol>.</cmd>
+<stepresult>The file system extension is displayed in the navigation
+tree pane. </stepresult></substep>
+</substeps>
+</step>
+<!--step action_how_often-->
+<step id="action_how_often"><cmd>In the <uicontrol>How often to run</uicontrol> area,
+schedule how often you want to run the script that is associated with
+the action. You can choose from the following options:</cmd><info><dl>
+<dlentry>
+<dt>Run Now</dt>
+<dd>Run the script immediately.</dd>
+</dlentry><dlentry>
+<dt>Run Once at</dt>
+<dd>Run the script one time at a specified time and date. You can
+use the drop-down lists to specify the month, day year, and the hour,
+minute, and AM/PM.<!--12/11/07, dp Removed revision bar.--><!--4/25/07, dp Added the following note per CMVC defect 31278--><note>The <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> framework
+that starts the <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> jobs
+finds all jobs in an interval between one minute to the scheduled
+time and the scheduled start time. This process ensures that if many
+jobs are planned to run at a certain time, they will not all start
+after the scheduled start time.</note></dd>
+</dlentry><dlentry>
+<dt>Run Repeatedly</dt>
+<dd>Run the script repeatedly according to a schedule you specify.
+You can:<ul>
+<li>Use the drop-down lists to specify the month, day year, and the
+hour, minute, and AM/PM when the job is to begin running. </li>
+<li>Indicate how often the job is to run. You can use the drop-down
+lists to specify the number of minutes, hours, days, weeks, or months.</li>
+<li>Indicate which days on which run the job. A check mark is displayed
+next to the days that you select.</li>
+</ul></dd>
+</dlentry></dl></info></step>
+<!--step action_save-->
+<step id="action_save"><cmd>Save the scheduled action:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. The <wintitle>Save As</wintitle> window opens.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>Specify Script name</uicontrol> field,
+type a name for the job and click <uicontrol>OK</uicontrol>.</cmd>
+<stepresult>The scheduled action is displayed in the navigation tree
+pane. </stepresult></substep>
+</substeps>
+</step>
+<!--step archive_backup_options
+6/15/10 ck 49808-->
+<step id="archive_backup_options"><cmd>In the <uicontrol>Archive/Backup
+Options</uicontrol> tab, select the type of the job and its TSM command
+options, if any.</cmd><info><dl><dlentry>
+<dt>Archive</dt>
+<dd>Use this option to archive the files that violate a constraint.
+Archives are copies of data from online storage copies to auxiliary
+storage.<dl><dlentry>
+<dt>Delete After Successful Archival</dt>
+<dd>Automatically delete the files that violated the constraint after
+they are successfully archived. See the <cite><tm trademark="IBM" tmtype="reg">IBM</tm> <tm trademark="Tivoli" tmtype="reg">Tivoli</tm> Storage Manager Client User's Guide</cite> for more information about <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> archives.<note><keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> administrators
+(Productivity Center Administrator role) can delete files even if
+they do not have the authority on the systems where the files are
+stored. This authority is provided by the <keyword conref="fqz0_entities.dita#fqz0_entities/ktpc_short" /> agents, which run as root on <tm trademark="UNIX" tmtype="reg">UNIX</tm> systems or with  administrator privileges on <tm trademark="Windows" tmtype="tm">Windows</tm> computers.</note></dd>
+</dlentry></dl></dd>
+</dlentry><dlentry>
+<dt>Selective Backup</dt>
+<dd>Select this option to run a selective backup of the files that
+violate a constraint. You can back up specified files with a selective
+backup. These files are not excluded in the include-exclude list.
+They meet the requirement for serialization in the backup copy group
+of the management class that is assigned to each file. For more information
+about selective backups, see the <cite><tm trademark="IBM" tmtype="reg">IBM</tm> <tm trademark="Tivoli" tmtype="reg">Tivoli</tm> Storage Manager Client User's Guide</cite>. </dd>
+</dlentry><dlentry>
+<dt>Incremental Backup</dt>
+<dd>Select this option to run an incremental backup of the files that
+violate a constraint. You can do an incremental backup to back up
+new or changed files or directories from a client domain or from specified
+directories or files. These directories or files are not excluded
+in the include-exclude list. They meet the requirements for frequency,
+mode, and serialization as defined by a backup copy group of the management
+class that is assigned to each file. For more information about incremental
+backups, see the <cite><tm trademark="IBM" tmtype="reg">IBM</tm> <tm trademark="Tivoli" tmtype="reg">Tivoli</tm> Storage Manager Client User's Guide</cite>.</dd>
+</dlentry><dlentry>
+<dt><keyword conref="fqz0_entities.dita#fqz0_entities/kitsmgr" /> Command
+Options</dt>
+<dd>Enter more <keyword conref="fqz0_entities.dita#fqz0_entities/ktsmgr" /> command-line
+options in this field that is passed on to the <keyword conref="fqz0_entities.dita#fqz0_entities/ktsmgr" /> <cmdname>dsmc</cmdname> command.
+You can enter up to 512 bytes of text. See the <cite><tm trademark="IBM" tmtype="reg">IBM</tm> <tm trademark="Tivoli" tmtype="reg">Tivoli</tm> Storage Manager Client User's Guide</cite> for more information about valid <keyword conref="fqz0_entities.dita#fqz0_entities/ktsmgr" /> command-line
+options.</dd>
+</dlentry></dl></info></step>
+<!--step archive_how_often_1-->
+<step id="archive_how_often_1"><cmd>In the <uicontrol>How often to
+run</uicontrol> area, schedule how often you want to run the script
+that is associated with the action. You can choose from the following
+options.</cmd><info><dl><dlentry>
+<dt>Run Now</dt>
+<dd>Run the script immediately.</dd>
+</dlentry><dlentry>
+<dt>Run Once at</dt>
+<dd>Run the script one time at a specified time and date. You can
+use the drop-down lists to specify the month, day year, and the hour,
+minute, and AM/PM.</dd>
+</dlentry></dl></info></step>
+<!--step archive_save-->
+<step id="archive_save"><cmd>Save the archive or backup:</cmd>
+<substeps>
+<substep><cmd>Click <menucascade><uicontrol>File</uicontrol><uicontrol>Save</uicontrol>
+</menucascade>. The <uicontrol>Save As</uicontrol> window opens.</cmd>
+</substep>
+<substep><cmd>In the <uicontrol>Specify File Archive/Backup Action
+name</uicontrol> field, type a name for the job and click <uicontrol>OK</uicontrol>. </cmd>
+<info>The new job is listed in <menucascade><uicontrol>Data Manager</uicontrol>
+<uicontrol>Policy Management</uicontrol><uicontrol>Archive/Backup</uicontrol>
+</menucascade> as <uicontrol>&lt;creator&gt;.&lt;job name&gt;</uicontrol>.</info>
+</substep>
+</substeps>
+</step>
+<!--step enabled_check_box-->
+<step id="enabled_check_box"><cmd>Select the <uicontrol>Enabled</uicontrol> check
+box.</cmd></step>
+<!--
+<step id="alert_suppression"><cmd>In the <uicontrol>Alert Suppression</uicontrol> pane,
+choose the condition under which alerts are triggered, and then choose
+how to manage repeating alerts. For an explanation of the options
+in this pane, see <xref href="fqz0_r_alert_suppress.dita"></xref>.</cmd>
+</step>
+-->
+<step id="file_save"><cmd>Click <menucascade><uicontrol>File</uicontrol>
+<uicontrol>Save</uicontrol></menucascade>.</cmd></step>
+<!--step triggered_actions2-->
+<step id="triggered_actions2">
+<cmd>In the <uicontrol>Triggered-Actions</uicontrol> pane, select the actions that occur as a result
+of the triggering condition. </cmd>
+</step>
+<!--step policy validation, scheduling, how often to run-->
+<step id="policy_valida_how_often_to_run"><cmd>In the <uicontrol>How
+often to run</uicontrol> area, schedule how often you want the policy
+to be checked. Choose from the following actions:</cmd><info><dl>
+<dlentry>
+<dt>Run Now</dt>
+<dd>Check the policy immediately.</dd>
+</dlentry><dlentry>
+<dt>Run Once at</dt>
+<dd>Check the policy one time at a specified time and date. Use the
+drop-down lists to specify the month, day, year, hour, minute, and
+AM/PM.</dd>
+</dlentry><dlentry>
+<dt>Run Repeatedly</dt>
+<dd>Check the policy repeatedly according to a schedule that you specify:<ul>
+<li>Indicate when to begin the job. Use the drop-down lists to specify
+the month, day, year, hour, minute, and AM/PM. </li>
+<li>Indicate how often to run the job. Use the drop-down lists to
+specify the number of minutes, hours, days, weeks, or months.</li>
+<li>Indicate the days on which to run the job. A check mark displays
+next to the days that you select.</li>
+</ul></dd>
+</dlentry></dl></info></step>
+<!--step policy validation, scheduling, how to handle time zones-->
+<step id="policy_valida_how_to_handle_time_zones"><cmd>In the <uicontrol>How
+to Handle Time Zones</uicontrol> area, indicate the time zone to be
+used when you schedule and run the policy. Select one of the following
+choices.</cmd><info><dl><dlentry>
+<dt>Use the timezone that the server runs in</dt>
+<dd>Select this option to use the time zone where the Data server
+is located.</dd>
+</dlentry><dlentry>
+<dt>Use this timezone</dt>
+<dd>Select this option to indicate a specific time zone for when to
+run the job. From the drop-down list, select the time zone. For example,
+if you select 9:00 AM CST, the job runs at 7:00 AM on an agent that
+is in the PST time zone.</dd>
+</dlentry></dl></info></step>
+<!--***** WEB-BASED GUI *****
+Navigation scheme-->
+<step><cmd /><info><ph id="nav_block_storage_storage_systems_path"><menucascade>
+<uicontrol>Storage</uicontrol><uicontrol>Block Storage Systems</uicontrol>
+</menucascade></ph></info>
+<?linebreak?>
+<info><ph id="nav_storage_storage_systems_sentence">In
+the menu bar, go to <ph conref="#fqz0_entities_task/nav_block_storage_storage_systems_path" />.</ph></info>
+</step>
+<!--10 Sept 2015  nb  added the following step to resolve some build errors due to missing conref.  May need to remove or change in a following sprint.-->
+<step>
+<cmd />
+<info><ph id="nav_storage_storage_systems_path"><menucascade>
+<uicontrol>Storage</uicontrol>
+</menucascade> and select the type of storage system you want to monitor</ph></info>
+<?linebreak?>
+<info><ph><ph conref="#fqz0_entities_task/nav_storage_storage_systems_path" /></ph></info>
+</step>
+<step><cmd /><info><ph id="nav_file_storage_storage_systems_path"><menucascade>
+<uicontrol>Storage</uicontrol><uicontrol>File Storage Systems</uicontrol>
+</menucascade></ph></info>
+<?linebreak?>
+<info><ph id="nav_storage_file_storage_systems_sentence">In
+the menu bar, go to <ph conref="#fqz0_entities_task/nav_file_storage_storage_systems_path" />.</ph></info>
+</step>
+<step>
+<cmd />
+<info><ph id="nav_object_storage_storage_systems_path"><menucascade>
+<uicontrol>Storage</uicontrol>
+<uicontrol>Object Storage Systems</uicontrol>
+</menucascade></ph></info>
+<?linebreak?>
+<info><ph id="nav_storage_object_storage_systems_sentence">In the menu bar, go to <ph conref="#fqz0_entities_task/nav_object_storage_storage_systems_path" />.</ph></info>
+</step><?Pub Caret 42?>
+<step><cmd /><info><ph id="nav_servers_servers_path"><menucascade>
+<uicontrol>Servers</uicontrol><uicontrol>Servers</uicontrol>
+</menucascade></ph></info>
+<?linebreak?>
+<info><ph id="nav_servers_servers_sentence">In the
+menu bar, go to <ph conref="#fqz0_entities_task/nav_servers_servers_path" />.</ph></info>
+</step>
+<step><cmd /><info><ph id="nav_servers_hypervisors_path"><menucascade><uicontrol>Servers</uicontrol><uicontrol>Hypervisors</uicontrol>
+</menucascade></ph></info>
+<?linebreak?>
+<info><ph id="nav_servers_hypervisors_sentence">In
+the menu bar, go to <ph conref="#fqz0_entities_task/nav_servers_hypervisors_path" />.</ph></info>
+</step>
+<step><cmd /><info><ph id="nav_network_switches_path"><menucascade>
+<uicontrol>Network</uicontrol><uicontrol>Switches</uicontrol>
+</menucascade></ph></info>
+<?linebreak?>
+<info><ph id="nav_network_switches_sentence">In the
+menu bar, go to <ph conref="#fqz0_entities_task/nav_network_switches_path" />.</ph></info>
+</step>
+<step><cmd /><info><ph id="nav_network_fabrics_path"><menucascade>
+<uicontrol>Network</uicontrol><uicontrol>Fabrics</uicontrol>
+</menucascade></ph></info>
+<?linebreak?>
+<info><ph id="nav_network_fabrics_sentence">In the
+menu bar, go to <ph conref="#fqz0_entities_task/nav_network_fabrics_path" />.</ph></info>
+</step>
+</steps>
+</taskbody>
+</task><?Pub *0000044000?><?tm 1617467357521 36 Windows||UNIX||Tivoli||IBM||Current ?>
