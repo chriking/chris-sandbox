@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//IBM//DTD DITA IBM Task//EN" "ibm-task.dtd">
+<task id="cfg_brocade_switches" xml:lang="en-us" >
+<title>Configuring Brocade switches for monitoring</title>
+<!--To optimize search results, add tags that clarify product name, target platform, or other contexts. To enable the tags, right-click, select Refactoring > Toggle Comment.-->
+<!--<titlealts><navtitle></navtitle><searchtitle></searchtitle></titlealts>-->
+<!--Put your short description next; used for first paragraph and abstract.-->
+<shortdesc>Configure Brocade switches for monitoring through a direct connection. <keyword
+conref="fqz0_entities.dita#fqz0_entities/ktpc_short" audience="onpremonly"/><keyword
+conref="fqz0_entities.dita#fqz0_entities/ksif_short" audience="offpremonly"/> establishes this
+connection by using the Brocade REST API and requires Fabric OS 8.2.1 or later.</shortdesc>
+<prolog>
+<metadata>
+<keywords>
+<indexterm>Configuring <indexterm>Brocade switches</indexterm></indexterm>
+<indexterm><indexterm>Brocade switches</indexterm> Configuration</indexterm>
+<indexterm>Monitoring <indexterm>Brocade switches</indexterm></indexterm>
+</keywords>
+</metadata>
+</prolog>
+<!--To optimize PDF retrievability, add prolog and indexing tags that help crystalize why users should be looking up this topic (purpose, task, and what they will learn)-->
+<!--<prolog><metadata><keywords><indexterm></indexterm></keywords></metadata></prolog>-->
+<taskbody>
+<context>
+<p>Before you add a Brocade switch for monitoring in <keyword
+conref="fqz0_entities.dita#fqz0_entities/ktpc_short" audience="onpremonly"/><keyword
+conref="fqz0_entities.dita#fqz0_entities/ksif_short" audience="offpremonly"/>, you must configure it
+for HTTPS and set up the proper user role.</p>
+</context>
+<steps>
+<step>
+<cmd>To enhance security, configure a switch for HTTPS. This action disables HTTP access.</cmd><info>
+<dl>
+<dlentry>
+<dt>Option 1</dt>
+<dd>Create a self-signed HTTPS certificate by using the <cmdname>seccertmgnt generate</cmdname>
+command.<codeblock>seccertmgmt generate -cert [https | extn -keypair_tag keypair_tag] [-type [rsa | dsa | ecdsa]][-keysize value] 
+[-hash type] [-years value] [-f]</codeblock><p>For
+example:<codeblock>switch:admin> seccertmgmt generate -cert https</codeblock></p></dd>
+</dlentry>
+<dlentry>
+<dt>Option 2</dt>
+<dd>Upload a CA-signed certificate by using the <cmdname>seccertmgmt import</cmdname>
+command.<codeblock>seccertmgmt import -cert [fcap | commoncert | https | radius | ldap | syslog | extn -keypair_tag keypair_tag | mgmtip] 
+-protocol [scp | ftp]-ipaddr IP_address -remotedir remote_directory-certname certificate_name-cacert preimported_local_ca_cert-login login_name 
+-password password</codeblock></dd>
+</dlentry>
+</dl>
+<p>For more information, see <xref href="https://docs.broadcom.com/doc/FOS-82x-Command-RM"
+format="html" scope="external">Brocade® Fabric OS® Command Reference Manual, 8.2.x</xref>.</p>
+</info>
+</step>
+<step><cmd>Configure a user with required roles for the switches.</cmd><substeps>
+<substep><cmd>To collect metadata about a switch, <keyword
+conref="fqz0_entities.dita#fqz0_entities/ktpc_short" audience="onpremonly"/><keyword
+conref="fqz0_entities.dita#fqz0_entities/ksif_short" audience="offpremonly"/> requires a user
+account with "user" or "admin" role. If the switch is virtualized, the user must also have a "user"
+or "admin" role for the chassis and have access to all the Logical Fabric IDs 1 -
+128.</cmd></substep>
+<substep><cmd>To create a user with the required roles, run one of the following commands.</cmd><info>
+<ul>
+<li>For virtualized switches, run the <cmdname>userconfg --add</cmdname> command with the
+<cmdname>-r role</cmdname>, <cmdname>-l LF_ID_LIST</cmdname>, and <cmdname>-c chassis_role</cmdname>
+options.<codeblock>virtualizedswitch:admin> userconfig --add user_name -r user -l 1-128 -c user -p MyPassword</codeblock></li>
+<li>For non-virtualized switches, run the <cmdname>userconfg --add</cmdname> command with the
+<cmdname>-r role</cmdname>
+option.<codeblock>physicalswitch:admin> userconfig --add user_name -r user -p MyPassword</codeblock></li>
+</ul>
+</info></substep>
+<substep><cmd>To change the role for an existing user, run one of the following commands.</cmd><info>
+<ul>
+<li>For virtualized switches, run the <cmdname>userconfig --change</cmdname> command with the
+<cmdname>-r</cmdname>, <cmdname>-l</cmdname>, or <cmdname>-c</cmdname> options along with the
+<cmdname>userconfig --addlf</cmdname> command to expand the list of Logical Fabric IDs.<p>For
+example, run the following command to change the chassis role and the list of Logical Fabric IDs
+that the user is allowed to
+access.<codeblock>virtualizedswitch:admin> userconfig --change user_name -c admin -l 128</codeblock><codeblock>virtualizedswitch:admin> userconfig --addlf user_name -c admin -l 1-128</codeblock></p></li>
+<li>For non-virtualized switches, run the <cmdname>userconfig --change</cmdname> command with the
+<cmdname>-r</cmdname>
+option.<codeblock>physicalswitch:admin> userconfig--change user_name -r admin</codeblock></li>
+</ul>
+</info></substep>
+<substep><cmd>To verify the roles, run the <cmdname>userconfig --show</cmdname> command. Add the
+<cmdname>-a</cmdname> option to list all users on the switch.</cmd></substep>
+</substeps></step>
+</steps>
+</taskbody>
+</task>

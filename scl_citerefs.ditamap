@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//IBM//DTD DITA IBM Map//EN"
+ "ibm-map.dtd">
+<map xml:lang="en-us">
+<title>Spectrum Control and Storage Insights Keyrefs</title>
+
+
+<!--
+
+============== START OF Spectrum Control URLs  ============== 
+
+-->
+<!--TOP-LEVEL LANDING PAGE FOR IBM DOCS (URL)-->
+<citeReference format="html" href="https://www.ibm.com/docs/en" scope="external"
+keys="kc_landing_url">
+<topicmeta>
+<linktext>http://www.ibm.com/docs/en</linktext>
+</topicmeta>
+</citeReference>
+<!--Welcome page-->
+<citeReference format="html" href="https://www.ibm.com/docs/en/spectrum-control" scope="external"
+keys="scl_landing_url">
+<topicmeta>
+<linktext>IBM Spectrum Control documentation</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/docs/en/spectrum-control" scope="external"
+keys="tpc_landing_url">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control</linktext>
+</topicmeta>
+</citeReference>
+<!--Latest release welcome page-->
+<citeReference format="html" href="https://www.ibm.com/docs/en/spectrum-control/5.4.5"
+scope="external" keys="x521_welcome">
+<topicmeta>
+<linktext>product documentation</linktext>
+</topicmeta>
+</citeReference>
+<!--EOC: Do we really need x521_welcome_url? Could we not use x521_welcome again? Only difference is no linktext.-->
+<citeReference format="html" href="https://www.ibm.com/docs/en/spectrum-control/5.4.5"
+scope="external" keys="x521_welcome_url">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5</linktext>
+</topicmeta>
+</citeReference>
+<!--Printable documentation page-->
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=printable-documentation"
+scope="external" keys="fqz0_r_printable_doc">
+<topicmeta>
+<linktext>Printable documentation</linktext>
+</topicmeta>
+</citeReference>
+<!--Top-level messages page-->
+<!--EOC: Should this point to https://www.ibm.com/support/knowledgecenter/SS5R93_5.4.5/com.ibm.spectrum.sc.messages/fqz0_r_tpcmsg_messages.html instead?-->
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=messages-message-types"
+scope="external" keys="messages">
+<topicmeta>
+<linktext>Message types</linktext>
+</topicmeta>
+</citeReference>
+<!--Top-level commands page-->
+<!--EOC: Should this point to https://www.ibm.com/support/knowledgecenter/SS5R93_5.4.5/com.ibm.spectrum.sc.messages/fqz0_r_tpcmsg_messages.html instead?-->
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reference-command-line-interface"
+scope="external" keys="fqz0_r_commands">
+<topicmeta>
+<linktext>Command-line interface</linktext>
+</topicmeta>
+</citeReference>
+
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=fabrics-planning-brocade"
+scope="external" keys="fqz0_r_planning_fabric_manager_smis_brocade">
+<topicmeta>
+<linktext>Planning for Brocade management agents</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=control-installing-spectrum-in-multiple-server-environment"
+scope="external" keys="fqz0_r_installing_tpc_multiple_server">
+<topicmeta>
+<linktext>Installing IBM Spectrum Control in a multiple-server environment</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=pisciwd-installing-db2-by-using-windows-domain-user-account"
+scope="external" keys="fqz0_r_install_db2_win_domain_acct">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=pisciwd-installing-db2-by-using-windows-domain-user-account</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reporting-cognos-analytics"
+scope="external" keys="fqz0_c_webbasedgui_rpting_ic_ov">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reporting-cognos-analytics</linktext>
+</topicmeta>
+</citeReference>
+<citeReference keys="fqz0_c_webbasedgui_rpting_ic_ov3" format="html" scope="external"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reporting-cognos-analytics">
+<topicmeta>
+<linktext>Learn more</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=iscisse-installing-spectrum-control-in-single-server-environment-by-using-silent-mode"
+scope="external" keys="fqz0_t_installing_tpc_silent_mode_single_server">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=iscisse-installing-spectrum-control-in-single-server-environment-by-using-silent-mode</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=managing-resources"
+scope="external" keys="fqz0_c_wg_managing_resources">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=managing-resources</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=control-verifying-installation"
+scope="external" keys="fqz0_t_verifying_installation">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=control-verifying-installation</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+scope="external"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=authentication-changing-from-operating-system-ldap"
+keys="fqz0_t_config_ldap_active_directory"><topicmeta>
+<linktext>Adding an LDAP repository to the federated repositories for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+scope="external"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-replacing-default-ssl-certificate-device-alert-web-server"
+keys="cfg_replace_SSL_certificates_servers"><topicmeta>
+<linktext>Replacing the default SSL certificate for the Device, Alert, or Web server</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+scope="external"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-replacing-default-ssl-certificate-export-server"
+keys="cfg_replace_SSL_certificate_export_server"><topicmeta>
+<linktext>Replacing the default SSL certificate for the Export server</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=planning-storage-management"
+keys="fqz0_r_planning_storage_management" scope="external"><topicmeta>
+<linktext>Planning for storage management</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-user-authentication"
+keys="fqz0_c_change_user_auth_method_pdf" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-user-authentication</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=concepts-role-based-authorization"
+keys="tpch_r_user_roles" scope="external"><topicmeta>
+<linktext>Role-based authorization</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=agents-deployment-guidelines-limitations-storage-resource"
+keys="fqz0_r_native_agents_deployment_considerations" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=agents-deployment-guidelines-limitations-storage-resource</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=agents-creating-certificate-ssh-protocol"
+keys="fqz0_r_create_certificate_ssh" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=agents-creating-certificate-ssh-protocol</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=agents-creating-certificate-ssh-protocol"
+keys="fqz0_r_create_certificate_ssh_linktext" scope="external"><topicmeta>
+<linktext>Creating a certificate for SSH protocol</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=dsra-replacing-default-ssl-certificates-data-server-storage-resource-agents-custom-ssl-certificates"
+keys="fqz0_r_create_custom_certificate_ssl" scope="external"><topicmeta>
+<linktext>Replacing default SSL certificates with custom certificates</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=overview-interfaces-spectrum-control"
+keys="tpch_c_interfaces" scope="external">
+<topicmeta>
+<linktext>Interfaces for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=alerting-triggering-conditions-alerts"
+keys="fqz0_r_triggering_conditions" scope="external"><topicmeta>
+<linktext>Triggering conditions for alerts</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=upgrading-migrating"
+keys="fqz0_c_upgrading_tpc_umbrella" scope="external"><topicmeta>
+<linktext>Upgrading and migrating</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=installing"
+keys="fqz0_t_installing_main" scope="external"><topicmeta>
+<linktext>Installing IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="4"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=control-installation-checklists-spectrum"
+keys="fqz0_c_install_checklists" scope="external">
+<topicmeta>
+<linktext>Installation checklists for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=uninstalling"
+keys="fqz0_t_uninstalling" scope="external"><topicmeta>
+<linktext>Uninstalling IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=files-installation-log-spectrum-control"
+keys="fqz0_r_pdguide_install_log_files_tpc" scope="external"><topicmeta>
+<linktext>Installation log files for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reference-accessibility-features-spectrum-control"
+keys="fqz0_r_accessibility" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reference-accessibility-features-spectrum-control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="2"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-checking-fully-qualified-host-name"
+keys="fqz0_t_checking_fully_qualified_host_name" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-checking-fully-qualified-host-name.html</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-setting-up-multiple-connections-database-repository"
+keys="fqz0_t_multiple_connections_to_TPCDB" scope="external"><topicmeta>
+<linktext>Setting up multiple connections to the TPCDB data source</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=database-backing-up-offline-using-command-line"
+keys="fqz0_t_backing_up_tpc_database" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=database-backing-up-offline-using-command-line</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reference-return-codes-used-by-storage-resource-agent"
+keys="fqz0_r_return_codes_used_by_strg_resource_agent" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reference-return-codes-used-by-storage-resource-agent</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=SS5R93_5.4.5/com.ibm.spectrum.sc.doc/fqz0_t_reports_security_sysadmin_roles.html"
+keys="fqz0_t_reports_security_sysadmin_roles" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=SS5R93_5.4.5/com.ibm.spectrum.sc.doc/fqz0_t_reports_security_sysadmin_roles.html</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=cp-changing-passwords-aix-linux-systems-using-command-line-interface-cli"
+keys="fqz0_t_passwords_changing_no_x" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=cp-changing-passwords-aix-linux-systems-using-command-line-interface-cli</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=systems-monitoring-spectrum-scale-without-requiring-root-privileges"
+keys="tpch_t_configuring_sudo_access" scope="external"><topicmeta>
+<linktext>Monitoring <keyword conref="fqz0_entities.dita#fqz0_entities/kelastic_st"></keyword> without requiring root privileges</linktext>
+<shortdesc/>
+</topicmeta>
+</citeReference>
+
+<!-- EOC: Is this link referred to in our source at all? -->
+<citeReference format="3"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=requirements-software-database-repository"
+keys="fqz0_r_sw_requirements_database" scope="external">
+<topicmeta>
+<linktext>Software requirements for the database repository</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=servers-stopping-by-using-gui"
+keys="fqz0_t_stopping_servers_gui" scope="external"><topicmeta>
+<linktext>Stopping the IBM Spectrum Control servers by using the GUI</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=licenses-actions-that-are-available-based-role"
+keys="fqz0_r_wg_functions_available_pdf" scope="external"><topicmeta>
+<linktext>Functions that are available based on role and license at
+https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=licenses-actions-that-are-available-based-role</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=licenses-licensing"
+scope="external" keys="tpch_r_managed_capacity_breakdown_pdf"><topicmeta>
+<linktext>License compliance at
+https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=licenses-licensing</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=alerting-triggering-conditions-alerts"
+keys="tpch_r_triggering_conditions_pdf" scope="external">
+<topicmeta>
+<linktext>Triggering conditions for alerts</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=systems-configuring-collection-performance-data-spectrum-scale"
+keys="tpch_t_configuring_pm_scale" scope="external"><topicmeta>
+<linktext>Configuring the collection of performance data for IBM Spectrum Scale</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=systems-opening-spectrum-control-guis-clis"
+keys="fqz0_t_windows_start_tpc_apps" scope="peer"><topicmeta>
+<linktext>Opening IBM Spectrum Control GUIs and CLIs at https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=systems-opening-spectrum-control-guis-clis</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=systems-adding-configuring-netapp-resources"
+keys="fqz0_t_install_config_netapp" scope="external"><topicmeta>
+<linktext>Adding and configuring NetApp devices</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=cd-collecting-information-about-sizes-snapshots-in-spectrum-scale"
+keys="mgr_collecting_data_gpfs_snapshots" scope="external"><topicmeta>
+<linktext>Collecting information about the sizes of GPFS snapshots</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=data-creating-probes"
+scope="external" keys="fqz0_t_creating_probes"><topicmeta>
+<linktext>Creating probes</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=database-restoring"
+scope="external" keys="adm_restoring_tpcdb"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=database-restoring</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuration-planning-internet-protocol-version-6"
+keys="fqz0_r_planning_ipv6" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuration-planning-internet-protocol-version-6</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=resources-viewing-condition-specific-types"
+keys="fqz0_t_wg_monitoring_status_resource_types" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=resources-viewing-condition-specific-types</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=resources-adding"
+keys="tpch_t_wz_adding_resources" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=resources-adding</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=analytics-getting-started"
+keys="fqz0_c_getting_started_reports" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=analytics-getting-started</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reporting-cognos-analytics"
+keys="fqz0_c_webbasedgui_rpting_ic_ov2" scope="external"><topicmeta>
+<linktext>Reporting with Cognos Analytics</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=analytics-predefined-reports-about-resource-relationships"
+keys="fqz0_c_l2_ov_predef_rpts_resource_relationships" scope="external"><topicmeta>
+<linktext>Viewing
+relationship reports in the <keyword
+conref="fqz0_entities.dita#fqz0_entities/kcogbi"></keyword> reporting
+tool</linktext>
+</topicmeta>
+</citeReference>
+
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-resources-data-sources"
+keys="fqz0_t_administering_agents" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-resources-data-sources</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-resources-data-sources"
+keys="fqz0_t_administering_agents_text" scope="external"><topicmeta>
+<linktext>Administering resources and data sources</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=files-agentconfig-file"
+keys="fqz0_r_agent_config_file" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=files-agentconfig-file</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=interface-tpctool-command"
+keys="fqz0_r_tpctool_command" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=interface-tpctool-command</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=agents-protocol-support-storage-resource"
+keys="fqz0_r_planning_agent_protocols" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=agents-protocol-support-storage-resource</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=systems-accessing-administration-tools"
+keys="fqz0_t_windows_start_tools" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=systems-accessing-administration-tools</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=concepts-units-measurement-storage-data"
+keys="fqz0_r_units_measurement_data" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=concepts-units-measurement-storage-data</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=resources-exporting-performance-data-storage-systems-fabrics"
+scope="external" keys="adm_export_perf_data"><topicmeta>
+<linktext>Exporting performance data for storage systems and
+fabrics</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=cdiasc-packaging-log-files-from-command-line-sending-them-support"
+scope="external" keys="fqz0_t_serviceability_tool_for_servers"><topicmeta>
+<linktext>Collecting service logs for IBM Software Support troubleshooting</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-starting-stopping-spectrum-control-servers"
+keys="fqz0_r_start_stop_tpc_services" scope="external"><topicmeta>
+<linktext>Starting and
+stopping the IBM Spectrum Control servers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=users-assigning-role-group"
+keys="fqz0_t_associate_user_group_to_roles" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=users-assigning-role-group</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-checking-spectrum-control-status"
+keys="fqz0_c_check_system_status" scope="external"><topicmeta>
+<linktext>Checking IBM Spectrum
+Control status</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=analytics-custom-reports-about-performance"
+keys="fqz0_c_reports_custom_performance" scope="external"><topicmeta>
+<linktext>Creating custom
+performance reports</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=analytics-custom-reports-about-capacity-relationships"
+keys="fqz0_c_reports_custom_resource" scope="external"><topicmeta>
+<linktext>Custom reports
+about capacity and relationships</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-user-authentication"
+keys="fqz0_c_change_user_auth_method" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-user-authentication</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=concepts-cloud-configuration"
+keys="fqz0_c_cloud_config" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=concepts-cloud-configuration</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=switches-data-sources-fabrics"
+keys="fqz0_r_wz_adding_fabrics_switches_agent_types" scope="external"><topicmeta>
+<linktext>Agent
+types for switch and fabric functions</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=resources-adding-fabrics-switches"
+keys="fqz0_t_wz_adding_fabrics_switches" scope="external"><topicmeta>
+<linktext>Adding fabrics
+and switches</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=files-default-locations-log"
+scope="external" keys="fqz0_r_logfiles"><topicmeta>
+<linktext>Location of log files.</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=data-verifying-that-performance-monitor-is-running-resource"
+scope="external" keys="fqz0_t_verify_pm_running"><topicmeta>
+<linktext>Verifying that a performance monitor is running for a resource</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=resources-modifying-period-analyzing-performance-data"
+scope="external" keys="fqz0_t_modify_peformance_data_collection_period"><topicmeta>
+<linktext>Modifying the period for analyzing performance data</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=installing-hardware-requirements"
+keys="fqz0_r_hw_requirements" scope="external"><topicmeta>
+<linktext>Hardware requirements</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=installing-software-requirements"
+keys="fqz0_r_sw_requirements" scope="external"><topicmeta>
+<linktext>Software requirements</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuration-ports-used-by-spectrum-control"
+keys="fqz0_r_planning_tcpip_ports" scope="external"><topicmeta>
+<linktext>TCP/IP ports used
+by IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuration-planning-spectrum-control-authentication-authorization"
+keys="fqz0_r_planning_security_role_based" scope="external"><topicmeta>
+<linktext>Planning
+for IBM Spectrum Control authentication and authorization</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=planning"
+keys="fqz0_r_planning" scope="external"><topicmeta>
+<linktext>Planning for resources</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=control-db2"
+keys="fqz0_t_installing_db2" scope="external"><topicmeta>
+<linktext>Installing DB2</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=control-installing-spectrum-in-single-server-environment"
+keys="fqz0_r_installing_tpc_single_server_gs" scope="external"><topicmeta>
+<linktext>Installing
+IBM Spectrum Control in a single-server environment</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=control-installing-spectrum-in-multiple-server-environment"
+keys="fqz0_r_installing_tpc_multiple_server_gs" scope="external"><topicmeta>
+<linktext>Installing
+IBM Spectrum Control in a multiple-server environment</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=SS5R93_5.4.5/com.ibm.spectrum.sc.doc/fqz0_c_jazzsm_tcr.html"
+keys="fqz0_c_jazzsm_tcr" scope="external"><topicmeta>
+<linktext>Install Jazz for Service Management
+and Tivoli Common Reporting</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=sources-checking-permissions-browse-data-stores"
+keys="checking-permissions-browse-data-stores" scope="external">
+<topicmeta>
+<linktext>Checking permissions to browse data stores </linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=alerting-configuring-alert-notifications"
+keys="fqz0_t_configuring_alerts" scope="external"><topicmeta>
+<linktext>Configuring alert
+notifications</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-history-data-retention"
+keys="fqz0_t_configure_data_retention" scope="external"><topicmeta>
+<linktext>Configuring
+history and data retention</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=authentication-authorizing-users"
+keys="fqz0_t_authorizing_users" scope="external"><topicmeta>
+<linktext>Authorizing users</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=cscs-packaging-sending-log-files-from-system-management-page"
+keys="fqz0_t_saving_tpc_system_log" scope="external"><topicmeta>
+<linktext>Opening PMRs and packaging IBM Spectrum Control system log files for IBM Software Support</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-changing-passwords"
+keys="fqz0_r_passwords_changing" scope="external"><topicmeta>
+<linktext>Changing passwords</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-db2"
+keys="fqz0_t_managing_db2" scope="external"><topicmeta>
+<linktext>Administering DB2</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=product-licenses"
+keys="fqz0_r_product_packages" scope="external"><topicmeta>
+<linktext>Product licenses</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" keys="prd_storage_monitoring_cloud" scope="external">
+<topicmeta>
+<linktext>IBM Storage Insights for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=configuring-user-authentication"
+keys="fqz0_c_change_user_auth_method_help" scope="external"><topicmeta>
+<linktext>Changing
+the user authentication configuration</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=provisioning-changing-default-host-definition-provisioned-storage"
+keys="fqz0_t_modify_provisioning_host_connections" scope="external"><topicmeta>
+<linktext>Learn
+more</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=reference-performance-counters"
+keys="fqz0_r_performance_counters" scope="external"><topicmeta>
+<linktext>Performance counters</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=types-alr-spectrum-control-alert-messages"
+keys="alr" scope="external"><topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=types-alr-spectrum-control-alert-messages</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=alerting-defining-alerts"
+keys="fqz0_t_defining_alerts" scope="external"><topicmeta>
+<linktext>Defining alerts</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=installing-taking-first-steps-after-installation"
+keys="fqz0_t_first_steps_after_install" scope="external"><topicmeta>
+<linktext>Taking the
+first steps after installation</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=installing-spectrum-control"
+keys="fqz0_t_installing_tpc" scope="external"><topicmeta>
+<linktext>Installing IBM Spectrum
+Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="gif"
+href="https://www.ibm.com/docs/en/SS5R93_5.4.5/com.ibm.spectrum.sc.doc/prd_anm_cap_shortfall.gif"
+scope="external" keys="prd_anm_cap_shortfall">
+<topicmeta>
+<linktext>Learn more about how Shortfall works in this animation.</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="gif"
+href="https://www.ibm.com/docs/en/SSQRB8/com.ibm.spectrum.si.doc/prd_anm_cap_shortfall.gif"
+scope="external" keys="prd_anm_cap_shortfall_cloud">
+<topicmeta>
+<linktext>Learn more about how Shortfall works in this animation.</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=command-modifyappgroupviafile"
+scope="external" keys="help_fqz0_r_cli_modifyappgroupviafile"><topicmeta>
+<linktext>modifyappgroupviafile</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=command-modifyappgroup"
+scope="external" keys="help_fqz0_r_cli_modifyappgroup"><topicmeta>
+<linktext>fqz0_r_cli_modifyappgroup</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=new-discontinued-features"
+scope="external" keys="prd_feature_history">
+<topicmeta>
+<linktext>Discontinued features in IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com/software/tivoli/csi/cloud-storage/" scope="external"
+keys="tpc_product_suite">
+<topicmeta>
+<linktext>IBM DevOps</linktext>
+</topicmeta>
+</citeReference>
+
+<!--EOC: Update this URL?-->
+<citeReference format="html"
+href="http://www.ibm.com/support/entry/myportal/product/tivoli/ibm_spectrum_control/ibm_spectrum_control_standard_edition"
+scope="external" keys="tpc_support_portal">
+<topicmeta>
+<linktext>IBM Spectrum Control support portal</linktext>
+</topicmeta>
+</citeReference>
+
+<!--EOC: Move tpc_support_matrix_web_browsers_text in tpc_reuse_url.dita to an entities file?-->
+<citeReference format="html" scope="external" keys="tpc_service_management_connect"
+href="https://developer.ibm.com/storage/products/ibm-spectrum-control/#overview">
+<topicmeta>
+<linktext>Service Management Connect</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="ibm_software_support_handbook"
+href="http://www.ibm.com/support/customercare/sas/f/handbook/home.html">
+<topicmeta>
+<linktext>IBM Software Support Handbook</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="ibm_software_support_contacting"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=determination-getting-support">
+<topicmeta>
+<linktext>Getting support</linktext>
+</topicmeta>
+</citeReference>
+
+
+<!--
+
+============== END OF Spectrum Control URLs  ============== 
+
+-->
+<!--
+
+============== START OF DRUPAL documents URLs  ============== 
+
+(includes links to the Support Matrix and LAKIs)
+-->
+<!--APAR fix list-->
+<citeReference format="html" scope="external" keys="apar_fixes_URL"
+href="https://www.ibm.com/support/pages/node/6261743">
+<topicmeta>
+<linktext>APAR Fix List</linktext>
+</topicmeta>
+</citeReference>
+<!--PPA Download document-->
+<citeReference keys="*5.4.5_passport_advantage" scope="external" format="html"
+href="https://www.ibm.com/support/pages/node/6497205">
+<topicmeta>
+<linktext>Passport Advantage Online</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="passport_advantage"
+href="https://www.ibm.com/support/pages/node/6474879">
+<topicmeta>
+<linktext>Passport Advantage Online</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x543_passport_advantage"
+href="https://www.ibm.com/support/pages/node/6443435">
+<topicmeta>
+<linktext>Passport Advantage Online</linktext>
+</topicmeta>
+</citeReference>
+<!--Checksum document-->
+<citeReference keys="checksum_URL" href="https://www.ibm.com/support/pages/node/6497209"
+format="html" scope="external"/>
+<!--***This is earliar link for Checksum document***<citeReference format="html" scope="external" keys="checksum_URL" href="https://www.ibm.com/support/pages/node/6443437"/>-->
+<!--Limitations and Known Issues (LAKI)-->
+<!--LAKI for current release - use to avoid hard-coding in tpc_kc_homepage.dita and prd_whats_new.dita-->
+<citeReference keys="x545_current_release_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/6494039" format="html" scope="external">
+<topicmeta>
+<linktext>5.4.5 Limitations and known issues for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<!--Previous LAKI links-->
+<citeReference format="html" scope="external" keys="current_release_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/6494039">
+<topicmeta>
+<linktext>Limitations and known issues</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x544_current_release_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/6468053">
+<topicmeta>
+<linktext>Limitations and known issues</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x543_current_release_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/6430701">
+<topicmeta>
+<linktext>Limitations and known issues</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x540_current_release_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/6217966">
+<topicmeta>
+<linktext>Limitations and known issues</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x537_current_release_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/5693618">
+<topicmeta>
+<linktext>Limitations and known issues</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x535_current_release_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/1075071">
+<topicmeta>
+<linktext>Limitations and known issues</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x534_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/886399">
+<topicmeta>
+<linktext>5.3.4 Limitations and known issues</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x533_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/874928">
+<topicmeta>
+<linktext>5.3.3 Limitations and known issues for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x532_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/742597">
+<topicmeta>
+<linktext>5.3.2 Limitations and known issues for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x531_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/731067">
+<topicmeta>
+<linktext>5.3.1 Limitations and known issues for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x530_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/718351">
+<topicmeta>
+<linktext>5.3.0 Limitations and known issues for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x5217_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/568027">
+<topicmeta>
+<linktext>5.2.17 Limitations and known issues for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="x5216_known_limitations_URL"
+href="https://www.ibm.com/support/pages/node/301315">
+<topicmeta>
+<linktext>5.2.16 Limitations and known issues for IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/support/docview.wss?uid=ibm10720349"
+scope="external" keys="web_browser_support">
+<topicmeta>
+<linktext> Web browser support </linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/blogs/psirt/?s=Spectrum+Control"
+scope="external" keys="sc_psirts">
+<topicmeta>
+<linktext> Security bulletins for IBM Spectrum Control </linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="http://www.ibm.com/support/docview.wss?uid=swg21697904" scope="external"
+keys="tpc_legacy_protocol">
+<topicmeta>
+<linktext>Enabling and disabling legacy protocols</linktext>
+</topicmeta>
+</citeReference>
+<!--EOC: Do we need both of the following URLs? CK: -->
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/388393" scope="external"
+keys="tpc_support_matrix">
+<topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/388393</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/388393" scope="external"
+keys="tpc_support_matrix_text">
+<topicmeta>
+<linktext>IBM Spectrum Control interoperability matrix</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249357" scope="external"
+keys="tpc_hardware_support">
+<topicmeta>
+<linktext>IBM Spectrum Control - Hardware Support: Memory, Processor and Disk Space</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361" scope="external"
+keys="tpc_support_matrix_agents">
+<topicmeta>
+<linktext>IBM Spectrum Control - Platform Support: Agents, Servers and Browsers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#Agents"
+scope="external" keys="tpc_support_matrix_agents_section">
+<topicmeta>
+<linktext>IBM Spectrum Control - Platform Support: Agents, Servers and Browsers - Agents
+section</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#Multipathing"
+scope="external" keys="tpc_support_matrix_multipathing_section">
+<topicmeta>
+<linktext>IBM Spectrum Control - Platform Support: Agents, Servers and Browsers - Multipathing
+section</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#DB"
+scope="external" keys="tpc_support_matrix_databases">
+<topicmeta>
+<linktext>IBM Spectrum Control - Platform Support: Agents, Servers and Browsers - Database
+Repository</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#Browsers"
+scope="external" keys="tpc_support_matrix_browsers">
+<topicmeta>
+<linktext>IBM Spectrum Control - Platform Support: Servers, Agents, and Browsers - Web
+Browsers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="tpc_support_matrix_storage"
+href="https://www.ibm.com/support/pages/node/6249369">
+<topicmeta>
+<linktext>IBM Spectrum Control interoperability matrix for storage systems</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="sc_support_matrix_emc_storage"
+href="https://www.ibm.com/support/pages/node/598647">
+<topicmeta>
+<linktext>Dell EMC support page</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="sc_support_matrix_netapp_storage"
+href="https://www.ibm.com/support/pages/node/618793">
+<topicmeta>
+<linktext>NetApp support page</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="sc_support_matrix_hitachi_storage"
+href="https://www.ibm.com/support/pages/node/598697">
+<topicmeta>
+<linktext>Hitachi support page</linktext>
+</topicmeta>
+</citeReference>
+<!--Update Pure link to Pure node when created for 5.3.7-->
+<citeReference format="html" scope="external" keys="sc_support_matrix_pure_storage"
+href="https://www.ibm.com/support/pages/node/6212272">
+<topicmeta>
+<linktext>Pure Storage support page</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="sc_support_matrix_3par_storage"
+href="https://www.ibm.com/support/pages/node/608815">
+<topicmeta>
+<linktext>HPE 3PAR support page</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="sc_support_cos"
+href="https://www.ibm.com/support/pages/node/608569">
+<topicmeta>
+<linktext>IBM Cloud Object Storage support page</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="tpc_support_matrix_switch"
+href="https://www.ibm.com/support/pages/node/6249365">
+<topicmeta>
+<linktext>IBM Spectrum Control interoperability matrix for switches</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="si_support_matrix_switch"
+href="https://www.ibm.com/support/pages/node/6465529">
+<topicmeta>
+<linktext>IBM Storage Insights interoperability matrix for switches</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="tpc_support_matrix_switch_URL"
+href="https://www.ibm.com/support/pages/node/6249365">
+<topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/6249365</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com/support/docview.wss?uid=swg27039840"
+keys="tpc_support_matrix_storage_520_527_URL" scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/support/docview.wss?uid=swg27039840</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="http://www.ibm.com/support/docview.wss?uid=swg27039840"
+keys="tpc_support_matrix_storage_520_527_text" scope="external">
+<topicmeta>
+<linktext>IBM Tivoli Storage Productivity Center interoperability matrix for storage
+systems</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#DB"
+scope="external" keys="upgrade_database">
+<topicmeta>
+<linktext>Upgrade Db2</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="support_resolving_limitations_hitachi_storage"
+href="http://www.ibm.com/support/docview.wss?uid=swg21667294">
+<topicmeta>
+<linktext>Resolving limitations with Hitachi VSP systems</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="jazz_tcr_prereqs"
+href="http://www.ibm.com/support/docview.wss?uid=swg27038732">
+<topicmeta>
+<linktext>http://www.ibm.com/support/docview.wss?uid=swg27038732</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#Server"
+keys="os_sw_reqs" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/6249361#Server</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#Agents"
+keys="sra_sw_reqs" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/6249361#Agents</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#DB"
+keys="db_sw_reqs_URL" scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/support/pages/node/6249361#DB</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#DB"
+keys="db_sw_reqs_text" scope="external">
+<topicmeta>
+<linktext>Upgrade DB2</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6249361#Browsers"
+keys="browser_sw_reqs" scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/support/pages/node/6249361#Browsers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="http://www.ibm.com/support/docview.wss?uid=ssg1S1005137"
+keys="ds8k_security" scope="external"><topicmeta>
+<linktext>http://www.ibm.com/support/docview.wss?uid=ssg1S1005137</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com/support/docview.wss?uid=swg27020299" keys="tpc_views"
+scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/support/docview.wss?uid=swg27020299</linktext>
+</topicmeta>
+</citeReference>
+
+
+<citeReference format="html" href="http://www.ibm.com/support/docview.wss?uid=swg21320822" keys="latest_sc_downloads"
+scope="external">
+<topicmeta>
+<linktext>Latest IBM Spectrum Control downloads</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/618573"
+keys="ds8k_support" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/618573</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/713027"
+keys="websphere_ldap_support" scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/support/docview.wss?uid=swg27036471</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="wss" href="http://www.ibm.com/support/docview.wss?uid=swg21507643"
+keys="whats_a_pmr" scope="external">
+<topicmeta>
+<linktext>What's a PMR?</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/docview.wss?uid=swg27050160"
+scope="external" keys="sc_support_ds8k"><topicmeta>
+<linktext>https://www.ibm.com/support/docview.wss?uid=swg27050160</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/docview.wss?uid=swg27050043"
+scope="external" keys="sc_support_fs840_fs900"><topicmeta>
+<linktext>https://www.ibm.com/support/docview.wss?uid=swg27050043</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/docview.wss?uid=swg27050045"
+scope="external" keys="sc_support_fsa9000_fsa9000r"><topicmeta>
+<linktext>https://www.ibm.com/support/docview.wss?uid=swg27050045</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="http://www.ibm.com/support/pages/node/618523"
+scope="external" keys="sc_support_fsv840_fsv9000_fs9100"><topicmeta>
+<linktext>http://www.ibm.com/support/pages/node/618523</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/docview.wss?uid=swg27050387"
+scope="external" keys="sc_support_sonas"><topicmeta>
+<linktext>https://www.ibm.com/support/docview.wss?uid=swg27050387</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/618595"
+scope="external" keys="sc_support_accelerate"><topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/618595</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/598623"
+scope="external" keys="sc_support_scale"><topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/598623</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/608759"
+scope="external" keys="sc_support_virtualize"><topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/608759</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/1109943"
+scope="external" keys="sc_support_virtualize_pc"><topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/1109943</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/618673"
+scope="external" keys="sc_support_svc"><topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/618673</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/608643"
+scope="external" keys="sc_support_storwize"><topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/608643</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/608761"
+scope="external" keys="sc_support_xiv"><topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/608761</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="x535_sv4pc"
+href="https://www.ibm.com/support/pages/node/1088194">
+<topicmeta>
+<linktext>Configuring IBM Spectrum Virtualize for Public Cloud</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="support_download_sc"
+href="https://www.ibm.com/support/pages/node/874924">
+<topicmeta>
+<linktext>Downloading IBM Spectrum Control</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" scope="external" keys="increased_security_ssl_cert"
+href="https://www.ibm.com/support/pages/node/1095796">
+<topicmeta>
+<linktext>IBM Spectrum Control and macOS Catalina (10.15) Increased Security Policies on SSL Certificates</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/1098741"
+scope="external" keys="brocade_fos_network_advisor">
+<topicmeta>
+<linktext>Brocade FOS and Network Advisor uppdates</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/651823"
+scope="external" keys="multipath_subsystem_device_drivers">
+<topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/651823</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/651689"
+scope="external" keys="subsystem_device_drivers_ug">
+<topicmeta>
+<linktext>https://www.ibm.com/support/pages/node/651689</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/883796#T"
+scope="external" keys="aix_toolbox_linux">
+<topicmeta>
+<linktext>AIX Toolbox for Linux Applications</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/883798"
+scope="external" keys="aix_toolbox_linux_s">
+<topicmeta>
+<linktext>AIX Toolbox for Linux Applications</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6492579" scope="external"
+keys="sc_releases">
+<topicmeta>
+<linktext>Overview of IBM Spectrum Control releases</linktext>
+</topicmeta>
+</citeReference>
+<!--<citeReference format="html" href="https://www.ibm.com/support/pages/node/570117" scope="external" keys="sc_releases"><topicmeta><linktext>Overview of IBM Spectrum Control releases</linktext></topicmeta></citeReference>-->
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/6350941"
+scope="external" keys="ssh_vulnerability">
+<topicmeta>
+<linktext>IBM Spectrum Control Server Vulnerability Scan Reports Weak Cipher</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/666503"
+scope="external" keys="blue_diamond_upload">
+<topicmeta>
+<linktext>Blue Diamond data upload instructions</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/support/pages/node/739631"
+scope="external" keys="ecurep_ftp">
+<topicmeta>
+<linktext>Enhanced Customer Data Repository (ECuRep) - Send data (FTP)</linktext>
+</topicmeta>
+</citeReference>
+<!--
+
+============== END OF DCF/DRUPAL documents URLs  ============== 
+
+-->
+<!--
+
+============== START OF Tivoli Storage Productivity Center URLs  ============== 
+
+-->
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=servers-stopping-by-using-scripts"
+keys="fqz0_t_stopping_tpc_services_51" scope="external">
+<topicmeta>
+<linktext>Stopping the IBM Tivoli Storage Productivity Center services</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=servers-stopping-by-using-scripts"
+keys="fqz0_t_stopping_tpc_services_52" scope="external">
+<topicmeta>
+<linktext>Stopping the Tivoli Storage Productivity Center servers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=servers-stopping-by-using-scripts"
+keys="fqz0_t_stopping_tpc_services_527" scope="external">
+<topicmeta>
+<linktext>Stopping the Tivoli Storage Productivity Center servers by using scripts</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=servers-starting-by-using-scripts"
+keys="fqz0_t_starting_tpc_services_527" scope="external">
+<topicmeta>
+<linktext>Starting the Tivoli Storage Productivity Center servers by using scripts</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=servers-starting-by-using-scripts"
+keys="fqz0_t_starting_tpc_services_51" scope="external">
+<topicmeta>
+<linktext>Starting the Tivoli Storage Productivity Center servers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=servers-starting-by-using-scripts"
+keys="fqz0_t_starting_tpc_services_52" scope="external">
+<topicmeta>
+<linktext>Starting the IBM Spectrum Control servers</linktext>
+</topicmeta>
+</citeReference>
+
+<!--
+
+============== END OF Tivoli Storage Productivity Center URLs  ============== 
+
+-->
+
+<!--
+
+============== START OF Storage Insights URLs  ============== 
+
+-->
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6324843" scope="external"
+keys="web_browser_support_si">
+<topicmeta>
+<linktext>Data collectors and web browsers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="pdf" keys="storage_insights_security_guide"
+href="../pdf/IBM_Storage_Insights_Security_Guide.pdf" scope="peer">
+<topicmeta>
+<linktext>IBM Storage Insights Security Guide</linktext>
+</topicmeta>
+</citeReference>
+<!--
+<citeReference format="pdf" keys="storage_insights_security_guide"
+href="../com.ibm.spectrum.si._pdfs/IBM_Storage_Insights_Security_Guide.pdf" scope="peer">
+<topicmeta>
+<linktext>IBM Storage Insights Security Guide</linktext>
+</topicmeta>
+</citeReference>
+-->
+
+<citeReference format="pdf" keys="storage_insights_security_guide_welcome_page"
+href="../pdf/IBM_Storage_Insights_Security_Guide.pdf" scope="peer">
+<topicmeta>
+<linktext>IBM Storage Insights Security Guide [PDF]</linktext>
+<shortdesc>Learn about the security and data collection features of <keyword
+conref="fqz0_entities.dita#fqz0_entities/tpc_saas_short"/> and <keyword
+conref="fqz0_entities.dita#fqz0_entities/ksif_short"/>.</shortdesc>
+</topicmeta>
+</citeReference>
+
+
+<citeReference keys="storage_insights_fact_sheet" format="pdf" scope="external"
+href="../pdf/IBM_Storage_Insights_Fact_Sheet.pdf">
+<topicmeta>
+<linktext>IBM Storage Insights Fact Sheet</linktext>
+</topicmeta>
+</citeReference>
+
+<!--
+<citeReference keys="storage_insights_fact_sheet" format="pdf" scope="external"
+href="../com.ibm.spectrum.si._pdfs/IBM_Storage_Insights_Fact_Sheet.pdf">
+<topicmeta>
+<linktext>IBM Storage Insights Fact Sheet</linktext>
+</topicmeta>
+</citeReference>
+-->
+
+<citeReference keys="storage_insights_fact_sheet_shorturl" format="html" scope="external"
+href="https://ibm.biz/storageinsightsfacts">
+<topicmeta>
+<linktext>IBM Storage Insights Fact Sheet</linktext>
+</topicmeta>
+</citeReference>
+<citeReference keys="storage_insights_security_sheet_shorturl" format="pdf" scope="external"
+href="../pdf/IBM_Storage_Insights_Security_Sheet.pdf">
+<topicmeta>
+<linktext>IBM Storage Insights Security Sheet</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="pdf" keys="storage_insights_gs_guide"
+href="../pdf/IBM_Storage_Insights_Getting_Started_Guide.pdf" scope="external">
+<topicmeta>
+<linktext>IBM Storage Insights Getting Started Guide</linktext>
+</topicmeta>
+</citeReference>
+
+<!-- Welcome page -->
+<citeReference format="html" href="https://www.ibm.com/docs/en/storage-insights" scope="external"
+keys="storage_insights_landing_url">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/storage-insights</linktext>
+</topicmeta>
+</citeReference>
+<!--Release document-->
+<citeReference format="html" scope="external" keys="Release document"
+href="https://www.ibm.com/support/pages/node/6492579">
+<topicmeta>
+<linktext>Release document</linktext>
+</topicmeta>
+</citeReference>
+
+<!--
+<citeReference format="pdf" keys="storage_insights_gs_guide"
+href="../com.ibm.spectrum.si._pdfs/IBM_Storage_Insights_Getting_Started_Guide.pdf" scope="peer">
+<topicmeta>
+<linktext>IBM Storage Insights Getting Started Guide</linktext>
+</topicmeta>
+</citeReference>
+-->
+
+<!--
+
+============== END OF Storage Insights URLs  ============== 
+
+-->
+<!--
+
+============== START OF Video URLs  ============== 
+
+-->
+<citeReference format="mp4" scope="external" keys="vid_cap_reduction_thin"
+href="https://www.ibm.com/docs/en/SS5R93_5.4.5/com.ibm.spectrum.sc.doc/vid_cap_reduction_savings_thin_provision.mp4">
+<topicmeta>
+<linktext>View a short animation about measuring the capacity data reduction savings of
+thin-provisioned volumes.</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="mp4" scope="external" keys="vid_cap_reduction_thin_si"
+href="https://www.ibm.com/docs/en/SSQRB8/com.ibm.spectrum.si.doc/vid_cap_reduction_savings_thin_provision.mp4">
+<topicmeta>
+<linktext>View a short animation about measuring the capacity data reduction savings of
+thin-provisioned volumes.</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="mp4" scope="external" keys="vid_shortfall"
+href="https://www.ibm.com/docs/en/SS5R93_5.4.5/com.ibm.spectrum.sc.doc/prd_anm_cap_shortfall.mp4">
+<topicmeta>
+<linktext>View a short animation about about how Shortfall works.</linktext>
+</topicmeta>
+</citeReference>
+<!--
+
+============== END OF Video URLs  ============== 
+
+-->
+<!--
+
+============== START OF Other IBM Product URLs  ============== 
+
+-->
+<citeReference format="html" scope="external" keys="ds6000_smis_provider"
+href="http://www.ibm.com/support/docview.wss?uid=ssg1S7001160">
+<topicmeta>
+<linktext>http://www.ibm.com/support/docview.wss?uid=ssg1S7001160</linktext>
+</topicmeta>
+</citeReference>
+
+
+<citeReference format="html" scope="external" keys="spectrum_virtualize_select_log_package"
+href="http://www.ibm.com/support/docview.wss?uid=ssg1S1005029">
+<topicmeta>
+<linktext>What Data Should You Collect for a Problem on SVC or Storwize Systems</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="1" scope="external" keys="starting_statistics_collection"
+href="https://www.ibm.com/docs/en/flashsystem-7x00/8.2.1?topic=troubleshooting-starting-statistics-collection">
+<topicmeta>
+<linktext>Starting statistics collection</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/db2/10.5?topic=recovery-restore"
+keys="c0006237" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/db2/10.5?topic=recovery-restore</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" scope="external" keys="db2_user_naming_rules"
+href="https://www.ibm.com/docs/en/db2/11.5?topic=rules-user-user-id-group-naming">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/db2/11.5?topic=rules-user-user-id-group-naming</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com/systems/power/software/aix/linux/toolbox/alpha.html#T"
+keys="aix_gnu" scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/systems/power/software/aix/linux/toolbox/alpha.html#T</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com/systems/power/software/aix/linux/toolbox/date.html"
+keys="aix_sudo" scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/systems/power/software/aix/linux/toolbox/date.html</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/aix/7.2?topic=e-errclear-command"
+keys="errclear" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/aix/7.2?topic=e-errclear-command</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/db2" keys="ssepgg_reorgchk"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/db2</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/products/ibm-data-studio"
+keys="install_ibm_data_studio" scope="external">
+<topicmeta>
+<linktext>http://www.ibm.com/developerworks/downloads/im/data/</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/cognos-analytics/11.1.0?topic=issues-unable-correctly-display-east-asian-characters"
+keys="t_zhcn_chars_enabling_chinese" scope="external">
+<topicmeta>
+<linktext>Enabling the Proper Display of Chinese Characters</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/db2/11.5?topic=upgrading-upgrade-db2-servers" scope="external"
+keys="db2_10.5_upgrade_servers">
+<topicmeta>
+<linktext>Upgrading DB2 servers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/xiv-storage-system" keys="xiv"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/xiv-storage-system</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/spectrum-accelerate"
+keys="accelerate" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrum-accelerate</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="1" href="https://www.ibm.com/docs/en/sanvolumecontroller/8.3.1" keys="svc"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/sanvolumecontroller/8.3.1</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/csm" keys="csmkcurl" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/csm</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en" keys="ds6kkc" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/" keys="ds8kkc" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en</linktext>
+</topicmeta>
+</citeReference>
+<!-- Fix DCS informational message.
+<citeReference format="html" 
+href="http://publib.boulder.ibm.com/infocenter/clresctr/vxrx" keys="gpfs"
+scope="external"><topicmeta>
+<linktext>http://www.ibm.com/support/knowledgecenter/</linktext>
+</topicmeta>
+</citeReference>
+-->
+<citeReference format="html" href="https://www.ibm.com/docs/en/cognos-analytics" keys="bizcogi"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/cognos-analytics</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/cognos-analytics/11.1.0"
+keys="cognos_analytics11_welcome" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/cognos-analytics/11.1.0</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/db2" keys="db2forluw"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/db2</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/was" keys="wasndmain"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/was</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/was-liberty/base" scope="external"
+keys="was_liberty_kc">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/was-liberty/base</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="1" href="https://www.ibm.com/docs/en/v3500/7.8.1" keys="3500stw"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/v3500/7.8.1</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/v3700" keys="stw3700"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/v3700</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="x"
+href="https://www.ibm.com/docs/en/flashsystem-5x00/8.4.x?topic=8403-flashsystem-5200" keys="5200stw"
+scope="external">
+<topicmeta>
+<linktext>HTTPs://www.IBM.com/docs/en/v5200</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-5x00" keys="5000stw"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-5x00</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="1" href="https://www.ibm.com/docs/en/f555sv-and-v/8.3.1" keys="5100stw"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/f555sv-and-v/8.3.1</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-7x00" keys="stw7000"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-7x00</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/spectrumvirtualsoftw"
+keys="spectrum_virtualize_welcome_page" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrumvirtualsoftw</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/spectrumvirtualizecl"
+keys="spectrum_virtualize_cloud_welcome_page" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/spectrumvirtualizecl</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/6190521"
+keys="spectrum_virtualize_call_home" scope="external">
+<topicmeta>
+<linktext>IBM Spectrum Virtualize Products Call Home and Remote Support Overview</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/gpfs" keys="gpfsgss" scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/gpfs</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-v7000u" keys="7000stwu"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-v7000u</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/tivoli-netcoolimpact" keys="tnci"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/tivoli-netcoolimpact</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-v9000" keys="fsv9000"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-v9000</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-900/1.6.1" keys="fs840"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-900/1.6.1</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="1" href="https://www.ibm.com/docs/en/flashsystem-900/1.6.1" keys="fs900"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-900/1.6.1</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-a9000" keys="fsa9000"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-a9000</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-a9000r" keys="fsa9000r"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-a9000r</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/docs/en/flashsystem-9x00" keys="fs9100"
+scope="external">
+<topicmeta>
+<linktext>https://www.ibm.com/docs/en/flashsystem-9x00</linktext>
+</topicmeta>
+</citeReference>
+
+<!--
+
+============== END OF Other IBM Product URLs  ============== 
+
+-->
+<!--
+
+============== START OF General IBM URLs  ============== 
+
+-->
+
+
+<citeReference format="html" href="http://www.ibm.com/legal/copytrade.shtml"
+keys="tradem" scope="external"><topicmeta>
+<linktext>http://www.ibm.com/legal/copytrade.shtml</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com" keys="ibm"
+scope="external"><topicmeta>
+<linktext>http://www.ibm.com</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="http://www.ibm.com/software/globalization/terminology/"
+keys="dictcmp" scope="external"><topicmeta>
+<linktext>http://www.ibm.com/software/globalization/terminology/</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com/redbooks/" keys="redbooks"
+scope="external"><topicmeta>
+<linktext>http://www.ibm.com/redbooks/</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="http://www.ibm.com/software/tivoli/education/" keys="tived"
+scope="external"><topicmeta>
+<linktext>http://www.ibm.com/software/tivoli/education/</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.ibm.com/able"
+keys="ibm_accessibility" scope="external"><topicmeta>
+<linktext>http://www.ibm.com/able</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="http://www.ibm.com/support/entry/portal/Downloads" keys="downloads"
+scope="external"><topicmeta>
+<linktext>http://www.ibm.com/support/entry/portal/Downloads</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/mysupport/" keys="si_ibm_support"
+scope="external">
+<topicmeta>
+<linktext>IBM Support</linktext>
+</topicmeta>
+</citeReference>
+<citeReference keys="si_foundation_pilot" scope="external" format="html"
+href="https://ibm.biz/insightsreg">
+<topicmeta>
+<linktext>Get IBM Storage Insights</linktext>
+</topicmeta>
+</citeReference>
+<citeReference keys="subscribe_si_pro"
+href="https://www.ibm.com/us-en/marketplace/analytics-driven-data-management/purchase#product-header-top"
+format="html" scope="external">
+<topicmeta>
+<linktext>Subscribe to IBM Storage Insights Pro</linktext>
+</topicmeta>
+</citeReference>
+<citeReference keys="compare_si"
+href="https://www.ibm.com/docs/en/storage-insights?topic=overview-storage-insights-vs-storage-insights-pro"
+format="html" scope="external">
+<topicmeta>
+<linktext>Compare IBM Storage Insights and IBM Storage Insights Pro</linktext>
+</topicmeta>
+</citeReference>
+<citeReference format="html" href="https://www.ibm.com/support/pages/node/882892" keys="aix_toolbox_for_linux"
+scope="external">
+<topicmeta>
+<linktext>AIX Toolbox for Linux Applications</linktext>
+</topicmeta>
+</citeReference>
+<!--
+
+============== END OF General IBM URLs  ============== 
+
+-->
+
+<!--
+
+============== START OF Non-IBM URLs  ============== 
+
+-->
+
+<citeReference format="html" keys="openstack_user" scope="external" href="https://docs.openstack.org/"><topicmeta>
+<linktext>https://docs.openstack.org/</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="http://windows.microsoft.com/en-us/internet-explorer/use-compatibility-view"
+keys="IE_11_compatibility_mode" scope="external"><topicmeta>
+<linktext>http://windows.microsoft.com/en-us/internet-explorer/use-compatibility-view</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" href="http://www.openstack.org" keys="openstack1"
+scope="external"><topicmeta>
+<linktext>http://www.openstack.org</linktext>
+</topicmeta>
+</citeReference>
+
+<!--
+
+============== END OF Non-IBM URLs  ============== 
+
+-->
+<!--
+
+============== START OF Former link elements URLs  ============== 
+
+-->
+<citeReference format="html" 
+href="https://www.ibm.com/cloud/object-storage"
+keys="ibm_cloud_rl" scope="external"><topicmeta><linktext>Cloud Object Storage
+System</linktext>
+<shortdesc>Learn more about the deployment options and the features of
+Cloud Object Storage System</shortdesc>
+</topicmeta>
+</citeReference>
+
+<citeReference format="pdf" href="../pdf/IBM_Storage_Insights_Getting_Started_Guide.pdf"
+keys="si_ibm_gs_guide" scope="external">
+<topicmeta>
+<linktext>Getting Started Guide [PDF]</linktext>
+<shortdesc>Jump start your IBM Storage Insights experience by following this 2-page quick start
+guide.</shortdesc>
+</topicmeta>
+</citeReference>
+<!--
+<citeReference format="pdf"
+href="../com.ibm.spectrum.si._pdfs/IBM_Storage_Insights_Getting_Started_Guide.pdf"
+keys="si_ibm_gs_guide" scope="external">
+<topicmeta>
+<linktext>Getting Started Guide [PDF]</linktext>
+<shortdesc>Learn how to get up and running quickly with IBM Storage Insights.</shortdesc>
+</topicmeta>
+</citeReference>
+-->
+<!--
+<citeReference format="pdf"
+href="IBM_Storage_Insights_Getting_Started_Guide.pdf"
+keys="si_ibm_gs_guide" scope="external">
+<topicmeta>
+<linktext>Getting Started Guide [PDF]</linktext>
+</topicmeta>
+</citeReference>
+-->
+
+<citeReference format="html" 
+href="https://www.ibm.com/marketplace/cloud/analytics-driven-data-management/faq/us/en-us#product-header-top"
+keys="si_ibm_mplace_faq" scope="external"><topicmeta><linktext>FAQs</linktext>
+<shortdesc>Scan our frequently asked questions for answers to common questions.</shortdesc>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" keys="si_dev_forum" scope="external"
+href="https://community.ibm.com/community/user/storage/communities/community-home?CommunityKey=295787b1-a4e4-43ff-9bfe-206a7912b51d">
+<topicmeta>
+<linktext>IBM Storage Community</linktext>
+<shortdesc>Ask the experts to get answers to your questions.</shortdesc>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html" 
+href="https://www.ibmserviceengage.com/storage-insights/learn/details#essentials"
+keys="si_se_rl_essentials" scope="external"><topicmeta><linktext>Requirements and
+supported devices</linktext>
+<shortdesc>Learn about browser requirements of the service and the storage
+resources that can be monitored.</shortdesc>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=concepts-rest-apis"
+keys="rest_api_rl" scope="external">
+<topicmeta>
+<linktext>REST API</linktext>
+<shortdesc>Learn how to use the REST API for IBM Spectrum Control to access information about
+resources and to generate custom configuration and performance reports.</shortdesc>
+</topicmeta>
+</citeReference>
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=concepts-rest-apis"
+keys="rest_api_rl2" scope="external">
+<topicmeta>
+<linktext>By using the Representational State Transfer (REST) API to get information about storage
+resources and to generate configuration and performance reports </linktext>
+<shortdesc>Learn how to use the REST API for IBM Spectrum Control to access information about
+resources and to generate custom configuration and performance reports.</shortdesc>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=product-licenses"
+keys="product_license_rl" scope="external">
+<topicmeta>
+<linktext>Product licenses</linktext>
+<shortdesc>Learn about the different licenses that are available for the product. Each license
+determines the functions that are accessible in the GUI, command-line interface, and the
+API.</shortdesc>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=command-modifyappgroupviafile"
+keys="fqz0_r_cli_modifyappgroupviafile" scope="external">
+<topicmeta>
+<linktext>modifyappgroupviafile command</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=command-modifyappgroup"
+keys="fqz0_r_cli_modifyappgroup" scope="external">
+<topicmeta>
+<linktext>modifyappgroup command</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=command-setdscfg"
+keys="fqz0_r_cli_setdscfg_rl" scope="external">
+<topicmeta>
+<linktext>setdscfg command</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=administering-starting-stopping-spectrum-control-servers"
+keys="fqz0_r_start_stop_tpc_services_rl" scope="external">
+<topicmeta>
+<linktext>Starting and stopping the IBM Spectrum Control servers</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-control/5.4.5?topic=migrating-upgrading-storage-resource-agents"
+scope="external" keys="upg_win_sra_nondaemon">
+<topicmeta>
+<linktext>Upgrading Windows Storage Resource agents</linktext>
+</topicmeta>
+</citeReference>
+
+<citeReference format="html"
+href="https://www.ibm.com/docs/en/spectrum-scale/5.1.0?topic=overview-introduction-cloud-services"
+scope="external" keys="bl1ins_mcstore_intro">
+<topicmeta>
+<linktext>Introduction to Transparent Cloud Tiering for IBM Spectrum Scale</linktext>
+</topicmeta>
+</citeReference>
+ 
+<!--
+
+============== START OF Former link elements URLs  ============== 
+
+-->
+</map>
